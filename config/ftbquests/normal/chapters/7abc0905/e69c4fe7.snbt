@@ -1,0 +1,25 @@
+{
+	title: "气动“研钵”",
+	x: 13.0d,
+	y: 0.0d,
+	text: [
+		"终于，这台机器可以取代你的研钵了。同时，你也需要付出代价——两颗钻石需要被镶在里面作为研磨头。",
+		"你可以将矿石扔进去粉碎之后再处理，这样可以双倍产矿。",
+		"但是粉碎铁锭之类的东西时，研钵不失为一种选择——因为蒸汽研磨机的效率真的太低了！！！"
+	],
+	dependencies: [
+		"5d662542"
+	],
+	tasks: [{
+		uid: "876efa3f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "a5ace2d5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

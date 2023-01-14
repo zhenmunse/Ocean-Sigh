@@ -1,0 +1,34 @@
+{
+	title: "锡",
+	x: 1.0d,
+	y: 4.5d,
+	text: [
+		"熔炼锡矿石或锡石矿石都可以得到锡锭。"
+	],
+	dependencies: [
+		"35ffe9ef"
+	],
+	tasks: [{
+		uid: "fff45d09",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 112"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "71829bce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "1200f6c2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

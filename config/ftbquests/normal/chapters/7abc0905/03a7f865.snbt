@@ -1,0 +1,52 @@
+{
+	title: "千锌万苦找到硫",
+	icon: "gregtech:ore_sulfur_0 1 1",
+	x: 2.0d,
+	y: 7.5d,
+	text: [
+		"硫矿脉生成在下界高度y=5~20的范围内，其中伴生的黄铁矿产量是主世界铁矿的两倍，是你铁的不错来源。",
+		"§3§l其中伴生的闪锌矿是你后面生产锌和镓的重要矿石，可别当垃圾扔了:)"
+	],
+	dependencies: [
+		"11fe64c3"
+	],
+	tasks: [{
+		uid: "e4b32a7d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "42ec740f",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "9d74cb17",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sphalerite_0 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "897ba1ea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "94d89c50",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "照亮前路",
+	x: -8.5d,
+	y: 3.5d,
+	shape: "circle",
+	text: [
+		"你意识到在黑暗中发生致命风险的可能性相较于明亮的地方要大得多。在探索黑暗的洞穴或者度过夜晚的时候，火把这种易于制作与携带的光源无疑会使得整个过程轻松起来。"
+	],
+	dependencies: [
+		"3da103ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7709f05a",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 6L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "cc27e655",
+		type: "item",
+		item: "minecraft:torch",
+		count: 6
+	},
+	{
+		uid: "4725e0af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

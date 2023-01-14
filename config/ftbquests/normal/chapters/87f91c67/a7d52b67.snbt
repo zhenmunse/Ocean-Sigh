@@ -1,0 +1,31 @@
+{
+	title: "弹羊毛",
+	x: -11.5d,
+	y: 3.5d,
+	text: [
+		"显而易见，把剪下来的毛直截了当的披在身上根本不现实，需要把这些毛料变成更紧密的材料才行。经过一段时间的忙活，你成功的把那些软绵绵的东西变成了一条还可以的毡子。"
+	],
+	dependencies: [
+		"1a00c035",
+		"3da103ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa952215",
+		type: "item",
+		items: [{
+			item: "ic2:sheet 1 2"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "2522993a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "484c34ba",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

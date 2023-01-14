@@ -1,0 +1,7 @@
+{
+	title: "阶段2:蒸汽时代",
+	icon: "gregtech:machine 1 1",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

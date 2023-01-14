@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"b411aa98",
+		"5189f83b"
+	],
+	tasks: [{
+		uid: "b3460377",
+		type: "item",
+		items: [{
+			item: "claybucket:claybucket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8b614ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

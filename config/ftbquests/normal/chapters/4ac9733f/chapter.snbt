@@ -1,0 +1,7 @@
+{
+	title: "阶段1:前蒸汽时代",
+	icon: "thermalfoundation:tool.pickaxe_copper",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

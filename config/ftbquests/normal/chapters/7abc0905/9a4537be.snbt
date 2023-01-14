@@ -1,0 +1,27 @@
+{
+	title: "太阳之力",
+	x: 0.0d,
+	y: -2.5d,
+	shape: "circle",
+	text: [
+		"太阳能？何不利用起来？",
+		"在白天它会迅速升温，因此请确保能及时供水以防爆炸。",
+		"使用时间久了之后它会钙化，请拆除并重新放置以重置钙化。",
+		"进入电力时代后，你可以通入蒸馏水以防止钙化。"
+	],
+	dependencies: [
+		"2847efbd"
+	],
+	tasks: [{
+		uid: "e56275b9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "c2be1fb2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

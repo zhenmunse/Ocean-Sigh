@@ -1,0 +1,35 @@
+{
+	title: "液体→液体",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"有了钢之后，你便可以使用岩浆制造蒸汽"
+	],
+	dependencies: [
+		"2847efbd",
+		"90ad0802"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c08e2c2b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "8845d42c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "269c6c50",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

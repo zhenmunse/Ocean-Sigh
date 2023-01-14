@@ -1,0 +1,74 @@
+{
+	title: "一些基本的建筑材料",
+	icon: "minecraft:gravel",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"为了制作一些在当前阶段所必要的机器——或者说——现在应该叫作“机械”，你需要大量的建筑材料."
+	],
+	dependencies: [
+		"5c94b31c"
+	],
+	tasks: [{
+		uid: "48330663",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sand"
+				}
+			}
+		}],
+		count: 192L
+	},
+	{
+		uid: "71e42651",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gravel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gravel"
+				}
+			}
+		}],
+		count: 192L
+	},
+	{
+		uid: "2b90fa37",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "963e42b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "dc52b13a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

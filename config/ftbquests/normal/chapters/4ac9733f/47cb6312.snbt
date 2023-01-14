@@ -1,0 +1,25 @@
+{
+	title: "又一步",
+	x: 4.0d,
+	y: 4.5d,
+	text: [
+		"准备好足够的矿石资源了吗？或许你应该着手于你的第一台锅炉了。",
+		"临行前，喝一杯！"
+	],
+	dependencies: [
+		"442465a8",
+		"c4ddfec1",
+		"e81b7dd7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42cb5cbd",
+		type: "checkmark",
+		icon: "minecraft:compass"
+	}],
+	rewards: [{
+		uid: "24a985e5",
+		type: "item",
+		item: "harvestcraft:fruitpunchitem"
+	}]
+}

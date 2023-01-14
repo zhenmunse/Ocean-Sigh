@@ -1,0 +1,40 @@
+{
+	title: "电路基板",
+	x: 5.0d,
+	y: 7.5d,
+	text: [
+		"你的电路板总得造在一个什么东西上吧。每一级电路板都有对应的电路基板，现在，你需要的是最普通的一款。"
+	],
+	dependencies: [
+		"6ecac32c"
+	],
+	tasks: [{
+		uid: "1baecc2b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 401"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3b7dcca0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 381",
+		count: 2
+	},
+	{
+		uid: "88e1a52e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "b9e01e07",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

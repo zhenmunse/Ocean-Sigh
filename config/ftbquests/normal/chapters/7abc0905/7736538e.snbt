@@ -1,0 +1,63 @@
+{
+	title: "线材轧机工程测试样品SE青春版",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		},
+		Damage: 13s
+	},
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"剪线钳可以连接或断开导线(和你用扳手连接或断开管道的方式是一样的)",
+		"它也可以用于制作导线或小型齿轮，虽然效率很低。",
+		"与其它任何制作工具的任务一样，你可以制作任何材质的剪线钳以完成任务。",
+		"§3§l记住它的合成表：三板两杆一螺丝，锤子锉刀螺丝刀(By zhenmunse)"
+	],
+	dependencies: [
+		"be142eef"
+	],
+	tasks: [{
+		uid: "4856a481",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWireCutter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a673a750",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "0278410c",
+		type: "item",
+		item: "gregtech:meta_screw 1 335",
+		count: 4
+	},
+	{
+		uid: "b0e892c0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

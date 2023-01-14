@@ -1,0 +1,246 @@
+{
+	title: "蒸汽时代",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:steam_casing"
+	},
+	{
+		item: "ic2:misc_resource 1 4",
+		count: 16
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 512,
+					DigSpeed: 4.0f,
+					AttackDamage: 1.0f,
+					Material: "plastic",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 7s
+		}
+	},
+	{
+		item: "harvestcraft:grilledcheeseitem",
+		count: 4
+	},
+	{
+		item: "gregtech:ore_copper_0",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_ingot 1 260",
+		count: 16
+	},
+	{
+		item: "harvestcraft:blueberryjellysandwichitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:friedbolognasandwichitem",
+		count: 4
+	},
+	{
+		item: "tconstruct:brownstone 1 1",
+		count: 32
+	},
+	{
+		item: "gregtech:ore_cassiterite_0",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 2012",
+		count: 8
+	},
+	{
+		item: "minecraft:redstone_ore",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 2"
+	},
+	{
+		item: "gregtech:machine 1 9"
+	},
+	{
+		item: "railcraft:fuel_coke",
+		count: 32
+	},
+	{
+		item: "minecraft:water_bucket"
+	},
+	{
+		item: "harvestcraft:baconmushroomburgeritem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:bibimbapitem",
+		count: 4
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_water_breathing"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "harvestcraft:epicbaconitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:bbqplatteritem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:delightedmealitem",
+		count: 4
+	},
+	{
+		item: "ic2:fluid_cell",
+		count: 8
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 16
+	},
+	{
+		item: "harvestcraft:heartybreakfastitem",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_stick 1 324",
+		count: 16
+	},
+	{
+		item: "gregtech:machine 1 1",
+		count: 2
+	},
+	{
+		item: "minecraft:torch"
+	},
+	{
+		item: "railcraft:engine_steam_hobby"
+	},
+	{
+		item: "gregtech:steam_casing 1 1"
+	},
+	{
+		item: "minecraft:brick_block",
+		count: 8
+	},
+	{
+		item: "contenttweaker:cokeovenbrick",
+		count: 32
+	},
+	{
+		item: "gregtech:metal_casing 1 1"
+	},
+	{
+		item: "railcraft:chest_void"
+	},
+	{
+		item: "minecraft:piston",
+		count: 4
+	},
+	{
+		item: "harvestcraft:meatfeastpizzaitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:shrimpokrahushpuppiesitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:steakandchipsitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:beefwellingtonitem",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_block_compressed_19 1 15",
+		count: 32
+	},
+	{
+		item: "harvestcraft:sausageinbreaditem",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_ingot 1 2517",
+		count: 16
+	},
+	{
+		item: "ironchest:iron_chest"
+	},
+	{
+		item: "ironchest:iron_chest 1 3"
+	},
+	{
+		item: "ironchest:wood_iron_chest_upgrade"
+	},
+	{
+		item: "gregtech:ore_salt_0",
+		count: 16
+	},
+	{
+		item: "gregtech:ore_basaltic_mineral_sand_0",
+		count: 16
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "railcraft:long_creosote"
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "harvestcraft:cantonesenoodlesitem",
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "2",
+		item_name: "奖励箱",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

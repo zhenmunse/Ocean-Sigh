@@ -1,0 +1,40 @@
+{
+	title: "洋之叹息玩家说明",
+	x: -16.0d,
+	y: -1.0d,
+	description: "仅仅是一篇说明",
+	text: [
+		"欢迎游玩洋之叹息！",
+		"主作者：zhenmunse",
+		"作者的爱发电链接↓",
+		"https://afdian.net/@zhenmunse",
+		"作者的QQ↓",
+		"2711675247",
+		"",
+		"鸣谢：",
+		"Mojang Studio",
+		"Minecraft Forge",
+		"各mod作者",
+		"一直以来支持作者创作的观众与玩家",
+		"",
+		"Sweetie_Candy_提供美术与部分文本、本地化",
+		"Hikari_Nova提供部分代码支持",
+		"fexxx提供最初创作灵感",
+		"以及参与测试的所有人",
+		"",
+		"祝你游玩愉快！"
+	],
+	dependencies: [
+		"c4c72908"
+	],
+	tasks: [{
+		uid: "54a51625",
+		type: "checkmark",
+		icon: "minecraft:bedrock"
+	}],
+	rewards: [{
+		uid: "9fba3ab2",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

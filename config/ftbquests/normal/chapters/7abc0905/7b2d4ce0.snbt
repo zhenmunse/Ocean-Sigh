@@ -1,0 +1,38 @@
+{
+	title: "真·铁人",
+	icon: {
+		id: "thaumcraft:golem",
+		tag: {
+			props: 72341268037894144L
+		}
+	},
+	x: 7.5d,
+	y: 1.0d,
+	shape: "circle",
+	text: [
+		"需要什么东西帮你守家或打怪？找他就对了！"
+	],
+	dependencies: [
+		"b823b375"
+	],
+	tasks: [{
+		uid: "66bc78e5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "6c258aab",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}]
+	}],
+	rewards: [{
+		uid: "50c65ba9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

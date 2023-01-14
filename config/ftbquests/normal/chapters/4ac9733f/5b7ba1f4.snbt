@@ -1,0 +1,33 @@
+{
+	title: "解决手残问题",
+	x: 1.0d,
+	y: 8.5d,
+	shape: "circle",
+	text: [
+		"你会发现拿着板/纸/后面会用到的透镜右键GTCEu机器/管道时会将其直接贴上去。",
+		"你需要撬棍将它们拆下来。",
+		"抱歉，只有蓝色:("
+	],
+	dependencies: [
+		"354c82c4"
+	],
+	tasks: [{
+		uid: "ed2ef94f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "neutronium"
+				}
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b53c17d7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

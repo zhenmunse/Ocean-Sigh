@@ -1,0 +1,19 @@
+//Created by zhenmunse
+item.contenttweaker.CokeOvenBrick.name=焦炉砖(RC)
+item.contenttweaker.UnfiredCokeOvenBrick.name=未烧制的焦炉砖(RC)
+item.contenttweaker.WoodenPart.name=木部件
+item.contenttweaker.EnergeticBlend.name=高能混合物
+item.contenttweaker.Luminessence.name=流明精华
+item.meta_item.dustThaumium=神秘粉
+item.meta_item.dustSmallThaumium=小堆神秘粉
+item.meta_item.dustTinyThaumium=小撮神秘粉
+item.meta_item.ingotThaumium=神秘锭
+item.meta_item.plateThaumium=神秘板
+item.meta_item.plateDoubleThaumium=双重神秘板
+item.meta_item.stickThaumium=神秘杆
+item.meta_item.boltThaumium=神秘螺栓
+item.meta_item.screwThaumium=神秘螺丝
+item.meta_item.ringThaumium=神秘环
+item.meta_item.nuggetThaumium=神秘粒
+item.meta_item.blockThaumium=神秘块
+item.meta_item.frameThaumium=神秘框架

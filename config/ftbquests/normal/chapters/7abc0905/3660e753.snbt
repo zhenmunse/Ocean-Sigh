@@ -1,0 +1,45 @@
+{
+	title: "来电了！",
+	x: 9.0d,
+	y: 10.0d,
+	shape: "gear",
+	text: [
+		"终于有电咯！这台机器理论上可以把每2mB蒸汽转化为1EU电力，但它的效率只有85%，因此你需要更多蒸汽……",
+		"后面你会用其它燃料代替蒸汽发电的……"
+	],
+	dependencies: [
+		"32dee214",
+		"b09918c3",
+		"0425f966"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "100bbc49",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		}]
+	}],
+	rewards: [{
+		uid: "d518bee3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "bd5d274a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "7853b949",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

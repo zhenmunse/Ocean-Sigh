@@ -1,0 +1,7 @@
+{
+	title: "阶段5:超高压与强导压(EV＆IV)",
+	icon: "gregtech:meta_item_1 1 281",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

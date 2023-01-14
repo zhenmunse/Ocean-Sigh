@@ -1,0 +1,31 @@
+{
+	title: "基本加工",
+	x: -10.0d,
+	y: 2.0d,
+	text: [
+		"是时候做一个最基本的熔炉了！",
+		"它可以帮助你烹饪、冶炼矿物等.",
+		"你不能用它烧制木炭，但很快你就会发现获得木炭的办法"
+	],
+	dependencies: [
+		"5076e1cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77674940",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "cf42967d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

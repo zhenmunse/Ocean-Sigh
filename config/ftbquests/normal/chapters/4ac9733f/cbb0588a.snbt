@@ -1,0 +1,78 @@
+{
+	title: "匠魂时间到！",
+	icon: {
+		id: "tconstruct:tooltables",
+		tag: {
+			textureBlock: {
+				id: "minecraft:log",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		Damage: 2s
+	},
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"虽然火焰附加效果很好，但你总不能一辈子用燧石工具吧？有这样一类工具，它们高度客制化，且可以修复！制作一些加工台以合成它们。"
+	],
+	dependencies: [
+		"d8f9c05f"
+	],
+	tasks: [{
+		uid: "e3d242dd",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "9d152412",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "5cdd30fc",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "64f0ce7d",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "38c21ef1",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "c83a2bec",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

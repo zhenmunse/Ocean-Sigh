@@ -1,0 +1,36 @@
+{
+  "dims": [
+    {
+      "dimID": 0,
+      "dimName": "Overworld"
+    },
+    {
+      "dimID": 1,
+      "dimName": "End"
+    },
+    {
+      "dimID": -1,
+      "dimName": "Nether"
+    }
+	{
+      "dimID": -28,
+      "dimName": "Moon"
+    }
+	{
+      "dimID": -29,
+      "dimName": "Mars"
+    }
+	{
+      "dimID": -31,
+      "dimName": "Venus"
+    }
+	{
+      "dimID": -1005,
+      "dimName": "Mercury"
+    }
+	{
+      "dimID": -1014,
+      "dimName": "Io"
+    }
+  ]
+}

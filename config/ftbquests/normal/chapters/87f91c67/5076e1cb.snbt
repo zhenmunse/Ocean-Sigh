@@ -1,0 +1,31 @@
+{
+	title: "获取圆石",
+	x: -10.0d,
+	y: 0.5d,
+	text: [
+		"看看你闪亮的燧石镐！",
+		"是时候开采圆石了！"
+	],
+	dependencies: [
+		"09efc9ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22f81cd0",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b2f4d06a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "bdda2477",
+		type: "xp",
+		xp: 100
+	}]
+}

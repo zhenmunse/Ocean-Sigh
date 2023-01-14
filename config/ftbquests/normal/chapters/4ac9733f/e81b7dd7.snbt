@@ -1,0 +1,26 @@
+{
+	title: "木炭……木炭！",
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"你终于有了一些像样的燃料。至于杂酚油怎么处理……让我们做笔交易。"
+	],
+	dependencies: [
+		"267ebbe2"
+	],
+	tasks: [{
+		uid: "26895558",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "45235039",
+		type: "item",
+		item: "minecraft:bucket",
+		count: 2
+	}]
+}

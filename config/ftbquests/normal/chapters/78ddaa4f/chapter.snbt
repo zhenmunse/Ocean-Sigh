@@ -1,0 +1,7 @@
+{
+	title: "阶段7:极限压与极高压(UV＆UHV)",
+	icon: "gregtech:machine 1 1022",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

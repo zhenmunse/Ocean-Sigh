@@ -1,0 +1,54 @@
+{
+	title: "新的篇章",
+	x: -18.0d,
+	y: -3.0d,
+	shape: "circle",
+	description: "洪水之后的生命之种",
+	text: [
+		"      历经艰难的你最终还是踏上了久违的土地，但你身上的大多数物品都已在旅途中丢失。",
+		"      但好在你仍不是一无所有。",
+		"      或许这艰难的旅程毁了你先前的一切成就，但你相信你仍有再现辉煌的能力。",
+		"      于是，你清点了你仍然剩着的物品，向未知踏出了下一步。"
+	],
+	dependencies: [
+		"c4c72908"
+	],
+	tasks: [{
+		uid: "89ffc8af",
+		type: "checkmark",
+		icon: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "2a186ebf",
+		type: "item",
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "obsidian"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "6b138fbd",
+		type: "item",
+		item: "gregtech:meta_dust_tiny 1 1602",
+		count: 11
+	},
+	{
+		uid: "fa90a2b5",
+		type: "item",
+		item: "gregtech:meta_screw 1 2527",
+		count: 5
+	},
+	{
+		uid: "92c31e81",
+		type: "ftbmoney:money",
+		ftb_money: 13L
+	}]
+}

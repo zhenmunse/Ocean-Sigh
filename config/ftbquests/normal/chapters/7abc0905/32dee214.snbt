@@ -1,0 +1,25 @@
+{
+	title: "转起来",
+	x: 9.0d,
+	y: 6.5d,
+	text: [
+		"现阶段你只能用蒸汽轮机来发电。而蒸汽轮机需要什么呢？对了！转子。",
+		"在你做出流体固化器等机器之前，制造转子是一件令人头疼的事。如果你为此发愁，又没有做先进合成站的话，不妨回到上一章的任务，去做一下，它的半自动之方便会震惊你的。"
+	],
+	dependencies: [
+		"fdc1e76c"
+	],
+	tasks: [{
+		uid: "e26848e3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_rotor 1 112"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "5b035176",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

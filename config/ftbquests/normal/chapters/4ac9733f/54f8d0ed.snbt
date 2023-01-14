@@ -1,0 +1,30 @@
+{
+	title: "铁",
+	x: -0.5d,
+	y: 5.5d,
+	text: [
+		"铁几乎无处不在。冶炼铁矿石、磁铁矿矿石、黄褐铁矿矿石、棕褐铁矿矿石、带状铁矿矿石、黄铁矿矿石等都可以获取铁。"
+	],
+	dependencies: [
+		"35ffe9ef"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "480b7902",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 72L
+	}],
+	rewards: [{
+		uid: "0e275903",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

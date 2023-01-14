@@ -1,0 +1,37 @@
+{
+	title: "绝缘线缆",
+	x: 2.0d,
+	y: 5.5d,
+	text: [
+		"没错！天然橡胶！你可以绝缘线缆了。",
+		"在合金炉中混合生橡胶粉和硫粉可以得到橡胶条。"
+	],
+	dependencies: [
+		"03a7f865",
+		"599698fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70b30b5d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}],
+		count: 40L
+	}],
+	rewards: [{
+		uid: "4165b212",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "d16a58b2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

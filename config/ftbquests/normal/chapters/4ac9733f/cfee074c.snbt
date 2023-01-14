@@ -1,0 +1,24 @@
+{
+	title: "手工活",
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"将一坨粘土球直接扔进熔炉里可烧不出砖来。弄块木头，镂成中空的，接着把粘土放进去，抠出长方形的一块，然后拿出来烧就可以了，很简单吧。"
+	],
+	dependencies: [
+		"d8f9c05f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "acf303d9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 348"
+		}]
+	}],
+	rewards: [{
+		uid: "1873aa63",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

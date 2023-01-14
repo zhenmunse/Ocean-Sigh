@@ -1,0 +1,51 @@
+{
+	title: "种瓜得瓜",
+	x: -7.0d,
+	y: 6.0d,
+	text: [
+		"你一直以为西瓜和南瓜不算特别必要",
+		"——直到你厌烦了一日三餐无穷无尽的马铃薯。虽然它们不像马铃薯那样长得很快，但至少可以丰富你的食谱。",
+		"                "
+	],
+	dependencies: [
+		"793da7a8",
+		"64aa6491"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b1ca0d9",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}]
+	},
+	{
+		uid: "41649910",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "14cabb5a",
+		type: "item",
+		item: "minecraft:pumpkin",
+		count: 3
+	},
+	{
+		uid: "989aef24",
+		type: "item",
+		item: "minecraft:melon",
+		count: 6
+	},
+	{
+		uid: "65592901",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

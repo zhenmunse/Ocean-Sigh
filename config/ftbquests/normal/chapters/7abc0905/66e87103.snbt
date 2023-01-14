@@ -1,0 +1,40 @@
+{
+	title: "铁砧",
+	x: 7.0d,
+	y: 2.0d,
+	text: [
+		"有了压缩机，你可以制作一些铁砧了。它可以用来制作锻造锤，也可以发挥它本来的作用——附魔、更名、修理。"
+	],
+	dependencies: [
+		"b823b375"
+	],
+	tasks: [{
+		uid: "9129dc01",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "25f26ee5",
+		type: "item",
+		item: "minecraft:piston",
+		count: 2
+	},
+	{
+		uid: "ce77f399",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "118e1c24",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

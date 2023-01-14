@@ -1,0 +1,118 @@
+{
+	title: "基础工具",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				MaxDurability: 80,
+				DigSpeed: 6.0f,
+				AttackDamage: 2.0f,
+				Material: "flint",
+				HarvestLevel: 1
+			}
+		},
+		Damage: 1s
+	},
+	x: -10.0d,
+	y: -1.0d,
+	description: "燧石匠人！",
+	text: [
+		"      你有了工作台，更妙的是，你有了个庇护所！",
+		"      你现在至少不用为成为某些东西的果腹之物这事发愁，但你绝不甘心于现状。",
+		"      正如同几百万年前的古人类一样，当他们安顿下来之后，他们便有时间提升自己的生产能力了。",
+		"      ",
+		"      （或许你应该先做个让你更有效地获取燧石的工具，毕竟谁都不会嫌材料多）"
+	],
+	dependencies: [
+		"b952650e"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "97d8e641",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "d91660b1",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "ead0e50e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "1fa113a1",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "5a54e78e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "8d2a0cd4",
+		type: "item",
+		item: "minecraft:flint",
+		count: 6
+	}]
+}

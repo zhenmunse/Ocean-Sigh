@@ -1,0 +1,46 @@
+{
+	title: "橡树即为苹果树",
+	icon: "harvestcraft:apple_sapling",
+	x: -11.5d,
+	y: -2.5d,
+	shape: "circle",
+	description: "——Minecraft",
+	text: [
+		"天知道Minecraft中的橡树为什么会掉苹果.",
+		"现在你有一种办法把不科学的橡树转化为科学的苹果树",
+		"它的苹果产量比橡树更高",
+		"可以种植一些来作为永久的食物来源"
+	],
+	dependencies: [
+		"b952650e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c6e91f8",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	},
+	{
+		uid: "36c6cf7d",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}],
+		count: 3L
+	},
+	{
+		uid: "8ad90a30",
+		type: "item",
+		items: [{
+			item: "harvestcraft:apple_sapling"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "943bbf7f",
+		type: "choice",
+		table: 0
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "农业交易",
+	x: -7.0d,
+	y: 0.5d,
+	text: [
+		"富含淀粉、易于种植、产量较高的优点使得马铃薯成为了某些文明的粮食作物。",
+		"——当然，对你也十分有好处。能在这鬼地方吃上这种要求不多，味道还不赖的植物算得上是一件幸运的事情。",
+		"挖一点燧石，然后我会给你一些种子。"
+	],
+	dependencies: [
+		"caf4a02c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ff6b1a4",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "92708f62",
+		type: "item",
+		item: "minecraft:potato",
+		count: 5
+	},
+	{
+		uid: "a18b5d4a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "6a02ae57",
+		type: "item",
+		item: "minecraft:melon"
+	}]
+}

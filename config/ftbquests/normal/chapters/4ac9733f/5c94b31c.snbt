@@ -1,0 +1,23 @@
+{
+	title: "欢迎来到阶段1！",
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"在经历了一段“劫后余生”之后，你拥有了一个简陋的庇护所、一些基本的工具和一片农田.",
+		"接下来，你需要开始复原灾难之前的科技了！"
+	],
+	dependencies: [
+		"18fca6a1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a0b6799d",
+		type: "checkmark",
+		title: "欢迎来到第一阶段！"
+	}],
+	rewards: [{
+		uid: "e17369c9",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

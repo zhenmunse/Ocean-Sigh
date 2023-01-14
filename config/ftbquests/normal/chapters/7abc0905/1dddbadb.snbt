@@ -1,0 +1,35 @@
+{
+	title: "R=U/I",
+	x: 6.5d,
+	y: 7.5d,
+	text: [
+		"电路板需要电阻。",
+		"后面的制作中，你还可以使用贴片电阻等高级电阻。"
+	],
+	dependencies: [
+		"6ecac32c"
+	],
+	tasks: [{
+		uid: "dc1a6f7d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "92cfd28c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "e721b45f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

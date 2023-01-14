@@ -1,0 +1,23 @@
+{
+	title: "第一块真正的电路板",
+	x: 5.0d,
+	y: 10.0d,
+	text: [
+		"因为大部分机器在真空管的ULV(8V)电压下均不能工作，因此这块LV电路板才是真正实用，且能淘汰你蒸汽机器的电路板。",
+		"进入电气时代后，你需要大量类似这样的电子电路。"
+	],
+	dependencies: [
+		"07064a6b",
+		"0299b384",
+		"1dddbadb"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "e4639583",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}]
+}

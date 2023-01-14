@@ -1,0 +1,36 @@
+{
+	title: "电路",
+	x: 3.5d,
+	y: 7.5d,
+	text: [
+		"是时候开始第二次工业革命了！这将引导你进入下一阶段——低压。"
+	],
+	dependencies: [
+		"6ecac32c",
+		"90ad0802"
+	],
+	tasks: [{
+		uid: "02cc90ff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "06d81f43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "bd8deb11",
+		type: "item",
+		item: "gregtech:meta_item_1 1 517",
+		count: 4
+	}]
+}

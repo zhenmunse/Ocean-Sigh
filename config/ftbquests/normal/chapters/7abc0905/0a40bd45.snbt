@@ -1,0 +1,32 @@
+{
+	title: "持久之锤",
+	x: 11.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"如果你有多余的钻石，不妨做一个钻石锻造锤，它的耐用会震惊你的。",
+		"如果钻石很多，如你所见，每个钻石可以燃烧102400ticks，钻石块可以燃烧1024000ticks，是锅炉的良好燃料。"
+	],
+	dependencies: [
+		"5d662542"
+	],
+	tasks: [{
+		uid: "8a88ebec",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "diamond"
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7326d3e7",
+		type: "item",
+		item: "gregtech:meta_gem_exquisite 1 276"
+	}]
+}

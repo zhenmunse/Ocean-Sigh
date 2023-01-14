@@ -1,0 +1,33 @@
+{
+	title: "提取与榨干",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"为了橡胶，为了绝缘线缆，你也应该做出这台机器。"
+	],
+	dependencies: [
+		"5e5f12d1"
+	],
+	tasks: [{
+		uid: "58b77d50",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "c8df238d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "dac5f80b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

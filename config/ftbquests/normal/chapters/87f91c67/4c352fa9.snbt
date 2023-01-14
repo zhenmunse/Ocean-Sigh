@@ -1,0 +1,38 @@
+{
+	title: "燧石的来源问题？",
+	icon: "minecraft:flint",
+	x: -14.5d,
+	y: -1.0d,
+	text: [
+		"在前期，你将需要大量燧石。使用挖掘法显然不太明智（非酋落泪）:(",
+		"如果你脸太黑的话，可以使用3个沙砾合成1个燧石；",
+		"当你有了研钵之后，沙砾与燧石的转换比将提升至1:1（1沙砾合成1燧石）",
+		"你也可以使用铁路（RailCraft）mod的碎石机来进行这一操作；",
+		"后期的燧石来源主要是处理矿石与建筑材料的副产"
+	],
+	dependencies: [
+		"624f5900"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c228221",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 12L
+	},
+	{
+		uid: "165aedbd",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7a767f75",
+		type: "item",
+		item: "minecraft:flint"
+	}]
+}

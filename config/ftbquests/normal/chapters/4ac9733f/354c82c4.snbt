@@ -1,0 +1,125 @@
+{
+	title: "重要的工具",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		},
+		Damage: 8s
+	},
+	x: -0.5d,
+	y: 7.5d,
+	text: [
+		"很显然，对于你来说，用双手制作机器是不现实的。因此你需要制作这些工具",
+		"——它们随着你科技线的深入会被逐渐淘汰，但现在你需要它们。",
+		"——它们的损耗很大，因此你最好背过它们的合成表，而不是每次费时费力地查询JEI",
+		"——本任务制作出任意材质工具即可，“中子素”仅为GTCEu的代表材料；当然，这里还有一句忠告：把宝贵的青铜留着制作机器吧，工具用铁制的就好:)"
+	],
+	dependencies: [
+		"54f8d0ed"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "17f5c4a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5f66af2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWrench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWrench"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "679cda4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3dbed77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "136113d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingsaw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingsaw"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0470815b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

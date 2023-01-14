@@ -1,0 +1,19 @@
+{
+	title: "赤朱丹彤",
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"是啊，红砖。不过，这次它将在蒸汽时代担当大任！"
+	],
+	dependencies: [
+		"cfee074c"
+	],
+	tasks: [{
+		uid: "e13d146c",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}],
+		count: 64L
+	}]
+}

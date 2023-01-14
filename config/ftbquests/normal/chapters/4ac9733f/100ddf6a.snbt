@@ -1,0 +1,21 @@
+{
+	title: "前进！前进！",
+	x: 5.5d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"为了复原灾难前的科技，你需要大量资源来制作一些原本很不起眼的东西。做好准备了吗？那就迈向蒸汽时代！"
+	],
+	dependencies: [
+		"e81b7dd7",
+		"47cb6312"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1c2e83ec",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}]
+}

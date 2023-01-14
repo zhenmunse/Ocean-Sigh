@@ -1,0 +1,30 @@
+{
+	title: "一种重要的合金",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"红色合金，或者叫充能铜，是你进入LV阶段之前最重要(也有可能是最昂贵)的合金。",
+		"你只能用合金炉去合成它。"
+	],
+	dependencies: [
+		"097b0d34"
+	],
+	tasks: [{
+		uid: "92bb7380",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2517"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9d8d6923",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "524e9389",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "铜",
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"熔炼铜矿石、孔雀石矿石与黄铜矿矿石都可以得到铜锭。"
+	],
+	dependencies: [
+		"35ffe9ef"
+	],
+	tasks: [{
+		uid: "8151edc6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 25"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "f98dbd51",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "29053d59",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

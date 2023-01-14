@@ -1,0 +1,73 @@
+{
+	title: "红石",
+	icon: "minecraft:redstone_ore",
+	x: -2.0d,
+	y: 4.5d,
+	text: [
+		"红石矿脉生成于5~40层的高度，内部会生成红石矿石、朱砂矿石和红宝石矿石。",
+		"GTCEu的红石矿石自带“精准采集”效果，所以当前阶段如何处理呢？",
+		"首先你需要用锻造锤挖掘其矿石以获取粉碎红石矿石，接着将粉碎红石矿石和锻造锤在工作台中合成，便可得到含杂红石粉。",
+		"至于含杂红石粉如何处理么……",
+		"——请看本任务解锁的下一个任务！"
+	],
+	dependencies: [
+		"35ffe9ef"
+	],
+	tasks: [{
+		uid: "7dae49df",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreRedstone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreRedstone"
+				}
+			}
+		}],
+		count: 32L
+	},
+	{
+		uid: "7245d8b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCinnabar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCinnabar"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "a42297d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreRuby",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreRuby"
+				}
+			}
+		}],
+		count: 16L
+	}]
+}

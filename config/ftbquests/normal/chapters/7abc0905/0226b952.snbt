@@ -1,0 +1,43 @@
+{
+	title: "升级？研磨机！",
+	x: 13.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"升级版的蒸汽研磨机。",
+		"它的速度是蒸汽研磨机的2倍！同时，作为代价，它的蒸汽消耗量是蒸汽研磨机的4倍。"
+	],
+	dependencies: [
+		"90ad0802",
+		"e69c4fe7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e968ead",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "130854de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "6490848b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "21cdcd50",
+		type: "item",
+		item: "gregtech:meta_ingot 1 335",
+		count: 4
+	}]
+}

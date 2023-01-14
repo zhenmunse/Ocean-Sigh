@@ -1,0 +1,129 @@
+{
+	title: "原始人时代",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 432",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 431",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 430",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 429",
+		count: 64
+	},
+	{
+		item: "harvestcraft:grilledcheeseitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:caramelappleitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:pineappleyogurtitem",
+		count: 6
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_water_breathing"
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 423",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 422",
+		count: 64
+	},
+	{
+		item: "minecraft:chest",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 421",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 433",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 434",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 435",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 436",
+		count: 64
+	},
+	{
+		item: "minecraft:reeds",
+		count: 16
+	},
+	{
+		item: "minecraft:flint",
+		count: 64
+	},
+	{
+		item: "minecraft:clay_ball",
+		count: 16
+	},
+	{
+		item: "minecraft:log",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 428",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 427",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 426",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 424",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 425",
+		count: 64
+	},
+	{
+		item: "harvestcraft:fishsticksitem",
+		count: 6
+	}],
+	loot_crate: {
+		string_id: "_",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

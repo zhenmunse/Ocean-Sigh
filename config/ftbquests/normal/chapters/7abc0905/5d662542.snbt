@@ -1,0 +1,34 @@
+{
+	title: "闪亮！",
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"钻石矿脉生成在y=5~20的高度，同时会伴生煤矿石和石墨矿石。"
+	],
+	dependencies: [
+		"d35fc3cc"
+	],
+	tasks: [{
+		uid: "61ad7c19",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5a4665ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "93b194de",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

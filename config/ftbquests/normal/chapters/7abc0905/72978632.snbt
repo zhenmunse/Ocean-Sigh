@@ -1,0 +1,25 @@
+{
+	title: "升级？太阳能锅炉！",
+	x: -1.0d,
+	y: -2.5d,
+	text: [
+		"它的蒸汽输出量比普通太阳能锅炉更高，但是别忘了钙化！"
+	],
+	dependencies: [
+		"9a4537be",
+		"90ad0802"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a37ca822",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2a08fe65",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

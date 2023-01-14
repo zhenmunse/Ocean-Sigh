@@ -1,0 +1,48 @@
+{
+	title: "存储物品",
+	icon: "minecraft:chest",
+	x: -7.0d,
+	y: -1.0d,
+	text: [
+		"现在你的物品栏可能不足以支撑接下来的工作需要.",
+		"制作一个箱子吧！",
+		"你需要錾制木头."
+	],
+	dependencies: [
+		"333ddda2"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "bf6ce02d",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolidwood 1 2"
+		}],
+		count: 8L,
+		only_from_crafting: true
+	},
+	{
+		uid: "d39f9a66",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "b2aaf668",
+		type: "item",
+		item: "minecraft:chest"
+	},
+	{
+		uid: "1b469b4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

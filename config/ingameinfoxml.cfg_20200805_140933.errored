@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 注释 -->
+<config>
+	<lines at="topleft">
+		<line>
+			<str>Hello World!</str>
+		</line>
+	</lines>
+</config>

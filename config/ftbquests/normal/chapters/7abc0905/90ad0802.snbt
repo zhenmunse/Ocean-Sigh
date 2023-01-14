@@ -1,0 +1,33 @@
+{
+	title: "大生产！",
+	x: 0.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"你需要耐火砖高炉来炼钢。"
+	],
+	dependencies: [
+		"2847efbd"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "cb33523a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3a2e5db8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "水的早期获取",
+	x: -0.5d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"在这里，无限水似乎仍然是世界的基本运行规律之一。在前期，你可以直接使用桶来人工获取水，当然，你也可以制作GTCEu中的·原始水泵或者RC中的蓄水器来解决你的水资源缺乏问题。"
+	],
+	dependencies: [
+		"bf156447"
+	],
+	tasks: [{
+		uid: "26c17925",
+		type: "checkmark",
+		icon: "ic2:misc_resource 1 7"
+	}],
+	rewards: [{
+		uid: "4cc28f0e",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

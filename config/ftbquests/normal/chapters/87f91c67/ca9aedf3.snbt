@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: -2.5d,
+	shape: "circle",
+	dependencies: [
+		"caf4a02c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff4665f0",
+		type: "item",
+		items: [{
+			item: "tconstruct:wooden_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "b6e76051",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

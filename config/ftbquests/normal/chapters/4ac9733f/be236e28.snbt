@@ -1,0 +1,45 @@
+{
+	title: "农场！",
+	x: -0.5d,
+	y: 9.5d,
+	shape: "circle",
+	text: [
+		"作物架+作物架→杂交架",
+		"可以遵循以下格式种田",
+		"田田田土土土田田田",
+		"土土土田田田土土土",
+		"田田田土土土田田田",
+		"土土土田田田土土土",
+		"田田田土水土田田田",
+		"土土土田田田土土土",
+		"田田田土土土田田田",
+		"土土土田田田土土土",
+		"田田田土土土田田田"
+	],
+	dependencies: [
+		"354c82c4"
+	],
+	tasks: [{
+		uid: "a069f35f",
+		type: "item",
+		items: [{
+			item: "ic2:crop_stick"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "23a0dd03",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "8e0a97ec",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

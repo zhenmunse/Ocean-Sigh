@@ -1,0 +1,36 @@
+{
+	title: "书籍之中",
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"是时候造纸了！现在它不再需要甘蔗——我们需要木浆！你需要一大堆木头来制作它，因此确保你砍伐了足够多的树!"
+	],
+	dependencies: [
+		"b411aa98",
+		"bf156447"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f5092809",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "66127fe8",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "96897697",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

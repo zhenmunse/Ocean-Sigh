@@ -1,0 +1,26 @@
+{
+	title: "升级？燃煤锅炉！",
+	x: -2.5d,
+	y: -1.0d,
+	shape: "circle",
+	text: [
+		"它可以产生数倍于小型燃煤锅炉的蒸汽。当然，比起多方块锅炉还是差远了。但是前期你可以制作它来供应蒸汽合金炉。"
+	],
+	dependencies: [
+		"2847efbd",
+		"90ad0802"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e8948592",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "a4f0e962",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

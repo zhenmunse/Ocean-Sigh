@@ -1,0 +1,39 @@
+{
+	title: "爬上爬下",
+	icon: "minecraft:oak_stairs",
+	x: -8.5d,
+	y: -1.0d,
+	text: [
+		"你需要制作一些木质楼梯.",
+		"它们可以帮助你减少因跳跃消耗的饥饿值.",
+		"（其实更重要的作用是用来制作錾制木头）"
+	],
+	dependencies: [
+		"09efc9ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "992ba058",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stairWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stairWood"
+				}
+			}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "e0317ed6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

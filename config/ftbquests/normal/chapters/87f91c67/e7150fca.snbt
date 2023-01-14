@@ -1,0 +1,46 @@
+{
+	title: "比钻石剑更好",
+	x: -11.5d,
+	y: 0.5d,
+	text: [
+		"你惊人的发现，在这片土地上，燧石制作的武器自带火焰附加Ⅱ，并且伤害远远大于你认知中的钻石剑！快做一把",
+		"——不然这里的怪物可能会把你手撕了:)"
+	],
+	dependencies: [
+		"09efc9ce"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "dcd87ece",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}],
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b95dac6e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0757724c",
+		type: "command",
+		icon: "minecraft:cooked_chicken",
+		command: "/effect @p minecraft:saturation 1 255"
+	}]
+}

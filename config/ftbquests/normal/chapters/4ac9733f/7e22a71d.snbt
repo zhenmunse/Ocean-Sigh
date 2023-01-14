@@ -1,0 +1,26 @@
+{
+	title: "荡涤污秽",
+	x: -2.0d,
+	y: 6.5d,
+	text: [
+		"将含杂粉末扔进装有水的炼药锅中，可将其转化为为含杂粉末(如：含杂红石粉→红石粉)",
+		"不要一个一个扔！一组物品和一个物品扔进去都要消耗炼药锅⅓的水！"
+	],
+	dependencies: [
+		"354c82c4",
+		"54f8d0ed",
+		"13f3bf20"
+	],
+	tasks: [{
+		uid: "c8b5459d",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "bbeb5b43",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "粘性树脂",
+	icon: "ic2:misc_resource 1 4",
+	x: -10.0d,
+	y: 3.5d,
+	text: [
+		"你需要使用最传统的办法——木龙头，来获取IC2的粘性树脂",
+		"当然，你也可以选择直接砍伐GT里的橡胶树来获取",
+		"IC2与GT的粘性树脂可以通过合成而相互转化"
+	],
+	dependencies: [
+		"763e2f8f"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "1daa30a8",
+		type: "item",
+		items: [{
+			item: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "149a51e1",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 4"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "8ed110b6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

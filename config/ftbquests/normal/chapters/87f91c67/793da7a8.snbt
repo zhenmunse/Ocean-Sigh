@@ -1,0 +1,40 @@
+{
+	title: "土豆炒马铃薯",
+	x: -7.0d,
+	y: 2.0d,
+	text: [
+		"种下去吧！"
+	],
+	dependencies: [
+		"14f5df32"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1cb4b9de",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "228f9443",
+		type: "item",
+		item: "gregtech:meta_tool_head_hoe 1 23"
+	},
+	{
+		uid: "d81cfcd3",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "5595de0e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

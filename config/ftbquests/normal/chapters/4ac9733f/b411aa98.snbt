@@ -1,0 +1,35 @@
+{
+	title: "研碎物品",
+	x: -2.0d,
+	y: 1.5d,
+	text: [
+		"现在你无法像其它主要使用RF能量的平行世界那样，在前期通过十分简单的方式制作出粉碎机. 因此，你需要研钵来粉碎一些物品. 它造价并不昂贵，且是瞬间加工，在蒸汽时代仍有相当一部分人认为它比蒸汽研磨机更有用. 现在",
+		"需要制作燧石研钵."
+	],
+	dependencies: [
+		"9e89c96a"
+	],
+	tasks: [{
+		uid: "18f00924",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "413aa470",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

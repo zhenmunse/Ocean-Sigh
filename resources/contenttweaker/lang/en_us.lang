@@ -1,0 +1,19 @@
+//Created by zhenmunse
+item.contenttweaker.CokeOvenBrick.name=Coke Oven Brick(RC)
+item.contenttweaker.UnfiredCokeOvenBrick.name=Unfired Coke Oven Brick(RC)
+item.contenttweaker.Woodenpart.name=Wooden Part
+item.contenttweaker.EnergeticBlend.name=Energetic Blend
+item.contenttweaker.luminessence.name=Luminessence
+item.meta_item.dustThaumium=Thaumium Dust
+item.meta_item.dustSmallThaumium=Small Thaumium Dust
+item.meta_item.dustTinyThaumium=Tiny Thaumium Dust
+item.meta_item.ingotThaumium=Thaumium Ingot
+item.meta_item.plateThaumium=Thaumium Plate
+item.meta_item.plateDoubleThaumium=Double Thaumium Plate
+item.meta_item.stickThaumium=Thaumium Stick
+item.meta_item.boltThaumium=Thaumium Bolt
+item.meta_item.screwThaumium=Thaumium Screw
+item.meta_item.ringThaumium=Thaumium Ring
+item.meta_item.nuggetThaumium=Thaumium Nugget
+item.meta_item.blockThaumium=Thaumium Block
+item.meta_item.frameThaumium=Thaumium Frame

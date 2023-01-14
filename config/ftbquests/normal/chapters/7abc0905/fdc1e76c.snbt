@@ -1,0 +1,44 @@
+{
+	title: "第一个电力机器外壳",
+	x: 5.0d,
+	y: 4.0d,
+	text: [
+		"终于来到了电力时代的门槛，你发现所有元器件都需要外壳保护。",
+		"每一级的机器外壳合成方式相同，仅有材料不同：",
+		"LV:钢+锻铁+锡线缆",
+		"MV:铝+锻铁+铜线缆",
+		"HV:不锈钢+聚乙烯+金线缆",
+		"EV:钛+聚乙烯+铝线缆",
+		"……"
+	],
+	dependencies: [
+		"3acc4c98",
+		"6ecac32c",
+		"90ad0802",
+		"f0bfc2f8"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "01bdfb9a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}],
+	rewards: [{
+		uid: "8299de5f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "e3d91aba",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

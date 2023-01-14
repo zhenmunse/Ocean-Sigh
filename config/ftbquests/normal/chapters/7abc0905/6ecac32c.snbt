@@ -1,0 +1,43 @@
+{
+	title: "传导电力",
+	icon: "gregtech:cable_single 1 112",
+	x: 5.0d,
+	y: 5.5d,
+	text: [
+		"现阶段，你或许只能用剪线钳来剪板材获取导线。",
+		"相信我，当你进入电力时代时，第一台机器一定要做线材轧机，它将为你增产到4倍。"
+	],
+	dependencies: [
+		"b63cc9ed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c1d2b8a",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}],
+		count: 16L
+	},
+	{
+		uid: "621fa7a3",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}],
+		count: 6L
+	},
+	{
+		uid: "aba26cf1",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 25"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "df38c387",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

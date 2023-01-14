@@ -1,0 +1,42 @@
+{
+	title: "比铁更好",
+	x: 9.0d,
+	y: 4.0d,
+	text: [
+		"铁制工具满足不了你的需求，而钢又很贵？想升级你的机器？来制作一些锻铁吧！",
+		"你需要在熔炉里烧铁粒来获取锻铁粒，并将它放入压缩机中压缩为锻铁锭。",
+		"§3§l后面当你拥有电弧炉后，可以直接用铁锭合成锻铁锭。"
+	],
+	dependencies: [
+		"b823b375"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65f8cdf1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}],
+		count: 14L
+	}],
+	rewards: [{
+		uid: "68417660",
+		type: "item",
+		item: "gregtech:meta_tool_head_file 1 335"
+	},
+	{
+		uid: "9ef40799",
+		type: "item",
+		item: "gregtech:meta_tool_head_hammer 1 335"
+	},
+	{
+		uid: "38b420e0",
+		type: "item",
+		item: "gregtech:meta_tool_head_saw 1 335"
+	},
+	{
+		uid: "c16bdef1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

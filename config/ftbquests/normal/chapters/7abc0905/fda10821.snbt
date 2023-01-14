@@ -1,0 +1,44 @@
+{
+	title: "升级？合金炉！",
+	x: 2.5d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"升级版的蒸汽合金炉。",
+		"它的速度是蒸汽合金炉的2倍！同时，作为代价，它的蒸汽消耗量是蒸汽合金炉的4倍。",
+		"§4§l不推荐在做出RC锅炉或GTCEu大型锅炉之前使用此机器(除非你有大量的单方块锅炉)，否则你将无法供应它的蒸汽消耗！"
+	],
+	dependencies: [
+		"097b0d34",
+		"90ad0802"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe76cad2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "dd902224",
+		type: "item",
+		item: "gregtech:meta_plate 1 324",
+		count: 3
+	},
+	{
+		uid: "29fd93f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "d7c77fa6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

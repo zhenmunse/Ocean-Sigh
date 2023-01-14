@@ -1,0 +1,16 @@
+{
+	title: "红色合金-任务奖励",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_ingot 1 2517",
+		count: 4
+	}]
+}

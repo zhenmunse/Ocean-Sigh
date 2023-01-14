@@ -1,0 +1,68 @@
+{
+	title: "制作青铜",
+	icon: "gregtech:meta_ingot 1 260",
+	x: 2.5d,
+	y: 3.5d,
+	text: [
+		"你有了铜和锡。将它们的粉末混合起来，便为青铜。但是这种办法的产率仅有75%。",
+		"当你有合金炉后，便可以将产率提升至100%。"
+	],
+	dependencies: [
+		"4fed210f",
+		"d6acf947"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "293052da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustBronze"
+				}
+			}
+		}],
+		count: 32L
+	},
+	{
+		uid: "50825f2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "cca68d87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "06db20f6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

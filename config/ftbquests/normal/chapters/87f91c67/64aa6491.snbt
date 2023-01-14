@@ -1,0 +1,45 @@
+{
+	title: "软趴趴的锤子",
+	x: -8.5d,
+	y: 2.0d,
+	text: [
+		"这个锤子不仅能帮助你粉碎一些东西，后面还会有更大的用处！"
+	],
+	dependencies: [
+		"763e2f8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dac01c0c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 48,
+					DigSpeed: 4.0f,
+					AttackDamage: 1.0f,
+					Material: "wood",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47d5a200",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "53487b8b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

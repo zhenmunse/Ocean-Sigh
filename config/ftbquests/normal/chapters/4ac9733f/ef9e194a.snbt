@@ -1,0 +1,24 @@
+{
+	title: "更好的工作台",
+	x: -2.0d,
+	y: 8.5d,
+	shape: "circle",
+	text: [
+		"你一定厌烦于每次离开一下就需要重新摆放工作台的物品了吧。那合成站将是你的不二选择。它不仅可以存储合成栏中的物品，还可以读取到它周围的1个箱子中的物品！这对于你使用JEI一键合成是一件天大的好事！"
+	],
+	dependencies: [
+		"354c82c4"
+	],
+	tasks: [{
+		uid: "39c698a4",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}],
+	rewards: [{
+		uid: "6c36818b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

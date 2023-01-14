@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"13388f72"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "1317d6bb",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "7caf253d",
+		type: "item",
+		item: "ic2:alloy_chestplate"
+	},
+	{
+		uid: "ba0b4f8d",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "877eb95d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	}]
+}

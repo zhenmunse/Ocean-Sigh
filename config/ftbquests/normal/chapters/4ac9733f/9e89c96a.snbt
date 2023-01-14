@@ -1,0 +1,34 @@
+{
+	title: "“变质岩”",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"将粉碎的圆石重新烧回石头。它可以制作“粉碎机Alpha0.01”来帮助你粉碎一些东西。"
+	],
+	dependencies: [
+		"5c94b31c"
+	],
+	tasks: [{
+		uid: "d3a95ecb",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "affc6f4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "d8a6d161",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

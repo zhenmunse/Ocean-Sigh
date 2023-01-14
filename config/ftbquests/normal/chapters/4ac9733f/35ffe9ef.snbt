@@ -1,0 +1,392 @@
+{
+	title: "像样的工具",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 190,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 190,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"harvest",
+					"aoe"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"wood",
+					"flint",
+					"wood"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "ecological",
+				color: -7444965,
+				level: 1
+			},
+			{
+				identifier: "crude",
+				color: -9868951,
+				level: 2,
+				crude2: 1b
+			}],
+			Traits: [
+				"ecological",
+				"crude2"
+			]
+		}
+	},
+	x: -0.5d,
+	y: 3.5d,
+	text: [
+		"如果维护得当，这些工具将永远伴随你——当它们损坏时，你可以维修它们；",
+		"当工具满耐久时，你可以更换它们的部件。"
+	],
+	dependencies: [
+		"cbb0588a"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "8d23bba2",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "5e43a5da",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "47e4c0d4",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "ba128f99",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "36c50594",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "c6134fed",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "ff406179",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "17868b6a",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "c85d6429",
+		type: "item",
+		items: [{
+			id: "tconstruct:binding",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "d9b4f0f0",
+		type: "item",
+		items: [{
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "324411b6",
+		type: "item",
+		items: [{
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				}],
+				Traits: [
+					"ecological",
+					"crude2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e77ffea6",
+		type: "item",
+		items: [{
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.4f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"weapon",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				}],
+				Traits: [
+					"ecological",
+					"crude2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e19068a",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"flint",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				}],
+				Traits: [
+					"ecological",
+					"crude2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39c70d19",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 6
+	},
+	{
+		uid: "45a93d90",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "a0b5862c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "2cd20d33",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		uid: "fa7791aa",
+		type: "item",
+		item: {
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		uid: "142afe61",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 1600000L
+			},
+			Damage: 467s
+		}
+	}]
+}

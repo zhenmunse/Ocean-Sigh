@@ -1,0 +1,7 @@
+{
+	title: "阶段4:中压与高压(MV＆HV)",
+	icon: "galacticraftcore:rocket_workbench",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

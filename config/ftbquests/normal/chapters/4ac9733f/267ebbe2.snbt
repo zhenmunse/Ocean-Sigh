@@ -1,0 +1,34 @@
+{
+	title: "另一种砖",
+	x: 2.5d,
+	y: 1.5d,
+	text: [
+		"明确你的目标！请注意，GTCEu中的焦炉砖的配方与此配方相似但不同，不要做错了！"
+	],
+	dependencies: [
+		"cfee074c"
+	],
+	tasks: [{
+		uid: "ed4e5fb4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cokeovenbrick"
+		}],
+		count: 104L
+	}],
+	rewards: [{
+		uid: "329fe753",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "bb3cb127",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

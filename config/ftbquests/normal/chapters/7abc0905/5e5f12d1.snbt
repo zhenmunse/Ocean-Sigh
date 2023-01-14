@@ -1,0 +1,22 @@
+{
+	title: "窗户？",
+	x: 3.5d,
+	y: 2.0d,
+	text: [
+		"让阳光照进来！",
+		"将沙子粉碎得到石英矿砂，燧石粉碎得到燧石粉，并将它们合成玻璃粉。",
+		"玻璃粉与块模具扔进合金炉烧就可以得到玻璃。"
+	],
+	dependencies: [
+		"d35fc3cc",
+		"90ad0802"
+	],
+	tasks: [{
+		uid: "819a3060",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 16L
+	}]
+}

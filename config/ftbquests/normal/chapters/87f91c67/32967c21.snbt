@@ -1,0 +1,60 @@
+{
+	title: "更快的武器",
+	x: -13.5d,
+	y: 0.5d,
+	shape: "circle",
+	text: [
+		"刀的伤害比剑低一些，但是攻速几乎翻倍，在屠杀动物时尤其有效.",
+		"燧石制作的刀仍然有火焰附加Ⅱ效果.",
+		"上天赠予你一把铁刀."
+	],
+	dependencies: [
+		"e7150fca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c22ac93",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}],
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 15s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f12ca2a6",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			},
+			Damage: 15s
+		}
+	},
+	{
+		uid: "fa161212",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

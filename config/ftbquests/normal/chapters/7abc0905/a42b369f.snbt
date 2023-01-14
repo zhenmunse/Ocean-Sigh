@@ -1,0 +1,25 @@
+{
+	title: "廉价的玻璃窗",
+	x: 3.5d,
+	y: 3.0d,
+	shape: "circle",
+	text: [
+		"整块玻璃作为窗户对于生产初期的你可能有些昂贵，不妨将它们锯成两半。"
+	],
+	dependencies: [
+		"5e5f12d1"
+	],
+	tasks: [{
+		uid: "93b62c2e",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_pane"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1654484e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

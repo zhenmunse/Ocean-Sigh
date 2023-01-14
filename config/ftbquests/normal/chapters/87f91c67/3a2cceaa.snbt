@@ -1,0 +1,33 @@
+{
+	title: "这是？工作台！",
+	x: -13.0d,
+	y: -1.0d,
+	text: [
+		"不管在什么样的整合包里，工作台总是首要的.",
+		"用你的燧石和原木来合成一个工作台.",
+		"注：在这个版本的格雷（GTCEu）中，工作台的配方被原生削弱至2原木+2燧石的配方",
+		"此配方的来源么……可能有些整合包的作者要对此负责"
+	],
+	dependencies: [
+		"4c352fa9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ca08bdb",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "1fcc71b9",
+		type: "item",
+		item: "minecraft:apple"
+	},
+	{
+		uid: "e2c54254",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}
