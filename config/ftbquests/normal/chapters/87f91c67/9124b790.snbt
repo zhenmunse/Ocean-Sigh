@@ -1,5 +1,6 @@
 {
 	title: "种瓜得瓜",
+	icon: "minecraft:melon",
 	x: -7.0d,
 	y: 6.0d,
 	text: [
@@ -39,12 +40,12 @@
 		count: 6
 	},
 	{
-		uid: "65592901",
+		uid: "0b5fb35d",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
 	}]

@@ -17,17 +17,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "52775844",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "_"
-			}
-		},
-		count: 2
-	},
-	{
 		uid: "c545967c",
 		type: "item",
 		item: {
@@ -36,5 +25,16 @@
 				Potion: "minecraft:strong_healing"
 			}
 		}
+	},
+	{
+		uid: "b14a3822",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "1"
+			}
+		},
+		count: 2
 	}]
 }

@@ -1,0 +1,34 @@
+{
+	title: "输送物品",
+	x: 0.0d,
+	y: 3.5d,
+	text: [
+		"你需要使用它来配合GT管道抽取物品，具体作用类似TD的伺服器",
+		"——当你拥有EIO管道时，传送带就没有现在这么有诱惑力了",
+		"§3§l但是你还是需要它来制作机器！"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "08e0f39a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 157"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e2751c58",
+		type: "item",
+		item: "gregtech:meta_ingot 1 1068",
+		count: 8
+	},
+	{
+		uid: "aa9980a4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

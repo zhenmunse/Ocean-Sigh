@@ -1,0 +1,34 @@
+{
+	title: "分子“重构”机",
+	x: 3.0d,
+	y: -3.0d,
+	text: [
+		"它可以分解某些化合物或矿物，以获取你需要的纯净产物。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "31f2c1d1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 275"
+		}]
+	}],
+	rewards: [{
+		uid: "c95e4ad9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "26fd5d93",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

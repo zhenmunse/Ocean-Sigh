@@ -1,5 +1,10 @@
 {
 	title: "苹果树苗-任务奖励",
 	loot_size: 1,
-	rewards: []
+	rewards: [{
+		item: "harvestcraft:date_sapling"
+	},
+	{
+		item: "harvestcraft:mango_sapling"
+	}]
 }

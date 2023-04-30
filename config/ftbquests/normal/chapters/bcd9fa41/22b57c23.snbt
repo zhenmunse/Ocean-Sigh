@@ -1,0 +1,33 @@
+{
+	title: "聚二甲基硅氧烷 [(C2H6OSi)n] …",
+	x: 2.0d,
+	y: 7.0d,
+	text: [
+		"在石油化工，甚至是任何产线中，化学反应釜都是重要组成部分。",
+		"",
+		"到了HV阶段，你就可以制作大型化学反应釜了——更快、更省电。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "be243cce",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 215"
+		}]
+	}],
+	rewards: [{
+		uid: "f2c494e0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 78",
+		count: 64
+	},
+	{
+		uid: "7cd27d0c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

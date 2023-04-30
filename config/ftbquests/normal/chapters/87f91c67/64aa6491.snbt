@@ -28,18 +28,18 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "47d5a200",
+		uid: "53487b8b",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "7e33cf33",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
-	},
-	{
-		uid: "53487b8b",
-		type: "ftbmoney:money",
-		ftb_money: 5L
 	}]
 }

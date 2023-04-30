@@ -1,0 +1,33 @@
+{
+	title: "压缩机",
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"这台机器可以大大改善你的工作效率。制作一个吧，因为蒸汽压缩机真的太慢了！"
+	],
+	dependencies: [
+		"c646b72f"
+	],
+	tasks: [{
+		uid: "fb1cab22",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 230"
+		}]
+	}],
+	rewards: [{
+		uid: "4c97bde4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "7f5f63e8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

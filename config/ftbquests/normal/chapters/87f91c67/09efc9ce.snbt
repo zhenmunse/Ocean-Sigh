@@ -114,5 +114,15 @@
 		type: "item",
 		item: "minecraft:flint",
 		count: 6
+	},
+	{
+		uid: "bd64d742",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "1"
+			}
+		}
 	}]
 }

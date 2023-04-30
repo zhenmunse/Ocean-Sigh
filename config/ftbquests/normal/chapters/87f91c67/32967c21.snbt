@@ -48,12 +48,12 @@
 		}
 	},
 	{
-		uid: "fa161212",
+		uid: "c2c60f4b",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
 	}]

@@ -1,0 +1,35 @@
+{
+	title: "优质电子电路板",
+	x: 11.5d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"优质电子电路板是基础电子电路的改良版，也是你能制作的第一种MV电路板。",
+		"",
+		"但是你并不能仅靠它来进入MV时代，因为接下来有一种比炼钢还难的冶炼过程，炼铝。",
+		"MV的主题便是铝，想想你在LV用了多少钢吧。",
+		"——MV需要的铝甚至比这还多。",
+		"",
+		"想要炼铝，请前往“多方块结构”任务栏，查看电力高炉相关任务。"
+	],
+	dependencies: [
+		"f3aa76f2",
+		"ef399b70",
+		"7b5492af"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4c913a7e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 622"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "d56de6d4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "传感器",
+	x: 1.5d,
+	y: 3.5d,
+	text: [
+		"又是一种你大量需要的部件。它可以用于制作扫描仪和地震勘探仪。"
+	],
+	dependencies: [
+		"48b46dc6"
+	],
+	tasks: [{
+		uid: "f76fa784",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 232"
+		}]
+	}],
+	rewards: [{
+		uid: "dc4c021b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "c855f1d5",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

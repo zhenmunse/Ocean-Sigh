@@ -1,0 +1,37 @@
+{
+	title: "热力离心机",
+	x: 1.5d,
+	y: -5.0d,
+	text: [
+		"它可以副产很多矿物，俗称“热离”，当前阶段你主要用它来制作砷化镓。",
+		"",
+		"热力离心机需要2A电流，因此确保你的供电足够。",
+		"",
+		"§4§l尽管它需要2A电流，但是将电压高于32V的电力提供给它还是会导致爆炸，请勿这样操作。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	tasks: [{
+		uid: "95d1442b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 605"
+		}]
+	}],
+	rewards: [{
+		uid: "ae336838",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "3b1217e3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

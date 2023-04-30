@@ -1,0 +1,30 @@
+{
+	title: "磁化金属",
+	x: -3.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"在你即将进入的MV阶段，磁化铁杆已经不能满足需求。你需要磁化钢杆来制作更高等级的电动马达。"
+	],
+	dependencies: [
+		"bc1bcd60"
+	],
+	tasks: [{
+		uid: "19402a10",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_stick 1 2035"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "941d1b77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	}]
+}

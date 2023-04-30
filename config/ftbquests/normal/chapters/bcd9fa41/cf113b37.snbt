@@ -1,0 +1,35 @@
+{
+	title: "砷化镓（AsGa）",
+	x: 3.0d,
+	y: -5.0d,
+	text: [
+		"你需要砷化镓来制作二极管。",
+		"",
+		"闪锌和锌是镓的主要来源，使用热力离心机（不是热力mod中的离心机）处理锌矿石可以得到镓。",
+		"",
+		"砷的主要来源是辉钴矿和下界中的雄黄矿。"
+	],
+	dependencies: [
+		"b95f7fa3",
+		"1581e07a"
+	],
+	tasks: [{
+		uid: "90e11f6e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 351"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4c605043",
+		type: "item",
+		item: "gregtech:meta_dust 1 351",
+		count: 2
+	},
+	{
+		uid: "85e3a112",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

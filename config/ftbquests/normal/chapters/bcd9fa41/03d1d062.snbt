@@ -1,0 +1,38 @@
+{
+	title: "电动泵",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"在制作其它导管之前，电动泵+管道的组合是你传输流体的最佳选择，具体作用类似TD的伺服器",
+		"——当你拥有EIO管道时，电动泵就没有现在这么有诱惑力了",
+		"§3§l但是你还是需要它来制作机器！"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "c2d84317",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 142"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "72d82573",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "15bc5ed1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

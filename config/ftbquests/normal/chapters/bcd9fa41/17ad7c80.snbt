@@ -1,0 +1,35 @@
+{
+	title: "固化一切",
+	x: 4.0d,
+	y: 7.0d,
+	text: [
+		"与提取机相反，它可以将液体（甚至是气体）转化为固体。它现在主要用来处理熔融橡胶。"
+	],
+	dependencies: [
+		"23aa5e3f",
+		"22b57c23"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77973acf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 395"
+		}]
+	}],
+	rewards: [{
+		uid: "9bc0a2ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "9ae3f906",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "钢铁之扉",
+	x: -3.0d,
+	y: 4.0d,
+	shape: "circle",
+	text: [
+		"或许你的第一扇门已经被粗暴野蛮的怪物们撞的稀巴烂了...",
+		"不管这事情有没有发生，你都应该做一扇铁门来招呼这帮只会用蛮力的家伙。",
+		"毕竟，只有没人打扰，你才能放心地去完成你伟大的计划。"
+	],
+	dependencies: [
+		"90ad0802"
+	],
+	tasks: [{
+		uid: "07a5e8e5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_door"
+		}]
+	}],
+	rewards: [{
+		uid: "f957c3d6",
+		type: "item",
+		item: "minecraft:iron_door",
+		count: 2
+	},
+	{
+		uid: "81dd1b9b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

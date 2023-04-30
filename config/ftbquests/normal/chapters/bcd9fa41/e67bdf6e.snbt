@@ -1,0 +1,63 @@
+{
+	title: "热力的开始",
+	icon: "thermalfoundation:material 1 513",
+	x: -1.5d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"如果你之前主玩RF系mod，那总算碰到了你的强项——热力膨胀",
+		"但是现在它们也被格雷化了。",
+		"你首先需要制作一些元件。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e93ef79d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 513"
+		}],
+		count: 2L
+	},
+	{
+		uid: "31342036",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 514"
+		}],
+		count: 2L
+	},
+	{
+		uid: "acfe93a9",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 515"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e20313a6",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 512"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "cbe42597",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "606dd994",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

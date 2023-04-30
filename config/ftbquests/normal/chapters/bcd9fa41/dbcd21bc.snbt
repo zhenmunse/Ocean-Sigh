@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	shape: "circle",
+	dependencies: [
+		"e67bdf6e"
+	],
+	tasks: [{
+		uid: "eeee0ae2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tome_lexicon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "165aadf6",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

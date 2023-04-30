@@ -1,0 +1,19 @@
+{
+	title: "转啊转…7200RPM",
+	x: 6.0d,
+	y: 7.0d,
+	text: [
+		"虽然它可以转的很快，但是其读速连绿盘都不如。"
+	],
+	dependencies: [
+		"17ad7c80"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2bdc2605",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 185"
+		}]
+	}]
+}

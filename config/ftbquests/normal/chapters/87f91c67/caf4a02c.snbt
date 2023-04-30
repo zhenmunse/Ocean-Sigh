@@ -36,12 +36,12 @@
 		item: "minecraft:chest"
 	},
 	{
-		uid: "1b469b4e",
+		uid: "ececdfe7",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
 	}]

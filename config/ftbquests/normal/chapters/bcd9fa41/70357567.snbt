@@ -1,0 +1,42 @@
+{
+	title: "机械臂",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"机械臂是你现在需要的最贵的机器部件之一。但你需要很多，以制作组装机等机器。"
+	],
+	dependencies: [
+		"c646b72f"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "200c7e69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 187"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3003f5c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "90e00335",
+		type: "item",
+		item: "gregtech:meta_item_1 1 621",
+		count: 2
+	},
+	{
+		uid: "ed7e806f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -118,7 +118,8 @@
 		count: 6
 	}],
 	loot_crate: {
-		string_id: "_",
+		string_id: "1",
+		item_name: "奖励箱（原始人时代）",
 		color: 16777215,
 		drops: {
 			boss: 0,

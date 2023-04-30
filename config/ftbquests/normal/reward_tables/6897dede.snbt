@@ -1,0 +1,49 @@
+{
+	title: "低压",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "2"
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		item: "forestry:apiary"
+	},
+	{
+		item: "gregtech:meta_item_1 1 621",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 381",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 516",
+		count: 4
+	},
+	{
+		item: "irontanks:emerald_tank"
+	},
+	{
+		item: "gregtech:meta_ingot 1 2517",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 127",
+		count: 4
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	}],
+	loot_crate: {
+		string_id: "3",
+		item_name: "奖励箱（低压）",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

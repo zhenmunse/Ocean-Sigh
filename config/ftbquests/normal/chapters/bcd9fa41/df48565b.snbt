@@ -1,0 +1,41 @@
+{
+	title: "更好的零碎物品处理装置",
+	x: 7.5d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"这台公式处理器并不需要能源，便可以一个较高的速度打包/解包。搭建自动化矿物处理产线的时候，你可能需要一个。",
+		"",
+		"与之能力相匹配，它并不廉价。"
+	],
+	dependencies: [
+		"f89f1a93"
+	],
+	tasks: [{
+		uid: "60227974",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 10s
+		}]
+	}],
+	rewards: [{
+		uid: "f075af8c",
+		type: "item",
+		item: "thermalfoundation:material 1 512",
+		count: 2
+	}]
+}

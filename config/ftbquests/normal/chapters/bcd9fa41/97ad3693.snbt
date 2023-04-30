@@ -1,0 +1,36 @@
+{
+	title: "淘汰你的剪线钳",
+	x: 2.5d,
+	y: 1.875d,
+	text: [
+		"终于，你可以摆脱该死的剪线钳配方了！有了这台机器，你的导线可以增产到原来（3x金属锭 → 2x板 → 2x导线）的3倍（1x金属锭 → 2x导线）",
+		"",
+		"§3§l这应当是你首要考虑的机器。若你的红石有富余，甚至在制作出蒸汽轮机之前就可以制作它——它只消耗4EU/t，因此你可以将红石粉放入它的电池槽中为其供能。"
+	],
+	dependencies: [
+		"c646b72f"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "b3329359",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}],
+	rewards: [{
+		uid: "8f88ca9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "c15c8bc5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

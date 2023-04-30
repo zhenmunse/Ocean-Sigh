@@ -1,0 +1,41 @@
+{
+	title: "基础内燃发电机",
+	x: 4.5d,
+	y: 0.5d,
+	shape: "circle",
+	text: [
+		"内燃发电机燃烧液态燃料产生EU. 随着你石油处理水平的提升，每个电压都有一种热值最高的液态燃料。",
+		"",
+		"LV阶段，最有方案是石油蒸馏后脱硫得到的轻燃油（汽油）。"
+	],
+	dependencies: [
+		"c646b72f"
+	],
+	tasks: [{
+		uid: "e79ba967",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 935"
+		}]
+	}],
+	rewards: [{
+		uid: "c4149cf8",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 8
+	},
+	{
+		uid: "e7a1ddfa",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

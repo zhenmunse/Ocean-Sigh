@@ -235,7 +235,7 @@
 	}],
 	loot_crate: {
 		string_id: "2",
-		item_name: "奖励箱",
+		item_name: "奖励箱（蒸汽时代）",
 		color: 16777215,
 		drops: {
 			boss: 0,

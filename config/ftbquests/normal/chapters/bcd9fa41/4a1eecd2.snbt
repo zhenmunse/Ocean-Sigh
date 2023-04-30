@@ -1,0 +1,45 @@
+{
+	title: "燃气灶？",
+	x: 3.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"你可能在某些处理流程中得到了一些可燃气体（如甲烷、氢气等）。",
+		"",
+		"这台机器可以处理它得到能源。",
+		"",
+		"当然，真正让它大放异彩的燃料是苯，但你需要先进入MV阶段。",
+		"",
+		"在HV阶段等你有了蒸馏塔之后，若有多余的炼油气，也可以用它来解决。"
+	],
+	dependencies: [
+		"c646b72f"
+	],
+	tasks: [{
+		uid: "4fb8423d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 965"
+		}]
+	}],
+	rewards: [{
+		uid: "4411ceb6",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "lpg",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	},
+	{
+		uid: "de0e39f1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

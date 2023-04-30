@@ -165,10 +165,71 @@ recipes.remove(<thermalfoundation:material:160>);  //钢
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:160>);
 
 for item in loadedMods["thermalfoundation"].items{ //工具、装备
-	if(item.name.startsWith("thermalfoudation:tool")){
+	if(item.name.startsWith("thermalfoundation:tool")){
 		recipes.remove(item);	
 	}
-	if(item.name.startsWith("thermalfoudation:armor")){
+	if(item.name.startsWith("thermalfoundation:armor")){
 		recipes.remove(item);
 	}
 	}
+
+//铁匠辞典
+recipes.remove(<thermalfoundation:tome_lexicon>);
+recipes.addShaped(<thermalfoundation:tome_lexicon> * 1,
+  [[<ore:craftingToolHardHammer>,<ore:blockSteel>,<ore:craftingToolWrench>],
+   [<ore:blockRedAlloy>,<minecraft:book>,<ore:blockLapis>],
+   [<ore:craftingToolSaw>,<ore:blockGold>,<ore:craftingToolWireCutter>]]);
+//机器与设备
+recipes.remove(<thermalexpansion:machine:*>);
+recipes.remove(<thermalexpansion:device:*>);
+recipes.remove(<thermalexpansion:dynamo:*>);
+recipes.remove(<thermalexpansion:frame:*>);
+recipes.remove(<thermalexpansion:augment:*>);
+recipes.addShaped(<thermalexpansion:machine> * 1,   //红石炉
+  [[<ore:wireGtOctalCopper>,<thermalfoundation:material:513>,<ore:wireGtOctalCopper>],
+   [<ic2:te:46>,<gregtech:machine:986>,<ic2:te:46>],
+   [<ore:cableGtSingleTin>,<ore:circuitLv>,<ore:cableGtSingleTin>]]);
+recipes.addShaped(<thermalexpansion:device:10> * 1, //公式处理器
+  [[<ore:cableGtSingleTin>,<thermalfoundation:material:512>,<gregtech:meta_item_1:127>],
+   [<gregtech:machine:500>,<ore:cableGtQuadrupleTin>,<gregtech:machine:500>],
+   [<gregtech:meta_item_1:172>,<thermalfoundation:material:512>,<ore:cableGtSingleTin>]]);
+recipes.addShaped(<thermalexpansion:device:7> * 1,  //矿辞转换器
+  [[<ore:cableGtSingleTin>,<thermalfoundation:tome_lexicon>,<ore:cableGtSingleTin>],
+   [<projectred-integration:gate:29>,<gregtech:machine:986>,<projectred-integration:gate:29>],
+   [<projectred-integration:gate:24>,<ore:circuitLv>,<projectred-integration:gate:24>]]);
+//升级套件
+recipes.remove(<thermalfoundation:upgrade>);    //硬化
+recipes.remove(<thermalfoundation:upgrade:1>);  //强化
+recipes.remove(<thermalfoundation:upgrade:2>);  //信素
+recipes.remove(<thermalfoundation:upgrade:3>);  //谐振
+//转换套件
+recipes.remove(<thermalfoundation:upgrade:33>); //强化
+recipes.remove(<thermalfoundation:upgrade:34>); //信素
+recipes.remove(<thermalfoundation:upgrade:35>); //谐振
+//元件
+
+recipes.remove(<thermalfoundation:material:512>);   //红石伺服器
+recipes.addShaped(<thermalfoundation:material:512> * 2,
+  [[<gregtech:meta_item_1:96>,<ore:plateRedAlloy>,<ore:wireGtQuadrupleIron>],
+   [<ore:plateRedAlloy>,<projectred-integration:gate:30>,<ore:plateRedAlloy>],
+   [<ore:wireGtQuadrupleIron>,<ore:plateRedAlloy>,<gregtech:meta_item_1:96>]]);
+
+recipes.remove(<thermalfoundation:material:513>);   //红石接收线圈
+recipes.addShaped(<thermalfoundation:material:513> * 2,
+  [[null,<ore:wireGtDoubleGold>,<gregtech:wire_single:2517>],
+   [<ore:wireGtDoubleGold>,<projectred-integration:gate:29>,<ore:wireGtDoubleGold>],
+   [<gregtech:wire_single:2517>,<ore:wireGtDoubleGold>,null]]);
+
+recipes.remove(<thermalfoundation:material:514>);   //红石传输线圈
+recipes.addShaped(<thermalfoundation:material:513> * 2,
+  [[null,<ore:wireGtDoubleSilver>,<gregtech:wire_single:2517>],
+   [<ore:wireGtDoubleSilver>,<projectred-integration:gate:30>,<ore:wireGtDoubleSilver>],
+   [<gregtech:wire_single:2517>,<ore:wireGtDoubleSilver>,null]]);
+
+recipes.remove(<thermalfoundation:material:515>);   //红石传导线圈
+recipes.addShaped(<thermalfoundation:material:513> * 2,
+  [[<gregtech:wire_single:2517>,<ore:wireGtDoubleElectrum>,null],
+   [<ore:wireGtDoubleElectrum>,<projectred-integration:gate:30>,<ore:wireGtDoubleElectrum>],
+   [null,<ore:wireGtDoubleElectrum>,<gregtech:wire_single:2517>]]);
+
+recipes.remove(<thermalfoundation:material:640>);   //红石工具箱

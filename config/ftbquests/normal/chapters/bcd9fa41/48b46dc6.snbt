@@ -1,0 +1,27 @@
+{
+	title: "赛特斯石英水晶",
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"赛特斯石英是一种特殊的石英，它可以用来制作发射器和传感器。",
+		"",
+		"§3§l你可以在下界的石英岩矿脉中找到它，石英岩矿脉生成在下界80~120高度的范围内。",
+		"§3§l同时，你还可以在石英岩矿脉中找到石英岩和重晶石。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	tasks: [{
+		uid: "d19532fd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem 1 214"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "cb3fd6cf",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

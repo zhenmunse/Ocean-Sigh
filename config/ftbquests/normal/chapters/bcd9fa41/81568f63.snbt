@@ -1,0 +1,25 @@
+{
+	title: "胶水",
+	x: 9.0d,
+	y: 7.0d,
+	text: [
+		"离心粘性树脂可以得到胶水，你需要用它来黏合并绝缘电路板。"
+	],
+	dependencies: [
+		"477ff786"
+	],
+	tasks: [{
+		uid: "bc4e893c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "glue",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}]
+	}]
+}

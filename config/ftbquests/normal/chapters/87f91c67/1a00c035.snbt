@@ -15,5 +15,15 @@
 		icon: "minecraft:wool",
 		entity: "minecraft:sheep",
 		value: 5L
+	}],
+	rewards: [{
+		uid: "290340cc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "60543d6b",
+		type: "ftbmoney:money",
+		ftb_money: 2L
 	}]
 }

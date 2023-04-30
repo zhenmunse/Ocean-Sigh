@@ -1,0 +1,34 @@
+{
+	title: "§d§l进阶电路基板",
+	x: 9.0d,
+	y: 1.5d,
+	text: [
+		"优质的电子电路板需要用更高级的基板来容纳，这款就不错。",
+		"",
+		"§3§l等你HV时，你还可以用环氧树脂代替胶水来制作它——不过那时候谁还会需要它呢？"
+	],
+	dependencies: [
+		"81568f63",
+		"08650796"
+	],
+	hide: true,
+	tasks: [{
+		uid: "30f564f0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 402"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d2fea74f",
+		type: "item",
+		item: "gregtech:wire_single 1 41",
+		count: 32
+	},
+	{
+		uid: "aa3191ff",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

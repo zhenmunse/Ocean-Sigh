@@ -1,0 +1,33 @@
+{
+	title: "发射器",
+	x: 2.5d,
+	y: 3.5d,
+	text: [
+		"这可不是那个红石机器。它是你制作电路组装机等机器的重要部件。"
+	],
+	dependencies: [
+		"48b46dc6"
+	],
+	tasks: [{
+		uid: "43f65500",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 217"
+		}]
+	}],
+	rewards: [{
+		uid: "e4359993",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "1dfd29eb",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

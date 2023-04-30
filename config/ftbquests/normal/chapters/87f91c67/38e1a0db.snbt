@@ -1,0 +1,37 @@
+{
+	title: "中药柜",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: -5.0d,
+	y: -1.0d,
+	shape: "circle",
+	text: [
+		"抽屉是个绝妙的发明，全人类都要感谢最初发明这玩意的天才。",
+		"§3§l任意种类的抽屉均可满足任务要求。"
+	],
+	dependencies: [
+		"caf4a02c"
+	],
+	tasks: [{
+		uid: "f82fc93e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			}
+		}]
+	}]
+}

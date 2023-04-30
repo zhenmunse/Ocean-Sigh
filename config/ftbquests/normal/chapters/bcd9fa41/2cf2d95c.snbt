@@ -1,0 +1,20 @@
+{
+	title: "§d§l电炉",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"比普通熔炉快了……一点点？而且它还要消耗能量，我想不出你有什么理由制作它。",
+		"——或许是为了奖励箱？"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	tasks: [{
+		uid: "4dd5f7ff",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 50"
+		}]
+	}]
+}

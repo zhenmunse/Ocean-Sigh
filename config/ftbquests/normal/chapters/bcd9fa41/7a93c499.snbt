@@ -1,0 +1,39 @@
+{
+	title: "红石炉",
+	x: -3.0d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"这是一台以RF驱动的电炉。",
+		"但是，如果你不打算后续升级它，而是仅仅需要一台速度较快的熔炉，为何不使用工业熔炉或GTCEu电炉呢？"
+	],
+	dependencies: [
+		"e67bdf6e"
+	],
+	tasks: [{
+		uid: "ce784b03",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "29c33063",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

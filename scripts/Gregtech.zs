@@ -97,3 +97,10 @@ GTmachine_alloy.recipeBuilder()
 .EUt(12)
 .duration(20)
 .buildAndRegister();
+//1x 铜线缆
+GTmachine_alloy.recipeBuilder()
+.inputs([<gregtech:wire_single:25>*1,<gregtech:meta_ingot:1068>*2])
+.outputs([<gregtech:cable_single:25>])
+.EUt(12)
+.duration(20)
+.buildAndRegister();

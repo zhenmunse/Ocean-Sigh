@@ -1,0 +1,47 @@
+{
+	title: "基础电路组装机",
+	x: 6.0d,
+	y: 3.5d,
+	text: [
+		"你不能再用自己拙劣的工艺制作更高级的电路板了。因此，你需要这台电路组装机。",
+		"",
+		"它允许你直接制作LV级电路板，而无需经ULV级电路（即真空管）二次合成。",
+		"",
+		"§3§l同时，对于制作HV级电路板，它是必要的。"
+	],
+	dependencies: [
+		"70357567",
+		"4a4d379b"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "ae80981a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 635"
+		}]
+	}],
+	rewards: [{
+		uid: "7914dcd1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "ae4ea21c",
+		type: "item",
+		item: "gregtech:meta_ingot 1 252",
+		count: 8
+	},
+	{
+		uid: "9c246243",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

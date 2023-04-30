@@ -1,0 +1,36 @@
+{
+	title: "活塞，但是电动的",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"你那劣质的活塞已不能用于电力机器的制造。制作亿些电力活塞吧！从现在开始，它将一直伴随你。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "742f9ec2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 172"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9e18fe96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "2edcf64b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

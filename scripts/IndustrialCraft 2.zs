@@ -31,7 +31,7 @@ recipes.remove(<ic2:te:46>);
 recipes.addShaped(<ic2:te:46> * 1,
   [[<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],
    [<ore:plateIron>,<ore:craftingFurnace>,<ore:plateIron>],
-   [<ore:plateIron>,craftingHardHammer,<ore:plateIron>]]);
+   [<ore:plateIron>,<ore:craftingToolHardHammer>,<ore:plateIron>]]);
 //锻造锤
 recipes.remove(<ic2:forge_hammer>);
 mods.jei.JEI.removeAndHide(<ic2:forge_hammer>);

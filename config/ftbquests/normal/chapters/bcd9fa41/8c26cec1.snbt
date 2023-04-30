@@ -1,0 +1,43 @@
+{
+	title: "迈向中压",
+	x: 11.5d,
+	y: 7.0d,
+	text: [
+		"想要进一步发展，你需要大量铝。",
+		"",
+		"将铝粉放入电力高炉中冶炼可以得到铝锭，通入氮气可以加速这一过程。",
+		"",
+		"不要想着用其它mod那可以用熔炉直接冶炼的铝锭来代替这种铝锭，它们拥有不同的矿物辞典（其它mod是Aluminum而这里的铝是Alumin§4§li§fum）",
+		"因此，使用矿辞转换器偷跑也是不显示的。",
+		"",
+		"你的LV阶段基本到这里就结束了，庆祝一下吧，MV将会是一个过渡阶段，使你过渡到最重要的时期之一——HV."
+	],
+	dependencies: [
+		"ae0daaaf",
+		"08e377b4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d6514ca6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3850b351",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "e59e299d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

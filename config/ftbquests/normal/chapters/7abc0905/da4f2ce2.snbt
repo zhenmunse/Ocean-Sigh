@@ -1,0 +1,38 @@
+{
+	title: "更大，更强，更花哨的中药柜",
+	x: -2.0d,
+	y: 5.5d,
+	shape: "circle",
+	text: [
+		"最基础的抽屉显然没法满足你现在以及将来的存储需求，",
+		"过多的柜子只会增大调度资源的复杂性，显然这对于机械和人都是十足的灾难。",
+		"因此，升级现有的抽屉是有必要的。"
+	],
+	dependencies: [
+		"38e1a0db",
+		"90ad0802"
+	],
+	tasks: [{
+		uid: "846180cc",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_template"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e66b0aad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "589857ab",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

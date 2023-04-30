@@ -1,0 +1,35 @@
+{
+	title: "化学浸洗",
+	x: -3.0d,
+	y: 3.5d,
+	shape: "circle",
+	text: [
+		"它可以让你从矿石中获得更多产物，或者，你也可以用它来造纸。"
+	],
+	dependencies: [
+		"be3a718b",
+		"03d1d062"
+	],
+	tasks: [{
+		uid: "66780f52",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 200"
+		}]
+	}],
+	rewards: [{
+		uid: "29b8858b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "37f7684c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}
