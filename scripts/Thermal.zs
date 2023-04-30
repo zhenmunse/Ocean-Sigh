@@ -221,13 +221,13 @@ recipes.addShaped(<thermalfoundation:material:513> * 2,
    [<gregtech:wire_single:2517>,<ore:wireGtDoubleGold>,null]]);
 
 recipes.remove(<thermalfoundation:material:514>);   //红石传输线圈
-recipes.addShaped(<thermalfoundation:material:513> * 2,
+recipes.addShaped(<thermalfoundation:material:514> * 2,
   [[null,<ore:wireGtDoubleSilver>,<gregtech:wire_single:2517>],
    [<ore:wireGtDoubleSilver>,<projectred-integration:gate:30>,<ore:wireGtDoubleSilver>],
    [<gregtech:wire_single:2517>,<ore:wireGtDoubleSilver>,null]]);
 
 recipes.remove(<thermalfoundation:material:515>);   //红石传导线圈
-recipes.addShaped(<thermalfoundation:material:513> * 2,
+recipes.addShaped(<thermalfoundation:material:515> * 2,
   [[<gregtech:wire_single:2517>,<ore:wireGtDoubleElectrum>,null],
    [<ore:wireGtDoubleElectrum>,<projectred-integration:gate:30>,<ore:wireGtDoubleElectrum>],
    [null,<ore:wireGtDoubleElectrum>,<gregtech:wire_single:2517>]]);
