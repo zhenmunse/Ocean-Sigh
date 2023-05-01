@@ -1,0 +1,30 @@
+{
+	title: "钠(Na)",
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"钠可以通过电解氯化钠，或其他含钠矿物得到。"
+	],
+	dependencies: [
+		"65fea3d5"
+	],
+	tasks: [{
+		uid: "a964547b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 101"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "3e5ad463",
+		type: "item",
+		item: "gregtech:meta_dust 1 377",
+		count: 16
+	},
+	{
+		uid: "15fa6134",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

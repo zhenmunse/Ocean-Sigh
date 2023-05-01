@@ -2,7 +2,7 @@
 	title: "热力的开始",
 	icon: "thermalfoundation:material 1 513",
 	x: -1.5d,
-	y: -3.0d,
+	y: -4.5d,
 	shape: "circle",
 	text: [
 		"如果你之前主玩RF系mod，那总算碰到了你的强项——热力膨胀",

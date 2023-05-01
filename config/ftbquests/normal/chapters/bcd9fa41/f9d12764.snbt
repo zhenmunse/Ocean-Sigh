@@ -1,0 +1,88 @@
+{
+	title: "丙烷(C3H8)、丁烷(C4H10)和丁二烯(C4H6)",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "butene",
+				Amount: 1000
+			}
+		},
+		Damage: 78s
+	},
+	x: -3.0d,
+	y: 5.0d,
+	shape: "circle",
+	text: [
+		"丙烷、丁烷和丁二烯都是你能从石油中提炼出的副产物，当然，还有辛烷、丙烯、甲苯、苯、丁烯等众多产物，但是它们中有些是有用的化工产品，有些则只能发电。"
+	],
+	dependencies: [
+		"eb5742a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2a664d1",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "propane",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 16L
+	},
+	{
+		uid: "207e24ee",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "butene",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 16L
+	},
+	{
+		uid: "580210ef",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "butadiene",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6917b208",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 48
+	},
+	{
+		uid: "ff0bf27b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

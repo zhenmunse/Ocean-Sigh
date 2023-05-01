@@ -1,0 +1,30 @@
+{
+	title: "钠电池",
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"钠电池容量较小，但是它相对来说也最廉价。"
+	],
+	dependencies: [
+		"62fb927e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "780587d3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 732"
+		}]
+	}],
+	rewards: [{
+		uid: "27c4d150",
+		type: "item",
+		item: "gregtech:meta_dust 1 101",
+		count: 16
+	},
+	{
+		uid: "da27660f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

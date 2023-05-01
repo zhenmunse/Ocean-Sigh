@@ -1,0 +1,30 @@
+{
+	title: "锂(Li)",
+	x: -6.5d,
+	y: -5.5d,
+	text: [
+		"锂、锂云母或锂辉石矿石经过处理可以得到锂。"
+	],
+	dependencies: [
+		"65fea3d5"
+	],
+	tasks: [{
+		uid: "5aa023b3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 56"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "f20a0076",
+		type: "item",
+		item: "gregtech:ore_lithium_0",
+		count: 8
+	},
+	{
+		uid: "f511f255",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

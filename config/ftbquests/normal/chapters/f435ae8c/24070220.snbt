@@ -1,0 +1,42 @@
+{
+	title: "中压(MV)",
+	x: -8.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"终于，经过了一整套流程，你进入了MV. MV是铝的时代，每种机器和零件都需要铝，因此你的电力高炉就显得尤为重要。",
+		"",
+		"别忘了安全，请将不同电压的机器分开。MV阶段的电压为128V.",
+		"",
+		"用MV机器加工LV配方会有损超频：消耗4倍电量，加工时间减半。"
+	],
+	dependencies: [
+		"a7cf9f66",
+		"a7a1ca75",
+		"8c26cec1",
+		"08e377b4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5e13adae",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 987"
+		}]
+	}],
+	rewards: [{
+		uid: "cd49cfef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "0b61899a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

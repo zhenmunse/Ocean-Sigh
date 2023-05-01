@@ -1,0 +1,45 @@
+{
+	title: "润滑油",
+	x: -6.5d,
+	y: -1.5d,
+	text: [
+		"润滑油可以代替水或蒸馏水，它可以减少板材切割机的耗能并提高切割速度。",
+		"",
+		"可以蒸馏种子油或杂酚油（你用焦炉的时候一定攒下来很多）来获得润滑油。",
+		"",
+		"如果你造出了酿造师，那么可以通过加入滑石或红石来增产。"
+	],
+	dependencies: [
+		"923e4bf0"
+	],
+	tasks: [{
+		uid: "52ccb21f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "lubricant",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2b82e6f7",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "creosote",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 8
+	}]
+}

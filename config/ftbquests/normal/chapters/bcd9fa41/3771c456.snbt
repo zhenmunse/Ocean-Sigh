@@ -1,7 +1,11 @@
 {
+	title: "矿词转换器",
 	x: -3.0d,
-	y: -4.5d,
+	y: -6.0d,
 	shape: "circle",
+	text: [
+		"铁匠词典的设备版。它不耗电，且可以自动化输入/输出。"
+	],
 	dependencies: [
 		"dbcd21bc"
 	],
@@ -25,5 +29,20 @@
 			},
 			Damage: 7s
 		}]
+	}],
+	rewards: [{
+		uid: "9e1ef73f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "2ee4373e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

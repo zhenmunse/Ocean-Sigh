@@ -1,0 +1,89 @@
+{
+	title: "中压",
+	loot_size: 1,
+	rewards: [{
+		item: "forestry:digger_bag"
+	},
+	{
+		item: "forestry:miner_bag"
+	},
+	{
+		item: "gregtech:meta_item_1 1 621",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 516",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 622",
+		count: 6
+	},
+	{
+		item: "gregtech:meta_item_1 1 402",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 401",
+		count: 8
+	},
+	{
+		item: "tconstruct:materials 1 19"
+	},
+	{
+		item: "tconstruct:materials 1 16"
+	},
+	{
+		item: "thermalexpansion:frame"
+	},
+	{
+		item: "thermalexpansion:frame 1 64"
+	},
+	{
+		item: "tconstruct:materials 1 10"
+	},
+	{
+		item: "forestry:portable_alyzer"
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "ic2:te 1 1",
+		count: 16
+	},
+	{
+		item: "openblocks:elevator",
+		count: 2
+	},
+	{
+		item: {
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			}
+		},
+		count: 16
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermalfoundation:material 1 512",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 513",
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "4",
+		item_name: "奖励箱（中压）",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

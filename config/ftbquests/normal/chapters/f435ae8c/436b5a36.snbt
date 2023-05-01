@@ -1,0 +1,38 @@
+{
+	title: "电解一切",
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"现在，是时候面对你挖到的一堆混合物矿石了。",
+		"",
+		"在之前，你只是打粉（或许还有洗矿和离心），但是并没有什么用。现在你可以利用它们了。",
+		"",
+		"这台电解机和电解几乎没什么关系，基本是原子剥离器:)"
+	],
+	dependencies: [
+		"24070220"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6b0ba045",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 276"
+		}]
+	}],
+	rewards: [{
+		uid: "87d47ca9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "1fbc4d34",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

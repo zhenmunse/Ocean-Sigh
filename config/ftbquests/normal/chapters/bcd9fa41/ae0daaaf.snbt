@@ -17,6 +17,7 @@
 		"ef399b70",
 		"7b5492af"
 	],
+	hide: true,
 	size: 2.0d,
 	tasks: [{
 		uid: "4c913a7e",

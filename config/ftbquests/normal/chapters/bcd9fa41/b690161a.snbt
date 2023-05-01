@@ -1,0 +1,42 @@
+{
+	title: "批量制作锻铁",
+	x: -14.0d,
+	y: -5.5d,
+	shape: "circle",
+	text: [
+		"电弧炉允许你批量制作锻铁。同时，你也可以借此提升制作钢的效率——铁→锻铁→钢。",
+		"",
+		"但你需要足够多的氧气。"
+	],
+	dependencies: [
+		"c78a389f"
+	],
+	tasks: [{
+		uid: "596fff81",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "aeae7513",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 16
+	},
+	{
+		uid: "aa044398",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

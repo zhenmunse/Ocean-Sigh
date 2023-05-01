@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: 2.5d,
+	shape: "circle",
+	dependencies: [
+		"923e4bf0"
+	],
+	tasks: [{
+		uid: "433c9329",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 9L
+	}]
+}

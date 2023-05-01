@@ -1,0 +1,28 @@
+{
+	title: "氢气(H2)",
+	x: -6.5d,
+	y: 7.0d,
+	text: [
+		"通过离心某些矿石或者电解水/盐水都可以得到氢气。"
+	],
+	dependencies: [
+		"477ff786"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "7d2f3e47",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 8L
+	}]
+}

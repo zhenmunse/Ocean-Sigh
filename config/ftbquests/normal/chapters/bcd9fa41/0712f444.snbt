@@ -1,0 +1,34 @@
+{
+	title: "镉(Cd)",
+	x: -6.5d,
+	y: -4.5d,
+	text: [
+		"通过离心或热离等方式，你可以从闪锌矿中获得镉。"
+	],
+	dependencies: [
+		"65fea3d5"
+	],
+	tasks: [{
+		uid: "22547aa7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 19"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "73deaebb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "6a21eb70",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

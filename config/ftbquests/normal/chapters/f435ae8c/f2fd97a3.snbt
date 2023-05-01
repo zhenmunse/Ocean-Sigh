@@ -1,0 +1,41 @@
+{
+	title: "MV阶段的电力活塞",
+	x: -8.0d,
+	y: 4.0d,
+	text: [
+		"现在你需要很多电力活塞了，甚至比LV还多。"
+	],
+	dependencies: [
+		"95121e12"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d0d66b50",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 173"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "f36cdc25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "320bf468",
+		type: "item",
+		item: "gregtech:meta_item_1 1 128",
+		count: 4
+	},
+	{
+		uid: "5286ab76",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "重燃料",
+	x: -7.0d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"重燃料虽然热值较高(240kEU/桶)，但是它在石油中的含量太低了，并不值得作为燃料单独提炼。",
+		"",
+		"到了MV，从油砂中离心出的重油是制取重燃料的更好选择。",
+		"",
+		"它的主要用途是制取柴油，或者裂化后制取其它产品。"
+	],
+	dependencies: [
+		"466de954",
+		"8095e4e8"
+	],
+	tasks: [{
+		uid: "f60faeb4",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "heavy_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "c5140486",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oil_heavy",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 16
+	},
+	{
+		uid: "68174a46",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

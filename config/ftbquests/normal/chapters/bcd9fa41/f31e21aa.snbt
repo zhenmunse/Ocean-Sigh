@@ -1,0 +1,42 @@
+{
+	title: "含硫炼油气",
+	x: -5.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"一种可以在燃气轮机中燃烧的气体。"
+	],
+	dependencies: [
+		"923e4bf0"
+	],
+	tasks: [{
+		uid: "ad03f44c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_gas",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "95cd7319",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "9173e05d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

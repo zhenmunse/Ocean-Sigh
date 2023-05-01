@@ -1,0 +1,30 @@
+{
+	title: "电池合金",
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"将锑和铅混合可以得到电池合金。它是LV~HV级别电池外壳的原料。"
+	],
+	dependencies: [
+		"41b62b41"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ae50df4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 256"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "ae3c31f9",
+		type: "choice",
+		table: 5
+	},
+	{
+		uid: "59bee583",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

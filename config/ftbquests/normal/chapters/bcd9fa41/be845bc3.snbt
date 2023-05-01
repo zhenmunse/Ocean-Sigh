@@ -1,0 +1,48 @@
+{
+	title: "轻燃料（汽油）",
+	x: -6.0d,
+	y: 4.5d,
+	text: [
+		"这是一种热值很高的燃料(305kEU/桶)",
+		"",
+		"到了MV阶段，你可以将它进一步转化为柴油；",
+		"",
+		"它也是制取聚乙烯的重要原料。"
+	],
+	dependencies: [
+		"e1e40445",
+		"8095e4e8"
+	],
+	tasks: [{
+		uid: "ec650d2e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "light_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "1c9a90cc",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Configuration: 0
+			},
+			Damage: 461s
+		},
+		count: 2
+	},
+	{
+		uid: "36b222ff",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

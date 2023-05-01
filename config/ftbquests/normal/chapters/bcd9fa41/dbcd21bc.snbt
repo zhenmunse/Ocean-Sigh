@@ -1,7 +1,11 @@
 {
+	title: "铁匠词典",
 	x: -1.5d,
-	y: -4.5d,
+	y: -6.0d,
 	shape: "circle",
+	text: [
+		"它可以将物品在同一矿辞之间转换。"
+	],
 	dependencies: [
 		"e67bdf6e"
 	],

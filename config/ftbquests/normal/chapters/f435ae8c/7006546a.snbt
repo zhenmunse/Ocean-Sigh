@@ -1,0 +1,34 @@
+{
+	title: "聚乙烯(PE), -[CH2=CH2]-n",
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"聚乙烯是一种重要的塑料。"
+	],
+	dependencies: [
+		"b6b6d57a"
+	],
+	tasks: [{
+		uid: "8635d3fb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1012"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "70475334",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "5b775e82",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

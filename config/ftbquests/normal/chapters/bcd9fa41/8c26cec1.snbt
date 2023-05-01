@@ -2,6 +2,7 @@
 	title: "迈向中压",
 	x: 11.5d,
 	y: 7.0d,
+	shape: "gear",
 	text: [
 		"想要进一步发展，你需要大量铝。",
 		"",
@@ -16,6 +17,7 @@
 		"ae0daaaf",
 		"08e377b4"
 	],
+	hide: true,
 	size: 2.0d,
 	tasks: [{
 		uid: "d6514ca6",

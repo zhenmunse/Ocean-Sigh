@@ -1,0 +1,29 @@
+{
+	title: "镉电池",
+	x: -8.0d,
+	y: -4.5d,
+	text: [
+		"镉电池的储电量中等。"
+	],
+	dependencies: [
+		"0712f444"
+	],
+	tasks: [{
+		uid: "3075c70a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 738"
+		}]
+	}],
+	rewards: [{
+		uid: "218d1e68",
+		type: "item",
+		item: "gregtech:meta_dust 1 19",
+		count: 2
+	},
+	{
+		uid: "321b530f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

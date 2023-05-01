@@ -1,0 +1,53 @@
+{
+	title: "诱捕美军",
+	icon: "gregtech:machine 1 1530",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"你应该看到过这些庞大的油泉吧？用泵来收集它们。石油可以直接用于内燃机，但是这样效率很低，将其加工为更高级的燃料是更好的选择。",
+		"",
+		"记得带上发电机或者电池箱来给泵供电；泵可以将石油自动输出。",
+		"",
+		"现阶段你应该尽量找喷出地面高度较低的油泉，否则LV泵的开采范围可能不足以采集完整。"
+	],
+	dependencies: [
+		"03d1d062"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e4cd303",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1530"
+		}]
+	},
+	{
+		uid: "08252212",
+		type: "item",
+		items: [{
+			item: "ic2:mining_pipe"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "fda93870",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "4fb63110",
+		type: "item",
+		item: "minecraft:bucket",
+		count: 8
+	},
+	{
+		uid: "eb1f3c40",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

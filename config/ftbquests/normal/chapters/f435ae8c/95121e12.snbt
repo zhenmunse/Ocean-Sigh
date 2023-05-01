@@ -1,0 +1,35 @@
+{
+	title: "MV阶段的马达",
+	x: -8.0d,
+	y: 2.5d,
+	text: [
+		"MV马达内的磁性装置升级为了磁化钢。因此你需要两极磁化机，如果你还没做的话，返回LV任务并制作一个。"
+	],
+	dependencies: [
+		"24070220"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3bf28d70",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 128"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "dcdbdd53",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "ae55be85",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

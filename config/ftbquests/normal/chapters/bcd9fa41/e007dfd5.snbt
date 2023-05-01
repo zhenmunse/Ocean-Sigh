@@ -1,0 +1,33 @@
+{
+	title: "切割，再切割",
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"现在，你需要一种全新的合金——钴黄铜[(ZnCu3)7AlCo",
+		"它是一种非常“锋利”的金属。",
+		"",
+		"§3虽然这是它的唯一用途"
+	],
+	dependencies: [
+		"be3a718b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62d79c06",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_tool_head_buzz_saw 1 2014"
+		}]
+	}],
+	rewards: [{
+		uid: "187e4452",
+		type: "item",
+		item: "harvestcraft:beefwellingtonitem",
+		count: 32
+	},
+	{
+		uid: "d0b0a1f8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

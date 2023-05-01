@@ -1,0 +1,12 @@
+{
+	title: "电池合金-任务奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:ore_lead_0",
+		count: 8
+	},
+	{
+		item: "gregtech:ore_stibnite_0",
+		count: 8
+	}]
+}

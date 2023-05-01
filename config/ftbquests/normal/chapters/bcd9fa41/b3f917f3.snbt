@@ -1,0 +1,48 @@
+{
+	title: "甲烷(CH4)",
+	x: -3.0d,
+	y: 4.0d,
+	shape: "circle",
+	text: [
+		"蒸馏炼油气或离心食物可以得到甲烷，它是一种良好的燃料。"
+	],
+	dependencies: [
+		"eb5742a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "606da3c7",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "methane",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "dd917f8d",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 16
+	},
+	{
+		uid: "b7be8c33",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

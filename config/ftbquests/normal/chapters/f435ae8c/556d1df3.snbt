@@ -1,0 +1,41 @@
+{
+	title: "MV电动泵",
+	x: -9.5d,
+	y: 2.5d,
+	text: [
+		"它可以帮助你构建生产线，并且不幸的是——你需要制作很多。"
+	],
+	dependencies: [
+		"95121e12"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "79a0f06c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 143"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "897fadea",
+		type: "item",
+		item: "gregtech:fluid_pipe_huge 1 324",
+		count: 8
+	},
+	{
+		uid: "99fb3a20",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "e3fe33f1",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

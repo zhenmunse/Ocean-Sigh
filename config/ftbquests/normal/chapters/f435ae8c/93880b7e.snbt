@@ -1,0 +1,34 @@
+{
+	title: "硅(Si)",
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		"硅的来源很多，一个较为常规的方式是电解二氧化硅——二氧化硅来源于沙子粉碎产生的石英矿砂。"
+	],
+	dependencies: [
+		"436b5a36"
+	],
+	tasks: [{
+		uid: "64e3f516",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 99"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "522c58bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "f180c2a8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

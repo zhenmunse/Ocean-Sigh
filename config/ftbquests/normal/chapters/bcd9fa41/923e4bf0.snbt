@@ -1,0 +1,43 @@
+{
+	title: "提纯你的石油",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"石油需要提炼之后才能使其燃烧更有效率。",
+		"",
+		"现在的单方块蒸馏室只能获取一种产物。到HV阶段，你便可以制作多方块蒸馏塔，它可以蒸出所有产物。"
+	],
+	dependencies: [
+		"df087284"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad6a4ff4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 260"
+		}]
+	}],
+	rewards: [{
+		uid: "c74670b0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 79",
+		count: 64
+	},
+	{
+		uid: "88984638",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Configuration: 0
+			},
+			Damage: 461s
+		}
+	},
+	{
+		uid: "cf9843c4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

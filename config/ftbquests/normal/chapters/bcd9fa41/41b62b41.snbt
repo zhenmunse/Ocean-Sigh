@@ -1,0 +1,50 @@
+{
+	title: "炼铜与51号元素",
+	icon: "gregtech:ore_tetrahedrite_0 1 1",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"你需要锑来制作电池外壳。锑的主要来源是辉锑矿，它生成在黝铜矿脉中。",
+		"",
+		"在下界的80~120高度可以找到它。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42604032",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tetrahedrite_0 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "16ef65fd",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f0b92261",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "f60f9b83",
+		type: "item",
+		item: "gregtech:ore_lead_0",
+		count: 8
+	},
+	{
+		uid: "3ddb4489",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

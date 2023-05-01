@@ -1,0 +1,39 @@
+{
+	title: "电“葫芦”",
+	x: -12.0d,
+	y: -4.5d,
+	text: [
+		"电弧炉可以回收你的废旧设备，可以制造锻铁、退火铜、玻璃。",
+		"",
+		"但是它需要3A电流，因此你可能需要多台发电机，或者干脆直接连接电池箱。",
+		"",
+		"§4§l请不要给LV电弧炉通入1A128V电流，这会使他爆炸！"
+	],
+	dependencies: [
+		"13e103d2"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "e6f1f92e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 95"
+		}]
+	}],
+	rewards: [{
+		uid: "8a6b33ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "e25b68ea",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

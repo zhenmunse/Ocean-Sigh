@@ -1,0 +1,41 @@
+{
+	title: "含硫轻燃油",
+	x: -6.0d,
+	y: 2.5d,
+	text: [
+		"它是你制作轻燃料的中间体，燃值较低；不过如果你还没制作出离心机，燃烧它也是可行的(40kEU/桶)"
+	],
+	dependencies: [
+		"923e4bf0"
+	],
+	tasks: [{
+		uid: "592063dd",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_light_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "7273ef31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "370b1c42",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

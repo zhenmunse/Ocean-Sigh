@@ -1,0 +1,47 @@
+{
+	title: "乙烯(CH2=CH2)",
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"乙烯有很多获取方式：",
+		"",
+		"乙醇发生消去反应（脱水）",
+		"",
+		"蒸馏各种气体",
+		"",
+		"裂解石油产品"
+	],
+	dependencies: [
+		"e869298b"
+	],
+	tasks: [{
+		uid: "051877ba",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "ethylene",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "486b7a86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "f93ee0a7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

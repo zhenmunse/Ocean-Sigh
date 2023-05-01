@@ -1,0 +1,18 @@
+{
+	title: "单晶硅",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"从现在开始，你需要硅半导体芯片。单晶硅是一切的基础，制作一个吧。"
+	],
+	dependencies: [
+		"93880b7e"
+	],
+	tasks: [{
+		uid: "2c8860b7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 361"
+		}]
+	}]
+}

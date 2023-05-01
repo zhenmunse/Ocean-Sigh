@@ -1,0 +1,36 @@
+{
+	title: "切片，切丝，切块",
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"它可以一定程度上代替你的锯子和锉刀，能将杆切割成螺栓，板材切割成外壳，原木切割成木板，且产量更高。",
+		"",
+		"需要水、蒸馏水或润滑油来作为润滑剂。"
+	],
+	dependencies: [
+		"e007dfd5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4416de9e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 245"
+		}]
+	}],
+	rewards: [{
+		uid: "4c4b5655",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "bc3330b9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

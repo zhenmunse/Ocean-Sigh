@@ -1,0 +1,34 @@
+{
+	title: "装罐机",
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"装罐机可以填充电池外壳、单元或冷却单元。但GT储罐可以代替它的大部分功能，因此它的主要功能是制作电池。"
+	],
+	dependencies: [
+		"de181efd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e206221b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 170"
+		}]
+	}],
+	rewards: [{
+		uid: "62c21718",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "d00010f0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

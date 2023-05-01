@@ -1,0 +1,43 @@
+{
+	title: "氧气(O2)",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"氧气可以通过离心黄褐/棕褐铁矿得到，也可以电解二氧化锡、水等物质得到。",
+		"",
+		"当然，离心空气也是不错的选择，它将是你的重要氧气来源。"
+	],
+	dependencies: [
+		"436b5a36"
+	],
+	tasks: [{
+		uid: "1ec476cc",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8d4e7338",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "1d82095e",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

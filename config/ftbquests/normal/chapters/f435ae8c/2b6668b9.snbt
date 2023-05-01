@@ -1,0 +1,37 @@
+{
+	title: "压制一切",
+	x: -11.5d,
+	y: 5.5d,
+	shape: "gear",
+	text: [
+		"这台机器是史上最有用的机器之一——它可以按照最大产出来压制零件（除转子以外）",
+		"",
+		"压模器需要模§4§l头§f而不是模§4§l具"
+	],
+	dependencies: [
+		"f2fd97a3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7173a65c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 321"
+		}]
+	}],
+	rewards: [{
+		uid: "20d72ff4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "887cb449",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

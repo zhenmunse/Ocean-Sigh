@@ -1,0 +1,43 @@
+{
+	title: "炼油气",
+	x: -5.0d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"炼油气是一种效率较高的燃料(160kEU/桶)，也可以用来合成其它气体。"
+	],
+	dependencies: [
+		"f31e21aa",
+		"8095e4e8"
+	],
+	tasks: [{
+		uid: "3ef54666",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "refinery_gas",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "23ff45d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "6cd8767d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

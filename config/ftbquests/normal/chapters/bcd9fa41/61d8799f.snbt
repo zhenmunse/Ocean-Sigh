@@ -1,0 +1,29 @@
+{
+	title: "锂电池",
+	x: -8.0d,
+	y: -5.5d,
+	text: [
+		"锂电池的容量是目前最大的。"
+	],
+	dependencies: [
+		"9ddb9f79"
+	],
+	tasks: [{
+		uid: "bd7a8078",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 735"
+		}]
+	}],
+	rewards: [{
+		uid: "99f3082f",
+		type: "item",
+		item: "gregtech:meta_dust 1 56",
+		count: 4
+	},
+	{
+		uid: "aa4b876b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

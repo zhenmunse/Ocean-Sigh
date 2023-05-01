@@ -1,0 +1,40 @@
+{
+	title: "彻底解放锉刀",
+	x: -1.5d,
+	y: 6.0d,
+	text: [
+		"之前，你需要整整一个锭来制作杆，而且制作锉刀也需要金属锭。",
+		"",
+		"现在，你可以使用车床来加工杆。",
+		"",
+		"§3§l当然，MV阶段的压模器效率比它还要高，因此记得替换。",
+		"",
+		"§3它真正的作用是将螺栓1:1加工为螺丝，或用于制作透镜。"
+	],
+	dependencies: [
+		"2ab79338"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b16d632f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 440"
+		}]
+	}],
+	rewards: [{
+		uid: "3d120362",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "ef771dda",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "更好的组装机",
+	x: -6.5d,
+	y: 5.5d,
+	text: [
+		"组装机的中压版本，可以用于制作贴片电阻。"
+	],
+	dependencies: [
+		"e4ed8189",
+		"cdc94d60"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "fa654c5d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 111"
+		}]
+	}],
+	rewards: [{
+		uid: "2ec39dc5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "152650cd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

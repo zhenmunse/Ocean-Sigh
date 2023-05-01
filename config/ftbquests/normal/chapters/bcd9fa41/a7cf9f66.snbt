@@ -1,0 +1,41 @@
+{
+	title: "批量制作退火铜",
+	x: -14.0d,
+	y: -3.5d,
+	text: [
+		"使用电力高炉制取退火铜的效率是很低的，电弧炉将大大加速这一过程。",
+		"",
+		"退火铜是制造导线的良好材料，后续制造电路元件时也需要它。"
+	],
+	dependencies: [
+		"c78a389f"
+	],
+	tasks: [{
+		uid: "2e54bde4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 252"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3cd340da",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		},
+		count: 16
+	},
+	{
+		uid: "e6f23dac",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

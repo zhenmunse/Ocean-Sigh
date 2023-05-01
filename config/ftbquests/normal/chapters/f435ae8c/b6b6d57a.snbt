@@ -1,0 +1,42 @@
+{
+	title: "熔融聚乙烯",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"不要使用空气，这会减产。"
+	],
+	dependencies: [
+		"d517c63a",
+		"0015771f"
+	],
+	tasks: [{
+		uid: "372f4528",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 1000
+				}
+			},
+			Damage: 79s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "64df8f53",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "b5b22bcd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

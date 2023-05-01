@@ -1,0 +1,41 @@
+{
+	title: "MV传送带",
+	x: -6.5d,
+	y: 2.5d,
+	text: [
+		"MV传送带比LV更快，这使得它的可用性大大增加。"
+	],
+	dependencies: [
+		"95121e12"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "fb814b18",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 158"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "334755a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "84270ebb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 128",
+		count: 2
+	},
+	{
+		uid: "b0f12710",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}
