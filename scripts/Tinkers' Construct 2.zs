@@ -9,7 +9,7 @@ recipes.addShaped(<tconstruct:pattern> * 1,
 //合成站
 recipes.remove(<tconstruct:tooltables>);
 recipes.addShapeless(<tconstruct:tooltables>,
-    [<minecraft:crafting_table>,<gregtech:meta_tool:5>]);
+    [<minecraft:crafting_table>,<ore:craftingsaw>]);
 //部件加工台
 recipes.remove(<tconstruct:tooltables:2>);
 recipes.addShaped(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}) * 1,

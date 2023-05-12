@@ -45,11 +45,10 @@ recipes.addShaped(<gregtech:meta_item_1:350> * 3,
    [<ore:sand>,<gregtech:meta_item_1:348>.reuse(),<ore:sand>],
    [<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>]]);
 //给所有锯类添加通用矿辞
-<ore:craftingsaw>.add(<gregtech:meta_tool:5>);  //GT锯子
-<ore:craftingsaw>.add(<gregtech:meta_tool:25>);  //GT链锯(LV)
-<ore:craftingsaw>.add(<gregtech:meta_tool:26>);  //GT链锯(MV)
-<ore:craftingsaw>.add(<gregtech:meta_tool:27>);  //GT链锯(HV)
-<ore:craftingsaw>.add(<gregtech:meta_tool:32>);  //GT圆锯(LV)
+<ore:craftingsaw>.add(<gregtech:saw>);  //GT锯子
+<ore:craftingsaw>.add(<gregtech:buzzsaw>);  //GT圆锯(LV)
+<ore:craftingsaw>.add(<gregtech:chainsaw_lv>);  //GT链锯(LV)
+
 //货币
 recipes.remove(<gregtech:meta_item_1>);
 recipes.remove(<gregtech:meta_item_1:1>);
@@ -66,13 +65,13 @@ recipes.remove(<gregtech:meta_item_1:10>);
 recipes.remove(<gregtech:machine:1>);
 recipes.addShaped(<gregtech:machine:1> * 1,
   [[<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>],
-   [<ore:plateBronze>,<ore:craftingToolWrench>,<ore:plateBronze>],
+   [<ore:plateBronze>,<ore:toolWrench>,<ore:plateBronze>],
    [<ore:blockBrick>,<ic2:te:46>,<ore:blockBrick>]]);
 //高压燃煤锅炉
 recipes.remove(<gregtech:machine:2>);
 recipes.addShaped(<gregtech:machine:2> * 1,
   [[<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],
-   [<ore:plateSteel>,<ore:craftingToolWrench>,<ore:plateSteel>],
+   [<ore:plateSteel>,<ore:toolWrench>,<ore:plateSteel>],
    [<ore:blockBrick>,<ic2:te:46>,<ore:blockBrick>]]);
 //小型熔岩锅炉
 recipes.remove(<gregtech:machine:5>);

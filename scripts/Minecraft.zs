@@ -25,13 +25,13 @@ recipes.addShaped(<minecraft:bed> * 1,
   //南瓜种子 pumpkin_seeds
   recipes.remove(<minecraft:pumpkin_seeds>);
   recipes.addShapeless(<minecraft:pumpkin_seeds> * 4,
-    [<minecraft:pumpkin>,<gregtech:meta_tool:7>]);
+    [<minecraft:pumpkin>,<ore:toolMallet>]);
   recipes.addShapeless(<minecraft:pumpkin_seeds> * 1,
-    [<harvestcraft:harvestpumpkinitem>,<gregtech:meta_tool:7>]);
+    [<harvestcraft:harvestpumpkinitem>,<ore:toolMallet>]);
   //西瓜种子 watermelon_seeds
   recipes.remove(<minecraft:melon_seeds>);
   recipes.addShapeless(<minecraft:melon_seeds> * 1,
-    [<minecraft:melon>,<gregtech:meta_tool:7>]);
+    [<minecraft:melon>,<ore:toolMallet>]);
 
 //纸
 recipes.removeShapeless(paper * 3,
