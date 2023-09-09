@@ -1,0 +1,32 @@
+{
+	title: "不锈钢粉",
+	x: -11.5d,
+	y: -5.5d,
+	text: [
+		"不锈钢就像前几个阶段的钢、铝一样，是HV阶段的主要材料。"
+	],
+	dependencies: [
+		"6fe266ab",
+		"b206ff67"
+	],
+	hide: true,
+	tasks: [{
+		uid: "522f4ac1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 323"
+		}],
+		count: 72L
+	}],
+	rewards: [{
+		uid: "18b00187",
+		type: "item",
+		item: "gregtech:meta_dust 1 323",
+		count: 16
+	},
+	{
+		uid: "fd5fd140",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

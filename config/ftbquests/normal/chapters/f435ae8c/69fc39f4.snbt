@@ -1,0 +1,49 @@
+{
+	title: "橡胶替代品-丁苯橡胶（一）",
+	x: 0.5d,
+	y: -15.5d,
+	text: [
+		"丁苯橡胶（聚苯乙烯-丁二烯）也是一种很好的橡胶替代品。",
+		"",
+		"为了制作丁苯橡胶，你首先需要用蒸汽来裂化石脑油。"
+	],
+	dependencies: [
+		"5871b405",
+		"fef1908a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b5937ab",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "lightly_steamcracked_naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "011a3968",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "crude_oil",
+					Amount: 64000
+				}
+			},
+			Damage: 82s
+		}
+	},
+	{
+		uid: "f0b43b31",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

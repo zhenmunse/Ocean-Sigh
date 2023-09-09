@@ -1,0 +1,42 @@
+{
+	title: "乙烯酮（CH2=C=O）",
+	x: -2.5d,
+	y: -10.5d,
+	shape: "circle",
+	text: [
+		"乙烯酮是制作高十六烷值柴油的中间产物。"
+	],
+	dependencies: [
+		"5e317688"
+	],
+	tasks: [{
+		uid: "550630a7",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "ethenone",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f930f40a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "43e32219",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

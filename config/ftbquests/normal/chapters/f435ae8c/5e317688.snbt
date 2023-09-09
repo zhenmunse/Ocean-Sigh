@@ -1,0 +1,41 @@
+{
+	title: "丙酮（CH3COCH3）",
+	x: -1.0d,
+	y: -10.5d,
+	text: [
+		"丙酮是一种重要的化工原料，现在你需要用它制作高十六烷值柴油的合成材料——乙烯酮。将来，你会需要大量丙酮来制作环氧氯丙烷的——这将是你从EV开始贯穿整个科技线的一种化合物。"
+	],
+	dependencies: [
+		"4702d025"
+	],
+	tasks: [{
+		uid: "0d10b834",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "acetone",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "be8f523d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "af1e9809",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

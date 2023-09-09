@@ -1,0 +1,35 @@
+{
+	title: "纳米级芯片——纳米处理器主机",
+	x: 8.5d,
+	y: -3.5d,
+	text: [
+		"纳米处理器主机是你能制作的第一种LuV电路板。",
+		"",
+		"你需要用它来制作EV电路组装机。"
+	],
+	dependencies: [
+		"f1df487d"
+	],
+	tasks: [{
+		uid: "8343b777",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 635"
+		}]
+	}],
+	rewards: [{
+		uid: "ed1e5512",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "d7069e6a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

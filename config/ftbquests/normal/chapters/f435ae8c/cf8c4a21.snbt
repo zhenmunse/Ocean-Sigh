@@ -1,0 +1,49 @@
+{
+	title: "过硫酸钠(Na2S2O8)",
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"电解硫酸氢钠(NaHSO4)粉末可以得到过硫酸钠，硫酸氢钠则需要盐和硫酸在化学反应釜中得到。",
+		"",
+		"它主要用于蚀刻电路板。",
+		"",
+		"§3§l它和三氯化铁只需制造一种即可。"
+	],
+	dependencies: [
+		"7006546a"
+	],
+	tasks: [{
+		uid: "f4bfad4a",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sodium_persulfate",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}]
+	}],
+	rewards: [{
+		uid: "58057d6d",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "iron_iii_chloride",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	},
+	{
+		uid: "24986b60",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

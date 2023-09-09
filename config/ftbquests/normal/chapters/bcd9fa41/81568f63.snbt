@@ -1,7 +1,7 @@
 {
 	title: "胶水",
 	x: 9.0d,
-	y: 7.0d,
+	y: 5.0d,
 	text: [
 		"离心粘性树脂可以得到胶水，你需要用它来黏合并绝缘电路板。"
 	],
@@ -21,5 +21,20 @@
 			},
 			Damage: 78s
 		}]
+	}],
+	rewards: [{
+		uid: "61d78683",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "d8b644aa",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

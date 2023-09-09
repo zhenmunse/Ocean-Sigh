@@ -1,0 +1,36 @@
+{
+	title: "转换能量",
+	x: -1.5d,
+	y: -4.5d,
+	shape: "hexagon",
+	text: [
+		"能量转换器可以使能量在EU和FE（也就是MJ、RF等能量）之间互相转换。",
+		"",
+		"注意电流，现在一个4A的能量转换器大概够用了。"
+	],
+	dependencies: [
+		"d397ad51"
+	],
+	tasks: [{
+		uid: "4e1c0dbd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1675"
+		}]
+	}],
+	rewards: [{
+		uid: "b8c6eed1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "9363109a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "纳米级芯片——纳米处理器",
+	x: 7.0d,
+	y: -5.0d,
+	text: [
+		"现在，你可以直接制作出HV电路板了。但这并不重要，重要的是，现在你可以将HV电路板堆叠4次，以得到纳米处理器主机——你的第一个LuV电路板。"
+	],
+	dependencies: [
+		"27953193"
+	],
+	tasks: [{
+		uid: "006d5ddf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 632"
+		}]
+	}],
+	rewards: [{
+		uid: "c4debe9b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 527",
+		count: 32
+	},
+	{
+		uid: "6620c629",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -79,7 +79,7 @@
 	loot_crate: {
 		string_id: "4",
 		item_name: "奖励箱（中压）",
-		color: 16777215,
+		color: 6395830,
 		drops: {
 			boss: 0,
 			passive: 0,

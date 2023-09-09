@@ -1,0 +1,24 @@
+{
+	title: "硅板",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"硅板可以制作你需要的晶体管。"
+	],
+	dependencies: [
+		"e5e8aa6e"
+	],
+	tasks: [{
+		uid: "24905ca0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 99"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7eb7fb8e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

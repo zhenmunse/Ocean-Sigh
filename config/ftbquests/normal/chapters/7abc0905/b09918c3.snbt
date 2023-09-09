@@ -19,5 +19,10 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 621"
 		}]
+	}],
+	rewards: [{
+		uid: "d0d4ba3c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
 	}]
 }

@@ -3,8 +3,8 @@
 //焦炉砖
 recipes.remove(<railcraft:coke_oven>);
 recipes.addShaped(<railcraft:coke_oven> * 1,
-  [[<contenttweaker:cokeovenbrick>,<contenttweaker:cokeovenbrick>,null],
-   [<contenttweaker:cokeovenbrick>,<contenttweaker:cokeovenbrick>,null],
+  [[<contenttweaker:cokeoven_brick>,<contenttweaker:cokeoven_brick>,null],
+   [<contenttweaker:cokeoven_brick>,<contenttweaker:cokeoven_brick>,null],
    [null,null,null]]);
 //削弱合成表
 recipes.remove(<railcraft:gear:*>);  //齿轮

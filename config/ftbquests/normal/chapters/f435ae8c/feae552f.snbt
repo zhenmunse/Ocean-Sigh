@@ -1,0 +1,30 @@
+{
+	title: "HV研磨机",
+	x: 8.0d,
+	y: -11.0d,
+	shape: "gear",
+	text: [
+		"如果你玩过GT5的话，应该对它记忆犹新。进阶研磨机 II（即“通用研磨机），是你目前阶段最重要的机器——§4几乎没有之一§f。·从这个级别的研磨机开始，将会有副产物产生。诸如镓等稀有物质现在也可以通过它来进行增产了——而不只局限于你曾经使用的那些办法。"
+	],
+	dependencies: [
+		"f9329cb2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2e6572d7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 67"
+		}]
+	}],
+	rewards: [{
+		uid: "0ddf502d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 267"
+	},
+	{
+		uid: "2e492698",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

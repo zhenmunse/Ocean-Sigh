@@ -1,0 +1,33 @@
+{
+	title: "更好的化学浸洗器",
+	x: 7.5d,
+	y: -8.5d,
+	text: [
+		"现在，HV化学浸洗器可以加速你处理矿物的速度。到了EV阶段，你还需要它来制作量子之眼。"
+	],
+	dependencies: [
+		"3e85c3b9"
+	],
+	tasks: [{
+		uid: "21d60e58",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 202"
+		}]
+	}],
+	rewards: [{
+		uid: "cc9de7ad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "0b78eef9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

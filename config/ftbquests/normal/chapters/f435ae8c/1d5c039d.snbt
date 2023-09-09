@@ -1,0 +1,35 @@
+{
+	title: "铂",
+	x: 11.5d,
+	y: -2.5d,
+	text: [
+		"铂是一种非常关键的金属，它的矿脉可以在末地找到——但是生成概率很低，只有磁铁矿的八分之一。",
+		"你也可以通过镍矿石的副产物得到一定量的铂。"
+	],
+	dependencies: [
+		"6f7232f3"
+	],
+	tasks: [{
+		uid: "cbb7cc56",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 80"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "acc30793",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "770f0003",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

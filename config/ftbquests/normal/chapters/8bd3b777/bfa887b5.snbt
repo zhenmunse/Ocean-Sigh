@@ -1,0 +1,30 @@
+{
+	title: "高级电路基板",
+	x: 4.0d,
+	y: -5.0d,
+	text: [
+		"为了制作更好的处理器，用环氧树脂制成的高级电路基板是必不可少的。",
+		"首先，用硫酸来结合环氧树脂和金箔，再用三氯化铁或过硫酸钠将琥珀金板结合上去，就可以得到高级电路基板了。"
+	],
+	dependencies: [
+		"2b30500e"
+	],
+	tasks: [{
+		uid: "7ef58aa6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 404"
+		}]
+	}],
+	rewards: [{
+		uid: "c839af9d",
+		type: "item",
+		item: "gregtech:meta_plate 1 1013",
+		count: 16
+	},
+	{
+		uid: "9e708fe3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

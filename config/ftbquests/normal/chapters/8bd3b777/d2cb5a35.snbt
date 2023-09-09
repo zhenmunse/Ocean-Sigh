@@ -1,0 +1,20 @@
+{
+	title: "EV板材切割机",
+	x: 8.5d,
+	y: 0.0d,
+	text: [
+		"虽然你现在还不需要，但它至少能加速处理，对吧。",
+		"当然，你后面会需要它来切割Qbit、ASoC和功率IC的。"
+	],
+	dependencies: [
+		"99fa5233"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08ef7c59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 248"
+		}]
+	}]
+}

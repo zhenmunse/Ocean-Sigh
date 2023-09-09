@@ -1,0 +1,30 @@
+{
+	title: "钛白粉？金红石！",
+	x: 16.0d,
+	y: -9.0d,
+	text: [
+		"金红石是制备钛的重要中间体，可以通过在高炉中共热碳粉和钛铁矿来制备。"
+	],
+	dependencies: [
+		"0b5800fb"
+	],
+	tasks: [{
+		uid: "547eca2f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 285"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b3dad472",
+		type: "item",
+		item: "gregtech:ore_rutile_0",
+		count: 16
+	},
+	{
+		uid: "0715fad5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

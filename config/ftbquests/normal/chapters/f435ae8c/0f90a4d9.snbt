@@ -1,0 +1,52 @@
+{
+	title: "橡胶替代品-丁苯橡胶（四）",
+	x: -5.0d,
+	y: -15.5d,
+	text: [
+		"第四步，将单体产物聚合为生丁苯橡胶粉。"
+	],
+	dependencies: [
+		"e9ef53e9"
+	],
+	tasks: [{
+		uid: "6befab97",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1003"
+		}],
+		count: 41L
+	}],
+	rewards: [{
+		uid: "9607c186",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "styrene",
+					Amount: 32000
+				}
+			},
+			Damage: 81s
+		}
+	},
+	{
+		uid: "3ef75490",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "butadiene",
+					Amount: 32000
+				}
+			},
+			Damage: 81s
+		}
+	},
+	{
+		uid: "f06a0ca2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "硅橡胶",
+	x: -6.5d,
+	y: -13.5d,
+	text: [
+		"现在，通过添加硫，你便可以得到硅橡胶了！"
+	],
+	dependencies: [
+		"d44dcf66"
+	],
+	tasks: [{
+		uid: "e78343ee",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1000"
+		}],
+		count: 63L
+	}],
+	rewards: [{
+		uid: "5fdaa063",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "chloromethane",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 64
+	},
+	{
+		uid: "4b58c7af",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

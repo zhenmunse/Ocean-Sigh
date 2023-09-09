@@ -11,7 +11,7 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "606da3c7",
+		uid: "637eae45",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -21,12 +21,17 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 16L
 	}],
 	rewards: [{
-		uid: "dd917f8d",
+		uid: "b7be8c33",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7b0bd275",
 		type: "item",
 		item: {
 			id: "gregtech:meta_item_1",
@@ -36,13 +41,8 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		},
 		count: 16
-	},
-	{
-		uid: "b7be8c33",
-		type: "ftbmoney:money",
-		ftb_money: 10L
 	}]
 }

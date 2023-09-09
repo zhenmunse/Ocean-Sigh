@@ -1,0 +1,43 @@
+{
+	title: "熔融环氧树脂",
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"让环氧氯丙烷和双酚A反应，你可以得到环氧树脂。这是一种极为重要的化学产品，最大的用途是制作电路基板。从现在开始，几乎每个电压等级的电路基板都需要它。"
+	],
+	dependencies: [
+		"5117aaad",
+		"5af6d445"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0af7a2b0",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "epoxy",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "66abd9b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "655512a2",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

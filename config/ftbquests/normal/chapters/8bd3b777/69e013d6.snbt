@@ -1,0 +1,42 @@
+{
+	title: "EV令人厌恶的元件们",
+	icon: "gregtech:meta_item_1 1 220",
+	x: 5.5d,
+	y: -2.0d,
+	text: [
+		"为了制作电路组装机，你需要制作这些。"
+	],
+	dependencies: [
+		"bcff3382"
+	],
+	hide: true,
+	tasks: [{
+		uid: "17569c5f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 220"
+		}]
+	},
+	{
+		uid: "6a8767fd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 235"
+		}]
+	}],
+	rewards: [{
+		uid: "457105d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "ae12067d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "四氯化钛（TiCl4）",
+	x: 17.5d,
+	y: -9.0d,
+	text: [
+		"金红石和氯、碳反应可以得到四氯化钛。你现在距离钛锭已经很近了！"
+	],
+	dependencies: [
+		"c4606bdd"
+	],
+	tasks: [{
+		uid: "d2c13503",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "titanium_tetrachloride",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f6f0517c",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "titanium_tetrachloride",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	},
+	{
+		uid: "1094b0a3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

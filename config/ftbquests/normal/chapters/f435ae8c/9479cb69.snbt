@@ -1,0 +1,56 @@
+{
+	title: "大型化学反应釜",
+	icon: "gregtech:machine 1 1023",
+	x: -6.5d,
+	y: -12.0d,
+	text: [
+		"大型化学反应釜不再需要单元来输入输出流体，而是直接使用管道进行输入输出（当然，你也可以用单元）。",
+		"",
+		"§3§l如果输出仓/输出总线已满，此机器不会停机，而是会§4§l吞掉产物§3§l！",
+		"",
+		"§3§l大型化学反应釜自带无尘环境，因此需要无尘环境的反应釜配方可以使用它来制作，而不是将化学反应釜放到超净间里。"
+	],
+	dependencies: [
+		"f9968ab1"
+	],
+	tasks: [{
+		uid: "a7aeecb3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1023"
+		}]
+	},
+	{
+		uid: "2b3378d1",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 4"
+		}]
+	},
+	{
+		uid: "6531809c",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}]
+	},
+	{
+		uid: "9b495502",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 9"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a9203031",
+		type: "item",
+		item: "gregtech:meta_plate 1 1016",
+		count: 128
+	},
+	{
+		uid: "18abdbd4",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "更好的磁化",
+	x: 3.5d,
+	y: -8.5d,
+	text: [
+		"到了EV阶段，你需要用磁化钕来制作电动马达，而不是现在的磁化钢。因此，HV两极磁化机是必需的。"
+	],
+	dependencies: [
+		"3e85c3b9"
+	],
+	tasks: [{
+		uid: "802655b6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 547"
+		}]
+	}],
+	rewards: [{
+		uid: "1fe14e3f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "efd13591",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

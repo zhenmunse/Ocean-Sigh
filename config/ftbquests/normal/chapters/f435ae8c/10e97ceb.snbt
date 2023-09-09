@@ -1,0 +1,40 @@
+{
+	title: "集成逻辑电路和内存",
+	icon: "gregtech:meta_item_1 1 568",
+	x: -2.5d,
+	y: -5.5d,
+	text: [
+		"这两种芯片都可以通过蚀刻晶圆来获得，你可能需要先自己制作一些透镜。",
+		"",
+		"§3§l蚀刻得到对应晶圆之后，别忘了将它们放入板材切割机切割为成品电路！"
+	],
+	dependencies: [
+		"0f941ef7"
+	],
+	tasks: [{
+		uid: "d904ad6e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 593"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1734daec",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 592"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6f8b9ded",
+		type: "item",
+		item: "gregtech:meta_lens 1 276"
+	},
+	{
+		uid: "7ac5f5f2",
+		type: "item",
+		item: "gregtech:meta_lens 1 2000"
+	}]
+}

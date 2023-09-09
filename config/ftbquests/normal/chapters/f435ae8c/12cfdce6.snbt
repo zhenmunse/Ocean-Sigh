@@ -1,0 +1,34 @@
+{
+	title: "掺杂",
+	x: 17.5d,
+	y: 1.0d,
+	text: [
+		"普通的单晶硅已经不能满足高性能芯片的需求了，因此你需要对它进行掺杂。现阶段，你需要用荧石进行掺杂；未来，你还会制作使用硅岩或中子素掺杂的单晶硅。"
+	],
+	dependencies: [
+		"888a3c53"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f66d2cb2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 362"
+		}]
+	}],
+	rewards: [{
+		uid: "afe43624",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "8ebd9cc0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

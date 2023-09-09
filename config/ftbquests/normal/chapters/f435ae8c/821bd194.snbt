@@ -1,0 +1,49 @@
+{
+	title: "TE联合熔炉",
+	x: 13.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"感应炉和GT合金炉很像，但是它还有一些特殊功能——比如可以用煤粉+铁粉直接炼钢，或回收旧装备（这点其实是电弧炉的功能）。"
+	],
+	dependencies: [
+		"90d2057c"
+	],
+	tasks: [{
+		uid: "35418dfb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "bc43992d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "202e449c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

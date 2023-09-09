@@ -1,0 +1,49 @@
+{
+	title: "三氯化铁(FeCl3)",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"铁粉和盐酸在化学反应釜中可以得到三氯化铁。",
+		"",
+		"它主要用于蚀刻电路板。",
+		"",
+		"§3§l它和过硫酸钠只需制造一种即可。"
+	],
+	dependencies: [
+		"7006546a"
+	],
+	tasks: [{
+		uid: "a48c18d4",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "iron_iii_chloride",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}]
+	}],
+	rewards: [{
+		uid: "5e6694cb",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sodium_persulfate",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	},
+	{
+		uid: "0aee8ce3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "EV精密激光蚀刻机",
+	x: 5.5d,
+	y: -3.5d,
+	text: [
+		"更好的光刻机可以加速你的整个电路板产线。"
+	],
+	dependencies: [
+		"69e013d6"
+	],
+	tasks: [{
+		uid: "056ed39d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 563"
+		}]
+	}],
+	rewards: [{
+		uid: "e874b458",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "9335e907",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

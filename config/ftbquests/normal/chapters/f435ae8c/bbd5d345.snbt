@@ -1,0 +1,35 @@
+{
+	title: "HV组装机",
+	x: 10.0d,
+	y: -9.0d,
+	text: [
+		"你需要HV组装机来制作更好的能源仓。"
+	],
+	dependencies: [
+		"f9329cb2"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "788a2435",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 112"
+		}]
+	}],
+	rewards: [{
+		uid: "4336c6df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "2f9438e8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

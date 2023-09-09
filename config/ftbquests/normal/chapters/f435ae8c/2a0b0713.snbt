@@ -1,0 +1,35 @@
+{
+	title: "NAND芯片",
+	x: 7.0d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"有了简单的SoC，你就可以大批量制作ULV级电路板了——再见了，真空管！"
+	],
+	dependencies: [
+		"4704f6c5"
+	],
+	tasks: [{
+		uid: "4d03fc1d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 626"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "66f77376",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "02f89d05",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

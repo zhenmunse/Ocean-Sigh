@@ -11,7 +11,7 @@
 		"8095e4e8"
 	],
 	tasks: [{
-		uid: "3ef54666",
+		uid: "f15ad0e1",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -21,7 +21,7 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 8L
 	}],

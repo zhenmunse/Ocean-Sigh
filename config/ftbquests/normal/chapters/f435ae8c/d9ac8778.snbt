@@ -1,0 +1,41 @@
+{
+	title: "氯仿",
+	x: -1.0d,
+	y: -12.0d,
+	text: [
+		"氯仿（也就是三氯甲烷）可以用来合成四氟乙烯，以制作你的塑料。"
+	],
+	dependencies: [
+		"49ad91df"
+	],
+	tasks: [{
+		uid: "af44f9a5",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "chloroform",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "a2e77861",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "4e85d4dc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

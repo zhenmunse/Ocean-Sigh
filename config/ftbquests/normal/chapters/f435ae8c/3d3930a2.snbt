@@ -1,0 +1,26 @@
+{
+	title: "布莱恩科技航空专用强化胶带FAL-84型",
+	x: 0.5d,
+	y: -1.5d,
+	shape: "circle",
+	text: [
+		"有了聚乙烯，你就可以自己制造航空胶带了。"
+	],
+	dependencies: [
+		"7006546a"
+	],
+	tasks: [{
+		uid: "442b2165",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 502"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3c4b2ce8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 502",
+		count: 2
+	}]
+}

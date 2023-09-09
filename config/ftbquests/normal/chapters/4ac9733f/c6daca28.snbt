@@ -15,5 +15,20 @@
 			item: "minecraft:brick"
 		}],
 		count: 64L
+	}],
+	rewards: [{
+		uid: "bbdb7404",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "1"
+			}
+		}
+	},
+	{
+		uid: "affc21de",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

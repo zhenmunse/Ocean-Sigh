@@ -1,0 +1,18 @@
+{
+	title: "纳米级芯片——精英纳米电脑",
+	x: 7.0d,
+	y: -3.5d,
+	text: [
+		"没错，这只是一种更高级的IV电路板。"
+	],
+	dependencies: [
+		"5de85f92"
+	],
+	tasks: [{
+		uid: "69110f53",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 634"
+		}]
+	}]
+}

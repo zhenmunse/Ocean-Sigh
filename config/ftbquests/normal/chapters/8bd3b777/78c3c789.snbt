@@ -1,0 +1,24 @@
+{
+	title: "钨处理（第二步）",
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		"接着，通过在化学浸洗器中用盐酸处理矿粉，可以得到钨酸——如果你还记得那点可怜的高中化学的话。"
+	],
+	dependencies: [
+		"0a9ab9a4"
+	],
+	tasks: [{
+		uid: "57a5a9cc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 343"
+		}],
+		count: 21L
+	}],
+	rewards: [{
+		uid: "b517533a",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "硅锭",
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"硅锭是重要的电路原材料，它可以通过在电力高炉中冶炼碳和二氧化硅的混合物，或直接冶炼硅粉得到。但后者耗电量巨大，显然不够经济。"
+	],
+	dependencies: [
+		"93880b7e"
+	],
+	tasks: [{
+		uid: "4668d01c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 99"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "40b16ebd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "f030dbad",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "更好的接收线圈",
+	x: 11.5d,
+	y: 4.0d,
+	text: [
+		"蓝石接收线圈是一种更高级的线圈。"
+	],
+	dependencies: [
+		"b7d60cee",
+		"e67bdf6e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df9f08a6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:power_coil_bluestone"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "1e7c30fd",
+		type: "item",
+		item: "contenttweaker:power_coil_bluestone"
+	},
+	{
+		uid: "17964867",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

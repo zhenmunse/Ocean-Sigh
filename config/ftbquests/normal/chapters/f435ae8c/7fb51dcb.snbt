@@ -1,0 +1,35 @@
+{
+	title: "更好的压模器",
+	x: 7.5d,
+	y: -6.5d,
+	text: [
+		"这台机器是你EV后期开始所必须的；现在你可以不急着制作它（如果你能忍受MV压模器那糟糕的加工速度的话）。",
+		"",
+		"§3§l钨钢等更硬的合金必须使用HV及更高电压的压模器来加工。"
+	],
+	dependencies: [
+		"3e85c3b9"
+	],
+	tasks: [{
+		uid: "115147bc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 322"
+		}]
+	}],
+	rewards: [{
+		uid: "3cb109b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "31d70355",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

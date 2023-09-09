@@ -1,0 +1,30 @@
+{
+	title: "镍锌铁氧体",
+	x: 11.5d,
+	y: -0.5d,
+	text: [
+		"镍锌铁氧体是一种高性能的复合材料，它可以用于制造贴片电感，也可以提升你制作玻璃管的效率。"
+	],
+	dependencies: [
+		"a12ddb34"
+	],
+	tasks: [{
+		uid: "2e04eaac",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 355"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "3594ece3",
+		type: "item",
+		item: "gregtech:meta_ingot 1 355",
+		count: 6
+	},
+	{
+		uid: "78921270",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

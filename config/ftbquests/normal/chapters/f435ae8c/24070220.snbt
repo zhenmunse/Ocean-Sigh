@@ -16,6 +16,7 @@
 		"8c26cec1",
 		"08e377b4"
 	],
+	hide: true,
 	size: 2.0d,
 	tasks: [{
 		uid: "5e13adae",

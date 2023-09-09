@@ -1,0 +1,34 @@
+{
+	title: "简单的SoC",
+	x: 7.0d,
+	y: -3.0d,
+	shape: "circle",
+	text: [
+		"这是最简单的芯片系统，通过它，你可以大批量制造ULV级电路板。"
+	],
+	dependencies: [
+		"54f9b37d"
+	],
+	tasks: [{
+		uid: "f18e7679",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 571"
+		}]
+	}],
+	rewards: [{
+		uid: "c0e16e1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "22325045",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

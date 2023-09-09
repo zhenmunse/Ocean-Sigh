@@ -1,0 +1,177 @@
+{
+  "biomesoplenty:recipes/transportation/boat_ethereal": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "creeper": "2023-07-26 23:00:03 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "creeper": "2023-07-26 23:00:03 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2023-07-26 22:28:21 +0800",
+      "deep_ocean": "2023-07-26 22:58:44 +0800",
+      "beaches": "2023-07-26 22:57:33 +0800",
+      "forest_hills": "2023-07-26 22:28:24 +0800",
+      "plains": "2023-07-26 22:26:28 +0800",
+      "taiga": "2023-07-26 22:25:09 +0800",
+      "taiga_hills": "2023-07-26 22:24:46 +0800",
+      "river": "2023-07-26 22:59:58 +0800"
+    },
+    "done": false
+  },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-07-26 22:26:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mangrove": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_redwood": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2023-07-26 22:24:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-07-26 22:28:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_eucalyptus": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2023-07-26 22:58:46 +0800"
+    },
+    "done": true
+  }
+}

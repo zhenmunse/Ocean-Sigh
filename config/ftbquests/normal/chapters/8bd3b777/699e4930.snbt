@@ -1,0 +1,53 @@
+{
+	title: "铟富集溶液",
+	x: -1.0d,
+	y: -2.0d,
+	text: [
+		"通过在搅拌机中用硫酸处理闪锌矿和方铅矿，你可以得到一种酸性溶液——铟富集溶液。它是制取铟的重要中间体。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	hide: true,
+	tasks: [{
+		uid: "256b9b01",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "indium_concentrate",
+					Amount: 1000
+				}
+			},
+			Damage: 85s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2785f52f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "8ea7ec61",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 10240000L
+			},
+			Damage: 743s
+		}
+	},
+	{
+		uid: "4f433d3a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

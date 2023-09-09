@@ -1,0 +1,50 @@
+{
+	title: "§2前往末地",
+	icon: "minecraft:end_portal_frame",
+	x: 10.0d,
+	y: -2.5d,
+	text: [
+		"§2§l现在，是时候向末影龙宣战了！"
+	],
+	dependencies: [
+		"f8cc34f4"
+	],
+	tasks: [{
+		uid: "5347c715",
+		type: "dimension",
+		dim: 1
+	},
+	{
+		uid: "e1d09e81",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "6272e25c",
+		type: "item",
+		item: "moreplanets:diremsium_helmet"
+	},
+	{
+		uid: "52283c25",
+		type: "item",
+		item: "moreplanets:diremsium_chestplate"
+	},
+	{
+		uid: "1e2fbbad",
+		type: "item",
+		item: "moreplanets:diremsium_leggings"
+	},
+	{
+		uid: "e67561b6",
+		type: "item",
+		item: "moreplanets:diremsium_boots"
+	},
+	{
+		uid: "03b45007",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

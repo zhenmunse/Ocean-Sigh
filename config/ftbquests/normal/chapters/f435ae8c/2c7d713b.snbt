@@ -1,0 +1,48 @@
+{
+	title: "得到硝酸",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "fuel",
+				Amount: 1000
+			}
+		},
+		Damage: 78s
+	},
+	x: -5.0d,
+	y: -9.0d,
+	text: [
+		"总算做出硝酸了。它的化学性质过于活泼，以至于一般的单元根本盛放不了。你需要使用不锈钢流体单元来盛放产品。",
+		"",
+		"这里还有一组玻璃单元，拿去用吧:)"
+	],
+	dependencies: [
+		"89d4fec4"
+	],
+	tasks: [{
+		uid: "eee8ef40",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitric_acid",
+					Amount: 24000
+				}
+			},
+			Damage: 82s
+		}]
+	}],
+	rewards: [{
+		uid: "061dacd9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 85",
+		count: 64
+	},
+	{
+		uid: "2020fdc9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

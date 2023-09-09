@@ -1,0 +1,37 @@
+{
+	title: "蓝色合金",
+	x: 13.0d,
+	y: 4.0d,
+	text: [
+		"蓝色合金（或许可以叫充能银？）是红色合金的高级版本，你需要蓝石来制作它。",
+		"",
+		"§3§l若你找不到蓝石矿脉，可以直接合成蓝石粉。"
+	],
+	dependencies: [
+		"529b7604"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cb447efd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2527"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "12ddb9ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "a949c9c5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

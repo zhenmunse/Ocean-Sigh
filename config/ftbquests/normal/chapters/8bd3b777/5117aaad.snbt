@@ -1,0 +1,50 @@
+{
+	title: "环氧氯丙烷",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"环氧氯丙烷也是制作环氧树脂的两种原料之一。它并不能被跳过。",
+		"",
+		"合成它的途径有很多：",
+		"",
+		"盐酸和甘油反应",
+		"",
+		"水、氯、丙烯和氢氧化钠反应",
+		"",
+		"次氯酸、氯、丙烯和氢氧化钠反应"
+	],
+	dependencies: [
+		"e43c48ee",
+		"53b4058b"
+	],
+	tasks: [{
+		uid: "f9fcd196",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "epichlorohydrin",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "69c97298",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "8ee31ecb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

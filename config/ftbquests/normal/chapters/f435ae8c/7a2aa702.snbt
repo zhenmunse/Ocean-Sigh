@@ -1,0 +1,38 @@
+{
+	title: "§e§l强化合金",
+	x: 8.5d,
+	y: 4.0d,
+	text: [
+		"为了升级你的热力机器，强化合金同样是必不可少的。它可以将你的机器升级至强化级别。",
+		"",
+		"§3§l别忘了用镍铬合金线圈"
+	],
+	dependencies: [
+		"3d9e15ec",
+		"aab7c784"
+	],
+	tasks: [{
+		uid: "0eb37037",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32204"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "ca117ccb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "6f1c492a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

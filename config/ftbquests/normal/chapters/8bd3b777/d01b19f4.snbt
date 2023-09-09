@@ -1,0 +1,24 @@
+{
+	title: "钨",
+	x: 5.5d,
+	y: 3.0d,
+	text: [
+		"电解钨酸，你便可以得到钨粉了。"
+	],
+	dependencies: [
+		"78c3c789"
+	],
+	tasks: [{
+		uid: "e325bc23",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 115"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f36a6435",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

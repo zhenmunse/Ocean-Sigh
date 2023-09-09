@@ -1,0 +1,46 @@
+{
+	title: "高压(HV)",
+	x: 5.5d,
+	y: -7.5d,
+	shape: "gear",
+	text: [
+		"来到HV了。",
+		"",
+		"HV是不锈钢的时代，一台电力高炉应该满足不了你对不锈钢的需求，因此多制作几台吧。",
+		"",
+		"安全也是很重要的。HV阶段的电压为512V.",
+		"",
+		"如果说MV仅仅是一个过渡阶段，那HV将会是一个精彩的大阶段。真空冷冻机、聚爆压缩机、超净间…各种各样的先进科技将会在这个阶段大放异彩！",
+		"",
+		"你离最终的目标——重建人类科技又进了一步！"
+	],
+	dependencies: [
+		"0037f037",
+		"eb32bfac",
+		"02cef468"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "368ad78a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 988"
+		}]
+	}],
+	rewards: [{
+		uid: "61053aa7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "a53eec0d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

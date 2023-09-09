@@ -1,0 +1,30 @@
+{
+	title: "纳米CPU",
+	x: 5.5d,
+	y: -5.0d,
+	text: [
+		"纳米CPU需要无尘环境的化学反应釜来制作。如果你之前制作过大型化学反应釜，那就不需要将普通化学反应釜放到超净间中——因为大化反自带超净环境。"
+	],
+	dependencies: [
+		"cc7b10e6",
+		"bfa887b5"
+	],
+	tasks: [{
+		uid: "7d1303ce",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 569"
+		}]
+	}],
+	rewards: [{
+		uid: "98487d33",
+		type: "item",
+		item: "gregtech:meta_item_1 1 499",
+		count: 16
+	},
+	{
+		uid: "3bc49b63",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

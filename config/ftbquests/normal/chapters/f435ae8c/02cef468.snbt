@@ -1,0 +1,34 @@
+{
+	title: "塑料电路基板",
+	x: 5.5d,
+	y: -0.5d,
+	text: [
+		"你将在HV阶段使用大量塑料电路基板。现在，以聚乙烯为原料可能使它显得较为昂贵；当你做出更高级的塑料，比如聚氯乙烯(PVC)、聚四氟乙烯(PTFE)，甚至是聚苯并咪唑(PBI)时，它的造价将大大降低。"
+	],
+	dependencies: [
+		"03cbd2cb",
+		"cf8c4a21"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	size: 1.5d,
+	tasks: [{
+		uid: "6f489909",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 403"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "cb9f1002",
+		type: "item",
+		item: "gregtech:meta_plate 1 1012",
+		count: 8
+	},
+	{
+		uid: "fdfa9d26",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

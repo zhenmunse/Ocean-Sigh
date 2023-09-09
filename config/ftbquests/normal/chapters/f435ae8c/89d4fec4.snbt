@@ -1,0 +1,41 @@
+{
+	title: "获取硝酸-第二步",
+	x: -2.5d,
+	y: -9.0d,
+	text: [
+		"接着，你需要将一氧化氮进一步氧化为二氧化氮。"
+	],
+	dependencies: [
+		"0a26bc39"
+	],
+	tasks: [{
+		uid: "bc57dffe",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitrogen_dioxide",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "b9ae5e42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "51136cd7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

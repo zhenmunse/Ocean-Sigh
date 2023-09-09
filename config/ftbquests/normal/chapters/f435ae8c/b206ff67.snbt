@@ -1,0 +1,30 @@
+{
+	title: "超低功率IC",
+	icon: "gregtech:meta_item_1 1 577",
+	x: -10.0d,
+	y: -5.5d,
+	text: [
+		"你需要超低功率IC来制作MV能源仓。"
+	],
+	dependencies: [
+		"f28a0fa9"
+	],
+	tasks: [{
+		uid: "c7bcd67e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 602"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "04bc3d67",
+		type: "item",
+		item: "gregtech:meta_lens 1 278"
+	},
+	{
+		uid: "780341e2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -14,8 +14,9 @@
 	dependencies: [
 		"e869298b"
 	],
+	hide: true,
 	tasks: [{
-		uid: "051877ba",
+		uid: "43865faa",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -25,7 +26,7 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 4L
 	}],

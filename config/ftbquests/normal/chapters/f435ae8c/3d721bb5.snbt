@@ -1,0 +1,42 @@
+{
+	title: "集成逻辑电路",
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		"在以前，你需要先制作出ULV级电路——真空管，再通过堆叠它们来制作LV级电路板；",
+		"",
+		"现在，随着制程的提升和工艺的改进，你可以直接制作出LV电路板了。同时，它堆叠2次之后可以得到HV电路板；但先前通过堆叠真空管得到的LV电路板最多只能堆叠到MV等级。"
+	],
+	dependencies: [
+		"10e97ceb"
+	],
+	tasks: [{
+		uid: "fac61159",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 623"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8666c759",
+		type: "item",
+		item: "gregtech:meta_item_1 1 521",
+		count: 8
+	},
+	{
+		uid: "e89883fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "5f34b431",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

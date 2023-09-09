@@ -1,0 +1,26 @@
+{
+	title: "氯（Cl2）",
+	x: 4.5d,
+	y: -4.0d,
+	text: [
+		"通过电解盐、岩盐或盐水可以得到氯。将来你会在很多地方用到它的。"
+	],
+	dependencies: [
+		"b95f7fa3"
+	],
+	tasks: [{
+		uid: "836d3e4d",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "chlorine",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 8L
+	}]
+}

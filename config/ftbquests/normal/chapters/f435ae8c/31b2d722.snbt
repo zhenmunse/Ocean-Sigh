@@ -1,0 +1,40 @@
+{
+	title: "铝制大冰箱",
+	x: 16.0d,
+	y: -4.5d,
+	shape: "gear",
+	text: [
+		"真空冷冻机可以将坎塔尔合金等金属冷却，也可以将水冷却为冰。摆放方式请查看JEI（相信你已经查看过很多多方块结构的JEI了）。",
+		"",
+		"§3§lTip：在本版本的GT中，真空冷冻机的机械方块叫作”防冻铝机械方块“（如果你搜索GT5的名字搜不到的话）"
+	],
+	dependencies: [
+		"c56a648e",
+		"93d6d261"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "c87d9b14",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1002"
+		}]
+	}],
+	rewards: [{
+		uid: "cf9244b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 502"
+	},
+	{
+		uid: "6c5f8b45",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "炼钛！",
+	x: 19.5d,
+	y: -9.0d,
+	text: [
+		"终于，你可以炼钛了。",
+		"",
+		"现在，你主要使用四氯化钛和镁（或钠）来间接冶炼钛，到了EV，你可以用钾来加速这一过程；",
+		"",
+		"在月球，钛矿石的生成使得你可以冶炼钛粉，大大方便了钛的获取。"
+	],
+	dependencies: [
+		"22bff6ad",
+		"eec159cb"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "39843953",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 113"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f2810c12",
+		type: "item",
+		item: "gregtech:meta_item_1 1 83",
+		count: 2
+	},
+	{
+		uid: "12f05ebc",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

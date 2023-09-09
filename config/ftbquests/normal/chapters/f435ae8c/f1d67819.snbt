@@ -1,0 +1,24 @@
+{
+	title: "流明（一）",
+	x: 11.5d,
+	y: 5.5d,
+	text: [
+		"现在，流明需要几步工业流程才能制作。首先，你需要把荧石、红石和铝的粉末混合在一起，制作成高能混合物。"
+	],
+	dependencies: [
+		"90d2057c"
+	],
+	tasks: [{
+		uid: "b1529d4f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:energetic_blend"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e8857c03",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

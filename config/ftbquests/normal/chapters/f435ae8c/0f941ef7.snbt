@@ -1,0 +1,35 @@
+{
+	title: "激光之力",
+	x: -5.0d,
+	y: -5.5d,
+	text: [
+		"制作高级电路需要精密激光蚀刻机。",
+		"",
+		"§4希望你没有傻到在之前制作了LV级别的它，那简直就是废品:)"
+	],
+	dependencies: [
+		"f28a0fa9"
+	],
+	tasks: [{
+		uid: "94963f5d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 561"
+		}]
+	}],
+	rewards: [{
+		uid: "7f1234ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "8e3906b7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

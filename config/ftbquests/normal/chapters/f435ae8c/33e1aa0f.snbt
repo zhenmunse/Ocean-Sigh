@@ -1,0 +1,47 @@
+{
+	title: "氨（NH3）",
+	x: 0.5d,
+	y: -9.0d,
+	text: [
+		"氮+氢=氨，就像中学化学里学到的那样。"
+	],
+	dependencies: [
+		"da0a5990"
+	],
+	hide: true,
+	tasks: [{
+		uid: "084fc6cf",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "ammonia",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 26L
+	}],
+	rewards: [{
+		uid: "45323e3d",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 16
+	},
+	{
+		uid: "c1369e96",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

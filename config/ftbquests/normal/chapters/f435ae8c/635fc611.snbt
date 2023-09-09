@@ -1,0 +1,31 @@
+{
+	title: "HV能源仓",
+	x: 11.5d,
+	y: -9.0d,
+	text: [
+		"你需要HV能源仓并联升压来获得更高级的金属——钛，这将是你进入EV的基础。",
+		"",
+		"§3§l如果你玩过其它GT整合包，那么在此声明一下——不是每个整合包都可以组队刷不锈钢的。"
+	],
+	dependencies: [
+		"bbd5d345"
+	],
+	tasks: [{
+		uid: "89b31416",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1213"
+		}]
+	}],
+	rewards: [{
+		uid: "64008d3e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 99",
+		count: 2
+	},
+	{
+		uid: "47107950",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

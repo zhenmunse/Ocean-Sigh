@@ -13,38 +13,47 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "1c22ac93",
+		uid: "2f6a5c99",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:knife",
 			tag: {
+				DisallowContainerItem: 0b,
 				ench: [{
 					lvl: 2s,
 					id: 20s
 				}],
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					AttackDamage: 1.0f,
+					Durability: 0,
 					Material: "flint",
-					HarvestLevel: 1
+					AttackSpeed: 3.0f
 				}
-			},
-			Damage: 15s
+			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "f12ca2a6",
 		type: "item",
 		item: {
-			id: "gregtech:meta_tool",
+			id: "gregtech:knife",
 			tag: {
-				GT.ToolStats: {
-					Material: "iron"
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 256,
+					AttackDamage: 2.0f,
+					Durability: 0,
+					Material: "iron",
+					AttackSpeed: 3.0f
 				}
-			},
-			Damage: 15s
+			}
 		}
 	},
 	{

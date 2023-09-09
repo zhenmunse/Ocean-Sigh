@@ -516,30 +516,7 @@
         </line>
     </lines>
 
-    <lines at="bottomleft">
-    <line>
-        <icon>
-            <str>thaumcraft:curio</str>
-            <num>5</num>
-        </icon>
-        <str> $6{thaumwarptemp}$7 / $c{thaumwarpnormal}$7 / $4{thaumwarpperm}</str>
-    </line>
-
-    <line>
-        <concat>
-            <icon>
-                <str>bloodmagic:textures/items/archmagebloodorb.png</str>
-                <num>0</num>
-                <num>0</num>
-                <num>16</num>
-                <num>16</num>
-                <num>16</num>
-                <num>16</num>
-                </icon>
-            <str> $c{bmcurrentlp}$r</str>
-        </concat>
-    </line>
-
+   
     <line>
         <str> </str>
     </line>

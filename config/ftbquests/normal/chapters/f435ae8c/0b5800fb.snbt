@@ -1,0 +1,31 @@
+{
+	title: "找到钛",
+	x: 13.0d,
+	y: -9.0d,
+	text: [
+		"钛的主要存在形式是钛铁矿，主世界可以找到。你也可以通过精加工铝土来得到钛，但是产率较低。"
+	],
+	dependencies: [
+		"635fc611"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a5f824d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ilmenite_0"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "87948cf4",
+		type: "item",
+		item: "galacticraftplanets:item_basic_asteroids 1 4",
+		count: 8
+	},
+	{
+		uid: "e3a1014c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

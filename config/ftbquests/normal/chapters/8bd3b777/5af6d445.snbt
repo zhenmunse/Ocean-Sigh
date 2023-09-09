@@ -1,0 +1,42 @@
+{
+	title: "双酚A",
+	x: -0.5d,
+	y: -3.5d,
+	text: [
+		"双酚A是制作环氧树脂的两种材料之一，当然，之后的生产中它或许可以被跳过。"
+	],
+	dependencies: [
+		"5e317688",
+		"53b4058b"
+	],
+	tasks: [{
+		uid: "20092244",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "bisphenol_a",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "9b231fa9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "d14928a7",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,5 +1,22 @@
 {
 	title: "持久之锤",
+	icon: {
+		id: "gregtech:hammer",
+		tag: {
+			DisallowContainerItem: 0b,
+			GT.Behaviours: {},
+			HideFlags: 2,
+			GT.Tool: {
+				MaxDurability: 768,
+				ToolSpeed: 10.0f,
+				AttackDamage: 8.0f,
+				Durability: 0,
+				Material: "diamond",
+				HarvestLevel: 3,
+				AttackSpeed: -2.7f
+			}
+		}
+	},
 	x: 11.0d,
 	y: -1.5d,
 	shape: "circle",
@@ -11,17 +28,26 @@
 		"5d662542"
 	],
 	tasks: [{
-		uid: "8a88ebec",
+		uid: "ab3e7637",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:hammer",
 			tag: {
-				GT.ToolStats: {
-					Material: "diamond"
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 768,
+					ToolSpeed: 10.0f,
+					AttackDamage: 8.0f,
+					Durability: 0,
+					Material: "diamond",
+					HarvestLevel: 3,
+					AttackSpeed: -2.7f
 				}
-			},
-			Damage: 6s
+			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

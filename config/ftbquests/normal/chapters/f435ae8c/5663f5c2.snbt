@@ -1,0 +1,34 @@
+{
+	title: "晶体管",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"为了你需要的HV电路板，晶体管是必不可少的。"
+	],
+	dependencies: [
+		"2929b59c"
+	],
+	tasks: [{
+		uid: "c3461b57",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 518"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "43c5dc63",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "4d8c87c4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

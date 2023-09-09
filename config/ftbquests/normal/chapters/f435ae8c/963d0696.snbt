@@ -1,0 +1,30 @@
+{
+	title: "流明（二）",
+	x: 10.0d,
+	y: 5.5d,
+	text: [
+		"接着，你需要用磷酸固化高能混合物，得到流明精华。"
+	],
+	dependencies: [
+		"f1d67819"
+	],
+	tasks: [{
+		uid: "333cdde6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:luminessence"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e91eb8b2",
+		type: "item",
+		item: "contenttweaker:luminessence",
+		count: 2
+	},
+	{
+		uid: "4acda29e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

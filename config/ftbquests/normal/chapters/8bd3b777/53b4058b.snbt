@@ -1,0 +1,44 @@
+{
+	title: "苯酚",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"如果你之前制作过热解炉的话，相信已经积攒了不少苯酚了。如果没有的话，可以用水、氯和苯来合成它。",
+		"",
+		"它的需求量将会非常大，因为它是制作环氧树脂的原料之一。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54942c74",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "phenol",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "22b6bd98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "d5f56a7d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

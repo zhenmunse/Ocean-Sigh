@@ -1,0 +1,37 @@
+{
+	title: "HV精密激光蚀刻机",
+	x: 13.0d,
+	y: -4.5d,
+	text: [
+		"你需要这台机器来制作NAND等芯片。",
+		"",
+		"§3§l别忘了，从现在开始的激光蚀刻都需要无尘环境，因此你需要把这台机器放入超净间内。"
+	],
+	dependencies: [
+		"0ee6da00",
+		"effc9d86"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7401ee2c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 562"
+		}]
+	}],
+	rewards: [{
+		uid: "1482bd51",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "13521fc2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

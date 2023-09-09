@@ -1,13 +1,21 @@
 {
 	title: "重要的工具",
 	icon: {
-		id: "gregtech:meta_tool",
+		id: "gregtech:wrench",
 		tag: {
-			GT.ToolStats: {
-				Material: "neutronium"
+			DisallowContainerItem: 0b,
+			GT.Behaviours: {},
+			HideFlags: 2,
+			GT.Tool: {
+				MaxDurability: 256,
+				ToolSpeed: 6.0f,
+				AttackDamage: 3.0f,
+				Durability: 0,
+				Material: "iron",
+				HarvestLevel: 2,
+				AttackSpeed: -2.8f
 			}
-		},
-		Damage: 8s
+		}
 	},
 	x: -0.5d,
 	y: 7.5d,
@@ -15,7 +23,7 @@
 		"很显然，对于你来说，用双手制作机器是不现实的。因此你需要制作这些工具",
 		"——它们随着你科技线的深入会被逐渐淘汰，但现在你需要它们。",
 		"——它们的损耗很大，因此你最好背过它们的合成表，而不是每次费时费力地查询JEI",
-		"——本任务制作出任意材质工具即可，“中子素”仅为GTCEu的代表材料；当然，这里还有一句忠告：把宝贵的青铜留着制作机器吧，工具用铁制的就好:)"
+		"——本任务制作出任意材质工具即可；当然，这里还有一句忠告：把宝贵的青铜留着制作机器吧，工具用铁制的就好:)"
 	],
 	dependencies: [
 		"54f8d0ed"

@@ -1,0 +1,48 @@
+{
+	title: "燃油（柴油）",
+	x: -13.5d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"在MV搅拌机中混合轻燃料和重燃料可以得到燃油。它的热值很高，有480kEU/桶，放入你的内燃机中可以产生大量能量。"
+	],
+	dependencies: [
+		"6fe266ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca94afc9",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "dc421219",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	},
+	{
+		uid: "0177eba9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

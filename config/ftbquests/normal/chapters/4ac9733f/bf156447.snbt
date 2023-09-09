@@ -1,6 +1,6 @@
 {
 	x: -2.0d,
-	y: 0.0d,
+	y: -0.5d,
 	dependencies: [
 		"b411aa98",
 		"5189f83b"
@@ -19,7 +19,7 @@
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
 	}]

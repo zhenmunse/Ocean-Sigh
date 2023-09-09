@@ -1,0 +1,29 @@
+{
+	title: "四硝基甲烷",
+	x: -5.0d,
+	y: -10.5d,
+	shape: "circle",
+	text: [
+		"四硝基甲烷可以有效提高燃料的热值。将它加入柴油可以得到高十六烷值柴油（俗称硝基柴油），使得发电更有效率。"
+	],
+	dependencies: [
+		"2c7d713b",
+		"bdad76ea"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a7684466",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "tetranitromethane",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 6L
+	}]
+}

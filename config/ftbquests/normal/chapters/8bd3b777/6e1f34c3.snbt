@@ -1,0 +1,24 @@
+{
+	title: "二合一",
+	x: 8.5d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		"4A能源仓可以接受4A的电流，这样，你只需要1个能源仓便可升压（4A EV→1A IV）。"
+	],
+	dependencies: [
+		"7b7533e4"
+	],
+	tasks: [{
+		uid: "f782527b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1399"
+		}]
+	}],
+	rewards: [{
+		uid: "20959a97",
+		type: "item",
+		item: "gregtech:machine 1 1399"
+	}]
+}

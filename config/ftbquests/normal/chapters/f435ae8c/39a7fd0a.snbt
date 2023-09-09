@@ -1,0 +1,33 @@
+{
+	title: "HV化学浸洗器",
+	x: 10.0d,
+	y: -6.0d,
+	text: [
+		"HV化学浸洗器可以增加之前矿物处理配方的效率，但它更大的用途是制作末影之眼！"
+	],
+	dependencies: [
+		"f9329cb2"
+	],
+	tasks: [{
+		uid: "f09eb43a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 202"
+		}]
+	}],
+	rewards: [{
+		uid: "daab8535",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "869eee6f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

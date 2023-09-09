@@ -1,0 +1,86 @@
+{
+	title: "橡胶替代品-丁苯橡胶（二）",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "benzene",
+				Amount: 1000
+			}
+		},
+		Damage: 78s
+	},
+	x: -1.0d,
+	y: -15.5d,
+	text: [
+		"第二步，你需要获得一些化工产品——苯、丁二烯和乙烯。它们均可以通过石油化工来获得。"
+	],
+	dependencies: [
+		"69fc39f4"
+	],
+	tasks: [{
+		uid: "1025ba93",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "benzene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 2L
+	},
+	{
+		uid: "62619e8f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "butadiene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 3L
+	},
+	{
+		uid: "1b68b7a9",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "ethylene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "34da5e72",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 64
+	},
+	{
+		uid: "aefc4a83",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

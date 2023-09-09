@@ -1,6 +1,7 @@
 //Created by zhenmunse
 //格雷科技 Gregtech
 import mods.gregtech.recipe.RecipeMap;
+
 val GTmachine_hammer = RecipeMap.getByName("forge_hammer");
 val GTmachine_compressor = RecipeMap.getByName("compressor");
 val GTmachine_macerator = RecipeMap.getByName("macerator");
@@ -34,6 +35,8 @@ val GTmachine_mill = RecipeMap.getByName("wiremill");
 val GTmachine_centrifuge = RecipeMap.getByName("centrifuge");
 val GTmachine_extruder = RecipeMap.getByName("extruder");
 val GTmachine_metal_bender = RecipeMap.getByName("metal_bender");
+val GTmachine_electric_blast_furnace = RecipeMap.getByName("electric_blast_furnace");
+
 //砖木模
 recipes.remove(<gregtech:meta_item_1:348>);
 recipes.addShapeless(<gregtech:meta_item_1:348>,
@@ -103,3 +106,221 @@ GTmachine_alloy.recipeBuilder()
 .EUt(12)
 .duration(20)
 .buildAndRegister();
+// HV 电路组装机
+recipes.remove(<gregtech:machine:637>);
+recipes.addShaped(<gregtech:machine:637> * 1,
+  [[<gregtech:meta_item_1:189>,<ore:circuitIv>,<gregtech:meta_item_1:219>],
+   [<gregtech:meta_item_1:159>,<gregtech:machine:988>,<gregtech:meta_item_1:159>],
+   [<ore:cableGtSingleGold>,<ore:circuitIv>,<ore:cableGtSingleGold>]]);
+// 处理器主机 
+<recipemap:circuit_assembler>.findRecipe(480, 
+[<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2, 
+<metaitem:component.advanced_smd.inductor> * 2, <metaitem:component.advanced_smd.capacitor> * 4, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16], 
+[<liquid:soldering_alloy> * 288]).remove();
+<recipemap:circuit_assembler>.findRecipe(480, 
+[<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2, 
+<metaitem:component.advanced_smd.inductor> * 2, <metaitem:component.advanced_smd.capacitor> * 4, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16], 
+[<liquid:tin> * 576]).remove();
+<recipemap:circuit_assembler>.findRecipe(480, 
+[<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2, 
+<metaitem:component.inductor> * 8, <metaitem:component.capacitor> * 16, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16], 
+[<liquid:soldering_alloy> * 288]).remove();
+<recipemap:circuit_assembler>.findRecipe(480, 
+[<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2, 
+<metaitem:component.inductor> * 8, <metaitem:component.capacitor> * 16, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16]
+,[<liquid:tin> * 576]).remove();
+
+
+
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2,
+<metaitem:component.advanced_smd.inductor> * 2, <metaitem:component.advanced_smd.capacitor> * 4, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<gregtech:meta_item_1:631>])
+.EUt(120)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2,
+<metaitem:component.advanced_smd.inductor> * 2, <metaitem:component.advanced_smd.capacitor> * 4, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16])
+.fluidInputs([<liquid:tin> * 576])
+.outputs([<gregtech:meta_item_1:631>])
+.EUt(120)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2, 
+<metaitem:component.inductor> * 8, <metaitem:component.capacitor> * 16, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<gregtech:meta_item_1:631>])
+.EUt(120)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.workstation> * 2, 
+<metaitem:component.inductor> * 8, <metaitem:component.capacitor> * 16, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 16])
+.fluidInputs([<liquid:tin> * 576])
+.outputs([<gregtech:meta_item_1:631>])
+.EUt(120)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+<ore:plateSapphire>.add(<gregtech:meta_plate:281>);  //给绿色蓝宝石添加蓝宝石矿辞
+
+//硬化合金
+GTmachine_mixer.recipeBuilder()
+.inputs([<ore:dustInvar> * 5, <ore:dustDiamond> * 2, <ore:dustObsidian> * 2])
+.outputs([<gregtech:meta_dust:32203> * 9])
+.EUt(240)
+.duration(300)
+.buildAndRegister();
+
+GTmachine_mixer.recipeBuilder()
+.inputs([<ore:dustInvar> * 7, <ore:dustTungstenCarbide> * 2])
+.outputs([<gregtech:meta_dust:32203> * 9])
+.EUt(240)
+.duration(300)
+.buildAndRegister();
+
+//强化合金
+GTmachine_mixer.recipeBuilder()
+.inputs([<ore:dustLumium> * 5, <ore:dustBlueSteel> * 2, <ore:dustHardenedAlloy> * 2])
+.outputs([<gregtech:meta_dust:32204> * 9])
+.EUt(1920)
+.duration(300)
+.buildAndRegister();
+
+//钛
+
+<recipemap:electric_blast_furnace>.findRecipe(480, 
+[<metaitem:dustMagnesium> * 2], 
+[<liquid:titanium_tetrachloride> * 1000]).remove();
+
+<recipemap:electric_blast_furnace>.findRecipe(480, 
+[<metaitem:dustTitanium>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+
+<recipemap:electric_blast_furnace>.findRecipe(480, 
+[<metaitem:dustTitanium>, <metaitem:circuit.integrated>.withTag({Configuration: 2})], 
+[<liquid:helium> * 100]).remove();
+
+GTmachine_electric_blast_furnace.recipeBuilder()
+.inputs([<metaitem:dustTitanium>])
+.outputs([<gregtech:meta_ingot_hot:113>])
+.circuit(1)
+.EUt(1920)
+.duration(500)
+.property("temperature",3300)
+.buildAndRegister();
+
+GTmachine_electric_blast_furnace.recipeBuilder()
+.inputs([<metaitem:dustTitanium>])
+.outputs([<gregtech:meta_ingot_hot:113>])
+.fluidInputs([<liquid:helium> * 100])
+.circuit(2)
+.EUt(1920)
+.duration(250)
+.property("temperature",3300)
+.buildAndRegister();
+
+GTmachine_electric_blast_furnace.recipeBuilder()
+.inputs([<ore:dustMagnesium> * 2])
+.outputs([<gregtech:meta_ingot_hot:113> * 1, <gregtech:meta_dust:357> * 6])
+.fluidInputs([<liquid:titanium_tetrachloride> * 1000])
+.EUt(960)
+.duration(500)
+.property("temperature",3300)
+.buildAndRegister();
+
+GTmachine_electric_blast_furnace.recipeBuilder()
+.inputs([<ore:dustSodium> * 4])
+.outputs([<gregtech:meta_ingot_hot:113> * 1, <gregtech:meta_dust:312> * 12])
+.fluidInputs([<liquid:titanium_tetrachloride> * 1000])
+.EUt(960)
+.duration(250)
+.property("temperature",3300)
+.buildAndRegister();
+
+GTmachine_electric_blast_furnace.recipeBuilder()
+.inputs([<ore:dustPotassium> * 4])
+.outputs([<gregtech:meta_ingot_hot:113> * 1, <gregtech:meta_dust:309> * 12])
+.fluidInputs([<liquid:titanium_tetrachloride> * 1000])
+.EUt(1920)
+.duration(150)
+.property("temperature",3300)
+.buildAndRegister();
+
+//纳米处理器主机
+// 纳米处理器主机 * 1
+<recipemap:circuit_assembler>.findRecipe(1920, [<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2, 
+<metaitem:component.advanced_smd.inductor> * 4, <metaitem:component.advanced_smd.capacitor> * 8, <metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32], [<liquid:soldering_alloy> * 288]).remove();
+// 纳米处理器主机 * 1
+<recipemap:circuit_assembler>.findRecipe(1920, [<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2, 
+<metaitem:component.advanced_smd.inductor> * 4, <metaitem:component.advanced_smd.capacitor> * 8, <metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32], [<liquid:tin> * 576]).remove();
+// 纳米处理器主机 * 1
+<recipemap:circuit_assembler>.findRecipe(1920, [<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2, 
+<metaitem:component.smd.inductor> * 16, <metaitem:component.smd.capacitor> * 32, <metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32], [<liquid:soldering_alloy> * 288]).remove();
+// 纳米处理器主机 * 1
+<recipemap:circuit_assembler>.findRecipe(1920, [<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2, 
+<metaitem:component.smd.inductor> * 16, <metaitem:component.smd.capacitor> * 32, <metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32], [<liquid:tin> * 576]).remove();
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2,
+<metaitem:component.advanced_smd.inductor> * 4, <metaitem:component.advanced_smd.capacitor> * 8, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<gregtech:meta_item_1:635>])
+.EUt(480)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2,
+<metaitem:component.advanced_smd.inductor> * 4, <metaitem:component.advanced_smd.capacitor> * 8, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32])
+.fluidInputs([<liquid:tin> * 576])
+.outputs([<gregtech:meta_item_1:635>])
+.EUt(480)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2,
+<metaitem:component.smd.inductor> * 16, <metaitem:component.smd.capacitor> * 32, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<gregtech:meta_item_1:635>])
+.EUt(480)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2,
+<metaitem:component.smd.inductor> * 16, <metaitem:component.smd.capacitor> * 32, 
+<metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32])
+.fluidInputs([<liquid:tin> * 576])
+.outputs([<gregtech:meta_item_1:635>])
+.EUt(480)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+//EV电路组装机
+recipes.remove(<gregtech:machine:638>);
+recipes.addShaped(<gregtech:machine:638> * 1,
+  [[<gregtech:meta_item_1:190>,<ore:circuitLuv>,<gregtech:meta_item_1:220>],
+   [<gregtech:meta_item_1:160>,<gregtech:machine:989>,<gregtech:meta_item_1:160>],
+   [<ore:cableGtSingleAluminium>,<ore:circuitLuv>,<ore:cableGtSingleAluminium>]]);

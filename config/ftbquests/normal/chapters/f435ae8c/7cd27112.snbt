@@ -1,0 +1,19 @@
+{
+	title: "升级！强化！",
+	x: 8.5d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"恭喜，你可以把TE机器升级至强化等级了。但是，若想继续升级到更高等级——那就不是HV能解决的事情了，继续提升你的电压等级吧。"
+	],
+	dependencies: [
+		"7a2aa702"
+	],
+	tasks: [{
+		uid: "e92ed1ca",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}]
+}

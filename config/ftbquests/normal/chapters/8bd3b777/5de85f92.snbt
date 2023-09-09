@@ -1,0 +1,29 @@
+{
+	title: "纳米级芯片——纳米处理器集群",
+	x: 8.5d,
+	y: -5.0d,
+	text: [
+		"纳米处理器集群是更好的EV电路板——堆叠次数比工作站少一次。"
+	],
+	dependencies: [
+		"a534379f"
+	],
+	tasks: [{
+		uid: "c3afb539",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 633"
+		}]
+	}],
+	rewards: [{
+		uid: "db74a6b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 526",
+		count: 32
+	},
+	{
+		uid: "4193ffa0",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

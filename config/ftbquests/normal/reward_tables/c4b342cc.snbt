@@ -9,21 +9,6 @@
 		count: 16
 	},
 	{
-		item: {
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					MaxDurability: 512,
-					DigSpeed: 4.0f,
-					AttackDamage: 1.0f,
-					Material: "plastic",
-					HarvestLevel: 1
-				}
-			},
-			Damage: 7s
-		}
-	},
-	{
 		item: "harvestcraft:grilledcheeseitem",
 		count: 4
 	},
@@ -153,10 +138,6 @@
 		count: 8
 	},
 	{
-		item: "contenttweaker:cokeovenbrick",
-		count: 32
-	},
-	{
 		item: "gregtech:metal_casing 1 1"
 	},
 	{
@@ -236,7 +217,7 @@
 	loot_crate: {
 		string_id: "2",
 		item_name: "奖励箱（蒸汽时代）",
-		color: 16777215,
+		color: 15506432,
 		drops: {
 			boss: 0,
 			passive: 0,

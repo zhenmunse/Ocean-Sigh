@@ -1,0 +1,36 @@
+{
+	title: "大炉子",
+	x: -2.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"熔炉的效率对于你来说已经不够了。造一个冶炼炉吧！",
+		"§3§l这里不对尺寸作具体要求，一切看你的！"
+	],
+	dependencies: [
+		"35ffe9ef"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2efaa6a5",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "fa5e1bb3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "e900df0c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

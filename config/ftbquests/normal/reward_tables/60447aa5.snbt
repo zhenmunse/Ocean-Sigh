@@ -1,0 +1,193 @@
+{
+	title: "超高压",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ic2:nano_helmet",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		item: {
+			id: "ic2:nano_chestplate",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		item: {
+			id: "ic2:nano_leggings",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		item: {
+			id: "ic2:nano_boots",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		item: "ironchest:iron_chest 1 6"
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 10240000L
+			},
+			Damage: 743s
+		}
+	},
+	{
+		item: "gregtech:machine 1 1614"
+	},
+	{
+		item: "thermalexpansion:augment 1 352"
+	},
+	{
+		item: "thermaldynamics:duct_0 1 2",
+		count: 32
+	},
+	{
+		item: "thermaldynamics:servo 1 2",
+		count: 4
+	},
+	{
+		item: "contenttweaker:power_coil_bluestone",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_small 1 113",
+		count: 24
+	},
+	{
+		item: "gregtech:fluid_pipe_normal 1 113",
+		count: 8
+	},
+	{
+		item: "gregtech:fluid_pipe_large 1 113",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_huge 1 113",
+		count: 2
+	},
+	{
+		item: "gregtech:fluid_pipe_quadruple 1 113"
+	},
+	{
+		item: "gregtech:cable_double 1 294",
+		count: 32
+	},
+	{
+		item: "gregtech:cable_octal 1 294",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 83",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 383",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 403",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 628",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 629",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 630",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 631",
+		count: 2
+	},
+	{
+		item: "contenttweaker:rf_universal_processor",
+		count: 8
+	},
+	{
+		item: "contenttweaker:rf_universal_processor_base",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:landing_pad",
+		count: 3
+	},
+	{
+		item: "ic2:glass",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 291",
+		count: 16
+	},
+	{
+		item: "gregtech:machine 1 1228",
+		count: 2
+	},
+	{
+		item: "gregtech:machine 1 1213",
+		count: 2
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "liquid_oxygen",
+					Amount: 64000
+				}
+			},
+			Damage: 82s
+		}
+	},
+	{
+		item: "contenttweaker:luminessence",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34"
+	},
+	{
+		item: "galacticraftcore:heavy_plating",
+		count: 4
+	},
+	{
+		item: "galacticraftcore:oxygen_gear"
+	},
+	{
+		item: "galacticraftcore:oxygen_tank_light_full"
+	},
+	{
+		item: "galacticraftcore:oxygen_mask"
+	}],
+	loot_crate: {
+		string_id: "6",
+		item_name: "奖励箱（超高压）",
+		color: 10910134,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

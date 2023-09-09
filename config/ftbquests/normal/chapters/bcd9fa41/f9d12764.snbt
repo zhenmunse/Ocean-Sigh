@@ -36,22 +36,22 @@
 		count: 16L
 	},
 	{
-		uid: "207e24ee",
+		uid: "7b9ea5a3",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
 			tag: {
 				Fluid: {
-					FluidName: "butene",
+					FluidName: "butane",
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 16L
 	},
 	{
-		uid: "580210ef",
+		uid: "5ef4edba",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -61,12 +61,17 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 16L
 	}],
 	rewards: [{
-		uid: "6917b208",
+		uid: "ff0bf27b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "d235f13a",
 		type: "item",
 		item: {
 			id: "gregtech:meta_item_1",
@@ -76,13 +81,8 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		},
 		count: 48
-	},
-	{
-		uid: "ff0bf27b",
-		type: "ftbmoney:money",
-		ftb_money: 20L
 	}]
 }

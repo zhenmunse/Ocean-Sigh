@@ -18,11 +18,6 @@
 		count: 20L
 	}],
 	rewards: [{
-		uid: "228f9443",
-		type: "item",
-		item: "gregtech:meta_tool_head_hoe 1 23"
-	},
-	{
 		uid: "d81cfcd3",
 		type: "ftbmoney:money",
 		ftb_money: 5L
@@ -33,7 +28,7 @@
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
 	}]

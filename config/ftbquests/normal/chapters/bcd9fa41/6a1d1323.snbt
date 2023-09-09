@@ -1,12 +1,18 @@
 {
+	title: "含硫石脑油",
 	x: -8.0d,
 	y: 2.5d,
 	shape: "circle",
+	text: [
+		"含硫石脑油的燃烧效率极低(40kEU/桶)，仅仅是制取石脑油的中间体。",
+		"",
+		"当然，你实在没东西烧的话，它也不是不能烧:)"
+	],
 	dependencies: [
 		"923e4bf0"
 	],
 	tasks: [{
-		uid: "433c9329",
+		uid: "43310ea7",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -16,8 +22,28 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 9L
+	}],
+	rewards: [{
+		uid: "c9d262b1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f7abeea9",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "crude_oil",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 64
 	}]
 }

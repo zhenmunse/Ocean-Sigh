@@ -3,8 +3,12 @@
 	x: -11.5d,
 	y: 0.5d,
 	text: [
-		"你惊人的发现，在这片土地上，燧石制作的武器自带火焰附加Ⅱ，并且伤害远远大于你认知中的钻石剑！快做一把",
-		"——不然这里的怪物可能会把你手撕了:)"
+		"你惊人的发现，在这片土地上，燧石制作的武器自带火焰附加Ⅱ，并且伤害远远大于你认知中的钻石剑！快做一把。",
+		"",
+		"——不然这里的怪物可能会把你手撕了:)",
+		"",
+		"§4§l在Alpha 1.0.1 dev11版本之后，由于",
+		"GTCEu的更新，燧石剑的伤害由8削弱至6:("
 	],
 	dependencies: [
 		"09efc9ce"
@@ -12,24 +16,28 @@
 	hide: true,
 	size: 1.5d,
 	tasks: [{
-		uid: "dcd87ece",
+		uid: "b4e375a7",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:sword",
 			tag: {
+				DisallowContainerItem: 0b,
 				ench: [{
 					lvl: 2s,
 					id: 20s
 				}],
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					AttackDamage: 4.0f,
+					Durability: 0,
 					Material: "flint",
-					HarvestLevel: 1
+					AttackSpeed: -2.4f
 				}
 			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

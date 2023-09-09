@@ -1,6 +1,16 @@
 //Created by zhenmunse
 //热力系列 Thermal Foundation, Expansion and Dynamics
+#priority 126
 import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import mods.gregtech.recipe.Recipe;
+import crafttweaker.item.IItemDefinition;
+import mods.jei.JEI;
+import crafttweaker.item.IItemStack;
+
 val GTmachine_hammer = RecipeMap.getByName("forge_hammer");
 val GTmachine_compressor = RecipeMap.getByName("compressor");
 val GTmachine_macerator = RecipeMap.getByName("macerator");
@@ -34,6 +44,7 @@ val GTmachine_mill = RecipeMap.getByName("wiremill");
 val GTmachine_centrifuge = RecipeMap.getByName("centrifuge");
 val GTmachine_extruder = RecipeMap.getByName("extruder");
 val GTmachine_metal_bender = RecipeMap.getByName("metal_bender");
+val GTmachine_electric_blast_furnace = RecipeMap.getByName("electric_blast_furnace");
 
 //合金粉合成削弱
 recipes.remove(<thermalfoundation:material:97>);  //琥珀金粉
@@ -52,10 +63,12 @@ recipes.remove(<thermalfoundation:material:102>);  //流明粉
 GTmachine_mixer.recipeBuilder()
 .inputs([<contenttweaker:luminessence>*2,<ore:dustSterlingSilver>*2,<ore:dustTinAlloy>*4])
 .fluidInputs([<liquid:glowstone>*288])
-.outputs([<thermalfoundation:material:102>*1])
+.outputs([<gregtech:meta_dust:32202>*9])
 .EUt(120)
 .duration(240)
 .buildAndRegister();
+recipes.remove(<thermalfoundation:material:103>);  //末影粉
+
 //齿轮削弱
 recipes.remove(<thermalfoundation:material:22>);  //木齿轮
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:22>);
@@ -171,7 +184,7 @@ for item in loadedMods["thermalfoundation"].items{ //工具、装备
 	if(item.name.startsWith("thermalfoundation:armor")){
 		recipes.remove(item);
 	}
-	}
+}
 
 //铁匠辞典
 recipes.remove(<thermalfoundation:tome_lexicon>);
@@ -187,7 +200,7 @@ recipes.remove(<thermalexpansion:frame:*>);
 recipes.remove(<thermalexpansion:augment:*>);
 recipes.addShaped(<thermalexpansion:machine> * 1,   //红石炉
   [[<ore:wireGtOctalCopper>,<thermalfoundation:material:513>,<ore:wireGtOctalCopper>],
-   [<ic2:te:46>,<gregtech:machine:986>,<ic2:te:46>],
+   [<gregtech:meta_item_1:97>,<gregtech:machine:50>,<gregtech:meta_item_1:97>],
    [<ore:cableGtSingleTin>,<ore:circuitLv>,<ore:cableGtSingleTin>]]);
 recipes.addShaped(<thermalexpansion:device:10> * 1, //公式处理器
   [[<ore:cableGtSingleTin>,<thermalfoundation:material:512>,<gregtech:meta_item_1:127>],
@@ -233,3 +246,54 @@ recipes.addShaped(<thermalfoundation:material:515> * 2,
    [null,<ore:wireGtDoubleElectrum>,<gregtech:wire_single:2517>]]);
 
 recipes.remove(<thermalfoundation:material:640>);   //红石工具箱
+
+recipes.addShaped(<thermalexpansion:dynamo> * 1,  //蒸汽能源炉
+  [[null,<thermalfoundation:material:514>,null],
+   [<ore:rotorSteel>,<gregtech:machine:986>,<ore:rotorSteel>],
+   [<ore:plateDoubleIron>,<thermaldynamics:duct_0>,<ore:plateDoubleIron>]]);
+
+val tdPipes = [  //TD 管道
+  <thermaldynamics:duct_0:*>,<thermaldynamics:duct_16:*>,<thermaldynamics:duct_32>,<thermaldynamics:duct_48>,<thermaldynamics:duct_64>] as IItemStack[];
+for i in tdPipes{
+  recipes.remove(i);
+}
+recipes.addShaped(<thermaldynamics:duct_0> * 6,  //铅石能量管道
+  [[<ore:ingotRawRubber>,<ore:ingotRawRubber>,<ore:ingotRawRubber>],
+   [<ore:wireGtDoubleLead>,<ore:wireGtDoubleRedAlloy>,<ore:wireGtDoubleLead>],
+   [<ore:ingotRawRubber>,<ore:ingotRawRubber>,<ore:ingotRawRubber>]]);
+recipes.addShaped(<thermaldynamics:duct_0> * 16,  
+  [[<ore:ingotRubber>,<ore:ingotRubber>,<ore:ingotRubber>],
+   [<ore:wireGtQuadrupleLead>,<ore:wireGtQuadrupleRedAlloy>,<ore:wireGtQuadrupleLead>],
+   [<ore:ingotRubber>,<ore:ingotRubber>,<ore:ingotRubber>]]);
+
+recipes.addShaped(<thermalexpansion:machine:6> * 1,  //熔岩炉
+  [[null,<contenttweaker:insulated_boron_glass_cover>,null],
+   [<ore:plateSapphire>,<gregtech:machine:988>,<ore:plateSapphire>],
+   [<ore:gearStainlessSteel>,<contenttweaker:power_coil_bluestone>,<ore:gearStainlessSteel>]]);
+
+recipes.addShaped(<thermalexpansion:machine:3> * 1,  //感应炉
+  [[<ic2:containment_plating>,<gregtech:meta_item_1:159>,<ic2:containment_plating>],
+   [<gregtech:machine:52>,<gregtech:machine:988>,<gregtech:machine:52>],
+   [<ic2:containment_plating>,<contenttweaker:power_coil_bluestone>,<ic2:containment_plating>]]);
+
+GTmachine_assembler.recipeBuilder()  //硬化升级
+.inputs([<ore:plateDoubleHardenedAlloy> * 4, <contenttweaker:rf_universal_processor> * 1, <ore:gearSmallAluminium> * 2])
+.outputs([<thermalfoundation:upgrade>])
+.EUt(240)
+.duration(250)
+.buildAndRegister();
+
+GTmachine_assembler.recipeBuilder()  //强化升级
+.inputs([<gregtech:meta_plate_double:32204> * 4, <contenttweaker:rf_universal_processor> * 2, <ore:gearSmallStainlessSteel> * 2])
+.outputs([<thermalfoundation:upgrade:1>])
+.EUt(480)
+.duration(250)
+.buildAndRegister();
+
+recipes.remove(<thermalexpansion:tank>);
+recipes.addShaped(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 0 as byte}) * 1,  //便携储罐
+  [[<ore:plateBrass>,<extrautils2:decorativeglass>,<ore:plateBrass>],
+   [<ore:plateBrass>,<extrautils2:decorativeglass>,<ore:plateBrass>],
+   [<ore:plateBrass>,<thermalfoundation:material:512>,<ore:plateBrass>]]);
+
+   

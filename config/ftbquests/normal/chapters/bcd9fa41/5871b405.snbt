@@ -1,13 +1,17 @@
 {
+	title: "石脑油",
 	x: -8.0d,
 	y: 4.5d,
 	shape: "circle",
+	text: [
+		"石脑油热值较高(320kEU/桶)，但是它更适合作为化工原料：它的产量不如轻燃油高，但是可以获得许多衍生产物。"
+	],
 	dependencies: [
 		"8095e4e8",
 		"6a1d1323"
 	],
 	tasks: [{
-		uid: "84ef411b",
+		uid: "55130bd8",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -17,8 +21,23 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 9L
+	}],
+	rewards: [{
+		uid: "e9f12ec2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "695e5c29",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

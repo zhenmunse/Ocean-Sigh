@@ -1,0 +1,47 @@
+{
+	title: "中央处理器(CPU)",
+	icon: "gregtech:meta_item_1 1 566",
+	x: 8.5d,
+	y: -0.5d,
+	text: [
+		"集成处理器需要CPU了——你不能总自己手搓CPU吧！因此你需要中央处理器芯片。",
+		"",
+		"§3§l它需要超净环境来制作。"
+	],
+	dependencies: [
+		"02cef468",
+		"d205ff93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0fa3d295",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 566"
+		}],
+		count: 2L
+	},
+	{
+		uid: "663c874e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 591"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "009c604f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "170937aa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -2,7 +2,7 @@
 	title: "一些基本的建筑材料",
 	icon: "minecraft:gravel",
 	x: -2.0d,
-	y: -1.5d,
+	y: -2.5d,
 	text: [
 		"为了制作一些在当前阶段所必要的机器——或者说——现在应该叫作“机械”，你需要大量的建筑材料."
 	],
@@ -61,7 +61,7 @@
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		},
 		count: 3

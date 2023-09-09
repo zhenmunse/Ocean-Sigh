@@ -1,0 +1,20 @@
+{
+	title: "迈向IV",
+	x: 14.0d,
+	y: 3.0d,
+	text: [
+		"现在，你可以制造一批钨钢了——这也是你进入IV的一大门槛。"
+	],
+	dependencies: [
+		"7b7533e4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7c7513ec",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2013"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "高级的集成电路",
+	x: 3.0d,
+	y: -4.5d,
+	shape: "gear",
+	text: [
+		"终于，你制作出了HV电路板。如果你已经制造出了不锈钢，那么是时候进入高压时代了！"
+	],
+	dependencies: [
+		"5eb13dc4",
+		"5663f5c2",
+		"133e2207"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "efdf1999",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 625"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a83f9d42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "23e1bb5c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

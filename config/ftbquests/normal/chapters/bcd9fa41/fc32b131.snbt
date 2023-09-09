@@ -13,7 +13,7 @@
 		"923e4bf0"
 	],
 	tasks: [{
-		uid: "52ccb21f",
+		uid: "a3fe8bbc",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -23,12 +23,12 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 4L
 	}],
 	rewards: [{
-		uid: "2b82e6f7",
+		uid: "8213c3da",
 		type: "item",
 		item: {
 			id: "gregtech:meta_item_1",
@@ -38,7 +38,7 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		},
 		count: 8
 	}]

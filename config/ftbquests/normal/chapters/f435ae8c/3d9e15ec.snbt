@@ -1,0 +1,36 @@
+{
+	title: "硬化合金",
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"为了升级你的热力机器，硬化合金是必不可少的。它可以将你的机器升级至硬化级别。",
+		"",
+		"§3§l别忘了用坎塔尔合金线圈"
+	],
+	dependencies: [
+		"90d2057c"
+	],
+	tasks: [{
+		uid: "aae3bab9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32203"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "a46de06d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "8014540b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

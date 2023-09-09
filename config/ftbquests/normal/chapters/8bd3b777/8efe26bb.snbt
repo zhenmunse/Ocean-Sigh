@@ -1,0 +1,49 @@
+{
+	title: "氡",
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"氡是制作量子之眼和量子之星的原料，它们分别可以用于制作EV及IV的发射器和传感器。",
+		"",
+		"§4§l这里没有GT++，因此不要妄想使用镭-226衰变得到氡。"
+	],
+	dependencies: [
+		"8d0eeb4f"
+	],
+	tasks: [{
+		uid: "1da8fe64",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "radon",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ef1b7731",
+		type: "item",
+		item: "gregtech:ore_titanium_0",
+		count: 8
+	},
+	{
+		uid: "636bbf90",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "404c1d56",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

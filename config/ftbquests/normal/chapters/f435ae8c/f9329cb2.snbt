@@ -1,0 +1,81 @@
+{
+	title: "HV阶段的机器零件",
+	icon: "gregtech:meta_item_1 1 129",
+	x: 9.0d,
+	y: -7.5d,
+	text: [
+		"没错，又是它们！在HV阶段，无论是导线还是元件都比MV昂贵得多，你需要大量的金。用汞来洗磁铁矿可以解决你的问题……或许吧:)"
+	],
+	dependencies: [
+		"3e85c3b9"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "55ef705b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 129"
+		}],
+		count: 4L
+	},
+	{
+		uid: "de813b0d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 174"
+		}],
+		count: 2L
+	},
+	{
+		uid: "fd7e0d02",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 159"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5e2fe968",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 144"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2455a35b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 189"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7b7798e0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "76d1fd29",
+		type: "item",
+		item: "gregtech:meta_ingot 1 323",
+		count: 16
+	},
+	{
+		uid: "0e34bf14",
+		type: "item",
+		item: "gregtech:meta_ingot 1 277",
+		count: 16
+	},
+	{
+		uid: "f6281819",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

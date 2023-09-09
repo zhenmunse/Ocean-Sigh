@@ -12,7 +12,7 @@
 		uid: "ed4e5fb4",
 		type: "item",
 		items: [{
-			item: "contenttweaker:cokeovenbrick"
+			item: "contenttweaker:cokeoven_brick"
 		}],
 		count: 104L
 	}],
@@ -22,7 +22,7 @@
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "_"
+				type: "1"
 			}
 		}
 	},

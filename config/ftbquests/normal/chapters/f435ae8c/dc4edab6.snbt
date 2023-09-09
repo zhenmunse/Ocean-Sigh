@@ -1,0 +1,40 @@
+{
+	title: "数一数二的硝基",
+	x: -13.5d,
+	y: -10.5d,
+	shape: "circle",
+	text: [
+		"高十六烷值柴油是一种热值极高的燃料，也是内燃发电机性价比最高的燃料（高辛烷值汽油产线复杂且较为昂贵）。"
+	],
+	dependencies: [
+		"83cd56f8",
+		"1f4bee8d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c32fb523",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "111b7697",
+		type: "item",
+		item: "gregtech:meta_item_1 1 78",
+		count: 128
+	},
+	{
+		uid: "ad720fd4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

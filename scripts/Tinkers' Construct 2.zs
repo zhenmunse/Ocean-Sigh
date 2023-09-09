@@ -14,7 +14,7 @@ recipes.addShapeless(<tconstruct:tooltables>,
 recipes.remove(<tconstruct:tooltables:2>);
 recipes.addShaped(<tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}) * 1,
   [[stick,<tconstruct:pattern>,stick],
-   [<contenttweaker:woodenpart>,stick,<contenttweaker:woodenpart>],
+   [<contenttweaker:wooden_part>,stick,<contenttweaker:wooden_part>],
    [null,craftingSoftHammer,null]]);
 //模具加工台
 recipes.remove(<tconstruct:tooltables:1>);

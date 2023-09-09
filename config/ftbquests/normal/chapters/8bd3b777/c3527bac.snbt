@@ -1,0 +1,30 @@
+{
+	title: "钨钢",
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"将钨粉和钢粉混合，你就可以得到钨钢粉。"
+	],
+	dependencies: [
+		"d01b19f4"
+	],
+	tasks: [{
+		uid: "525e0384",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2013"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "9cbeb33e",
+		type: "item",
+		item: "gregtech:meta_dust 1 2013",
+		count: 16
+	},
+	{
+		uid: "d5438ccb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

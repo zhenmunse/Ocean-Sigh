@@ -39,8 +39,8 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "943bbf7f",
-		type: "choice",
-		table: 0
+		uid: "cc7a38a1",
+		type: "item",
+		item: "harvestcraft:lemon_sapling"
 	}]
 }

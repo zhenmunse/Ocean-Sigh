@@ -1,0 +1,59 @@
+{
+	title: "获取硝酸-第一步",
+	x: -1.0d,
+	y: -9.0d,
+	text: [
+		"让我们回忆一下高中化学课本中关于制取硝酸的内容吧！",
+		"",
+		"首先，你需要将氨氧化为一氧化氮。"
+	],
+	dependencies: [
+		"33e1aa0f"
+	],
+	tasks: [{
+		uid: "605ea8c7",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitric_oxide",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 24L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "aba15d39",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	},
+	{
+		uid: "fe7fe316",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "fermented_biomass",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 8
+	}]
+}

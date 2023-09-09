@@ -1,0 +1,35 @@
+{
+	title: "量子之眼",
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"EV发射器和传感器需要量子之眼。",
+		"§3§l老 大 哥 的 眼 睛"
+	],
+	dependencies: [
+		"8efe26bb"
+	],
+	tasks: [{
+		uid: "1a6b0699",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 281"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "81982259",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "3406eabb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "铟",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"铟是一种重要的金属，但并没有矿石生成，因此你只能通过副产取得铟。除了这里的方法之外，在IV阶段，你还可以通过硅岩处理副产出一些铟。",
+		"它主要用于制作磷化铟镓——Qbit、高功率IC以及超高功率IC的原料，还可以制作LuV超导体，当然，那是后话了。"
+	],
+	dependencies: [
+		"699e4930"
+	],
+	tasks: [{
+		uid: "08022101",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 48"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6affe97a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "59336941",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

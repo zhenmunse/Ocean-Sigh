@@ -1,0 +1,30 @@
+{
+	title: "贴片电感",
+	x: 13.0d,
+	y: -0.5d,
+	text: [
+		"贴片电感需要镍锌铁氧体来制作，它可以替代你的小型线圈，而且更加廉价。"
+	],
+	dependencies: [
+		"a785fd7e"
+	],
+	tasks: [{
+		uid: "bd71d977",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 527"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4cafe144",
+		type: "item",
+		item: "gregtech:meta_item_1 1 532",
+		count: 16
+	},
+	{
+		uid: "8f4bb088",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

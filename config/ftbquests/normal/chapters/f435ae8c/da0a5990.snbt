@@ -1,0 +1,20 @@
+{
+	title: "HV化学反应釜",
+	x: 4.5d,
+	y: -10.5d,
+	text: [
+		"一些全新的材料，例如硅橡胶、丁苯橡胶和聚四氟乙烯都需要高压级别的化学反应釜来制作。"
+	],
+	dependencies: [
+		"3e85c3b9"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "cee0ba15",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 217"
+		}]
+	}]
+}

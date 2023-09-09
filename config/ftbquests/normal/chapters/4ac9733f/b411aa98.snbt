@@ -1,7 +1,7 @@
 {
 	title: "研碎物品",
 	x: -2.0d,
-	y: 1.5d,
+	y: 1.0d,
 	text: [
 		"现在你无法像其它主要使用RF能量的平行世界那样，在前期通过十分简单的方式制作出粉碎机. 因此，你需要研钵来粉碎一些物品. 它造价并不昂贵，且是瞬间加工，在蒸汽时代仍有相当一部分人认为它比蒸汽研磨机更有用. 现在",
 		"需要制作燧石研钵."
@@ -10,21 +10,23 @@
 		"9e89c96a"
 	],
 	tasks: [{
-		uid: "18f00924",
+		uid: "abc67386",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
-					Material: "flint",
-					HarvestLevel: 1
+			ForgeCaps: {
+				Parent: {
+					data: "toolMortar",
+					id: "ore"
 				}
 			},
-			Damage: 12s
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolMortar"
+				}
+			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

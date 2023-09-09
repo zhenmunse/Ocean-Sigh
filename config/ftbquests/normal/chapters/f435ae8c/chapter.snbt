@@ -1,6 +1,6 @@
 {
 	title: "阶段4:中压与高压(MV＆HV)",
-	icon: "galacticraftcore:rocket_workbench",
+	icon: "gregtech:machine 1 1023",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

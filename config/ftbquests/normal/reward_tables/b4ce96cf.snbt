@@ -1,0 +1,311 @@
+{
+	title: "高压",
+	loot_size: 1,
+	rewards: [{
+		item: "ic2:te 1 41"
+	},
+	{
+		item: "extrautils2:ingredients 1 8"
+	},
+	{
+		item: "extrautils2:grocket",
+		count: 8
+	},
+	{
+		item: "extrautils2:grocket 1 2",
+		count: 8
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 1600000L
+			},
+			Damage: 472s
+		}
+	},
+	{
+		item: "gregtech:meta_ingot 1 320",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 384",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 521",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 625",
+		count: 8
+	},
+	{
+		item: "ic2:crafting 1 15",
+		count: 8
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 6400000L
+			},
+			Damage: 741s
+		}
+	},
+	{
+		item: {
+			id: "ic2:nano_saber",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		item: "tconstruct:materials 1 50",
+		count: 2
+	},
+	{
+		item: "minecraft:enchanting_table"
+	},
+	{
+		item: "thermaldynamics:duct_32 1 2",
+		count: 16
+	},
+	{
+		item: "thermaldynamics:servo 1 2",
+		count: 8
+	},
+	{
+		item: "thermaldynamics:servo 1 3",
+		count: 4
+	},
+	{
+		item: {
+			id: "gregtech:gt_armor",
+			tag: {
+				Charge: 1000000L
+			},
+			Damage: 3s
+		}
+	},
+	{
+		item: "galacticraftcore:fluid_pipe",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 129",
+		count: 16
+	},
+	{
+		item: "ironchest:gold_diamond_chest_upgrade"
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		item: "gregtech:meta_ingot 1 323",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 719"
+	},
+	{
+		item: "gregtech:meta_item_1 1 144",
+		count: 4
+	},
+	{
+		item: {
+			id: "ic2:nightvision_goggles",
+			tag: {
+				charge: 200000.0d
+			}
+		}
+	},
+	{
+		item: "gregtech:cable_single 1 2527",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 267"
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 16
+	},
+	{
+		item: "gregtech:fluid_pipe_small 1 323",
+		count: 64
+	},
+	{
+		item: {
+			id: "ic2:jetpack",
+			tag: {
+				Fluid: {
+					FluidName: "ic2biogas",
+					Amount: 30000
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 568",
+		count: 2
+	},
+	{
+		item: "gregtech:meta_item_1 1 567",
+		count: 2
+	},
+	{
+		item: "gregtech:meta_item_1 1 624",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 523",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 518",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_ingot 1 99",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 2511",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 2510",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_ingot 1 300",
+		count: 16
+	},
+	{
+		item: "ic2:te 1 1",
+		count: 32
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "nitric_acid",
+					Amount: 64000
+				}
+			},
+			Damage: 82s
+		}
+	},
+	{
+		item: "gregtech:meta_ingot 1 1016",
+		count: 32
+	},
+	{
+		item: "galacticraftcore:air_vent"
+	},
+	{
+		item: "galacticraftcore:basic_item 1 9",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:basic_item 1 13",
+		count: 4
+	},
+	{
+		item: "galacticraftcore:basic_item 1 14",
+		count: 4
+	},
+	{
+		item: "projectred-illumination:inverted_cage_lamp 1 14"
+	},
+	{
+		item: "galacticraftcore:landing_pad",
+		count: 3
+	},
+	{
+		item: "galacticraftcore:oil_canister_partial 1 1001",
+		count: 9
+	},
+	{
+		item: "galacticraftcore:air_fan"
+	},
+	{
+		item: "galacticraftcore:steel_pole",
+		count: 8
+	},
+	{
+		item: "galacticraftcore:glowstone_torch",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 524",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 526",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 525",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:material 1 512",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:material 1 515",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 514",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 513",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 520",
+		count: 16
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33"
+	}],
+	loot_crate: {
+		string_id: "5",
+		item_name: "奖励箱（高压）",
+		color: 12698068,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

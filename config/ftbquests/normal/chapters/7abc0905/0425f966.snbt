@@ -25,5 +25,20 @@
 			item: "gregtech:meta_item_1 1 127"
 		}],
 		count: 2L
+	}],
+	rewards: [{
+		uid: "56aee2f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "2"
+			}
+		}
+	},
+	{
+		uid: "46bc5bfe",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

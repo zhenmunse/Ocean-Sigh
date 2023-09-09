@@ -1,0 +1,32 @@
+{
+	title: "集成级芯片——处理器主机",
+	x: 16.0d,
+	y: 1.0d,
+	text: [
+		"没错，你在HV电压制作出了IV级电路板——处理器主机。",
+		"",
+		"你需要它来制作HV电路组装机。"
+	],
+	dependencies: [
+		"c56a648e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98492cdd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 631"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "c9fe3ffa",
+		type: "item",
+		item: "gregtech:meta_item_1 1 630"
+	},
+	{
+		uid: "6bf69fb2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

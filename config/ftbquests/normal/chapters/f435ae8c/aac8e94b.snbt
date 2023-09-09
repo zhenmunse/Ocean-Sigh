@@ -1,0 +1,34 @@
+{
+	title: "丁苯橡胶",
+	x: -6.5d,
+	y: -15.5d,
+	text: [
+		"现在，通过添加硫，你便可以得到丁苯橡胶了！"
+	],
+	dependencies: [
+		"0f90a4d9"
+	],
+	tasks: [{
+		uid: "70715bbb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1004"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "20127654",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "069d4fab",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

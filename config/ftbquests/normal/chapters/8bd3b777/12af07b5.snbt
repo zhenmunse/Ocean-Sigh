@@ -1,0 +1,36 @@
+{
+	title: "EV电路组装机",
+	x: 8.5d,
+	y: -2.0d,
+	text: [
+		"EV电路组装机是在IV阶段制造量子级处理器的必备机器——当然，它需要LuV电路板，也就是纳米处理器主机来制作。"
+	],
+	dependencies: [
+		"4a5aa9ff",
+		"d2cb5a35",
+		"69e013d6"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2e80c5a6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 638"
+		}]
+	}],
+	rewards: [{
+		uid: "b4b5c9e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "8d4e1e2d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

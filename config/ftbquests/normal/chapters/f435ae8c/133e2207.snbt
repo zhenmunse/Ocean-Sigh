@@ -1,0 +1,29 @@
+{
+	title: "贴片电阻",
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"贴片元件比常规的元件更加高级，它们通过使用更加先进的材料，降低了生产成本。",
+		"",
+		"§3§l从纳米级电路板开始，必须使用贴片元件。"
+	],
+	dependencies: [
+		"7006546a",
+		"d143ce47"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c30592dd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 524"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4a55a1c9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 524",
+		count: 32
+	}]
+}

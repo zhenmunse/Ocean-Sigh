@@ -1,0 +1,42 @@
+{
+	title: "不错的集成电路",
+	x: 0.5d,
+	y: -5.5d,
+	text: [
+		"集成逻辑电路经过一次堆叠可以得到MV级别的“不错的集成电路”。",
+		"",
+		"它是你制作HV电路板的基础，你需要制作不少。"
+	],
+	dependencies: [
+		"3d721bb5"
+	],
+	tasks: [{
+		uid: "a96329a0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 624"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "34f4d34a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 623",
+		count: 8
+	},
+	{
+		uid: "1104c01e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "639e00ba",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

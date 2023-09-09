@@ -1,0 +1,35 @@
+{
+	title: "环氧树脂",
+	x: 2.5d,
+	y: -5.0d,
+	text: [
+		"终于，第一批环氧树脂被制作出来了。接下来，通过利用大型化学反应釜，跳过双酚A，直接用苯酚等原料来制作它也是可行的。"
+	],
+	dependencies: [
+		"cf6353e7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1bcc4425",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1013"
+		}],
+		count: 125L
+	}],
+	rewards: [{
+		uid: "774a6e2c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "3a94a76e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

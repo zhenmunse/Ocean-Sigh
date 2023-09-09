@@ -16,5 +16,20 @@
 		items: [{
 			item: "gregtech:machine 1 50"
 		}]
+	}],
+	rewards: [{
+		uid: "0cb88375",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "0d66bffa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

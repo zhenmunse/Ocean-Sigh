@@ -1,0 +1,44 @@
+{
+	title: "直接产生RF",
+	x: 0.0d,
+	y: -6.0d,
+	shape: "circle",
+	text: [
+		"拥有电力固然是好的。但在前期，能量转换器并不廉价，你可以选择直接制造RF。",
+		"",
+		"这台蒸汽能源炉的产能是40RF/t （即：10EU/t）",
+		"",
+		"§3§l虽然它的产能连蒸汽轮机都不如:)"
+	],
+	dependencies: [
+		"e67bdf6e"
+	],
+	tasks: [{
+		uid: "fa3c4a7d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5c56a279",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "b37f3805",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

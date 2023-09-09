@@ -1,0 +1,45 @@
+{
+	title: "四氟乙烯（TFE）",
+	x: -2.5d,
+	y: -12.0d,
+	text: [
+		"四氟乙烯是聚四氟乙烯的单体。"
+	],
+	dependencies: [
+		"d9ac8778"
+	],
+	tasks: [{
+		uid: "9eb5d274",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "tetrafluoroethylene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "24a3b6db",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrofluoric_acid",
+					Amount: 64000
+				}
+			},
+			Damage: 82s
+		}
+	},
+	{
+		uid: "40792086",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "HV搅拌机",
+	x: 3.5d,
+	y: -6.5d,
+	text: [
+		"搅拌更高级的粉末——热力膨胀的流明、信素、末影等都需要HV级别的搅拌机。"
+	],
+	dependencies: [
+		"3e85c3b9"
+	],
+	tasks: [{
+		uid: "f9a4a9c0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 472"
+		}]
+	}],
+	rewards: [{
+		uid: "1040fec2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "1"
+			}
+		}
+	},
+	{
+		uid: "f2125724",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "橡胶替代品-丁苯橡胶（三）",
+	x: -2.5d,
+	y: -15.5d,
+	text: [
+		"第三步，你需要将苯和乙烯在化学反应釜中反应，得到苯乙烯，这是丁苯橡胶的其中一种单体。"
+	],
+	dependencies: [
+		"f7d6aec7"
+	],
+	tasks: [{
+		uid: "286e83c6",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "styrene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0019a52e",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "benzene",
+					Amount: 64000
+				}
+			},
+			Damage: 82s
+		}
+	},
+	{
+		uid: "b5bd92c9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

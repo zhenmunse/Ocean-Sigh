@@ -1,0 +1,45 @@
+{
+	title: "红石通量通用处理器基底",
+	x: 16.0d,
+	y: 4.0d,
+	text: [
+		"红石通量通用处理器可以驱动红石通量芯片，因此其底板较为昂贵。",
+		"",
+		"§3§l需要无尘环境！这意味着你需要把HV组装机放到超净间内来合成它！"
+	],
+	dependencies: [
+		"7c272d4a",
+		"fb88ca5f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dbdb4016",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rfUniversalProcessorBase",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rfUniversalProcessorBase"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "da316ff9",
+		type: "item",
+		item: "contenttweaker:rf_universal_processor_base",
+		count: 2
+	},
+	{
+		uid: "38c65e27",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "坎塔尔合金粉",
+	x: 14.5d,
+	y: -4.5d,
+	text: [
+		"白铜线圈的温度太低了——你需要更好的了。坎塔尔合金可以有效提高你的炉温，但是它冶炼之后需要真空冷冻机来冷却——所以先制作一些粉吧。"
+	],
+	dependencies: [
+		"2ced0876"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e6c2148b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 288"
+		}],
+		count: 129L
+	}],
+	rewards: [{
+		uid: "7e4eda97",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

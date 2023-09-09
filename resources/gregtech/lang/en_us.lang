@@ -11,3 +11,7 @@ item.meta_item.ringThaumium=Thaumium Ring
 item.meta_item.nuggetThaumium=Thaumium Nugget
 item.meta_item.blockThaumium=Thaumium Block
 item.meta_item.frameThaumium=Thaumium Frame
+material.hardened_alloy=Hardened Alloy
+material.enhanced_alloy=Enhanced Alloy
+material.Thaumium=Thaumium
+material.lumium=Lumium

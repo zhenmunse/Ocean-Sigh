@@ -1,0 +1,30 @@
+{
+	title: "用于RF机器的处理器",
+	x: 14.5d,
+	y: 4.0d,
+	text: [
+		"现在，几乎所有使用RF驱动的机器（当然，红石炉那种比较鸡肋的机器除外）都需要电路板来驱动了。"
+	],
+	dependencies: [
+		"1848eaef"
+	],
+	tasks: [{
+		uid: "f9c82747",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rf_universal_processor"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "846d152d",
+		type: "item",
+		item: "thermalfoundation:material 1 513",
+		count: 2
+	},
+	{
+		uid: "d23818c8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

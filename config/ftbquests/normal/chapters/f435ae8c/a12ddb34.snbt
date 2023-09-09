@@ -1,0 +1,33 @@
+{
+	title: "集成级芯片——集成处理器",
+	x: 10.0d,
+	y: -0.5d,
+	text: [
+		"现在，通过使用较为先进的塑料电路基板，以及中央处理器芯片，你可以直接制作出MV等级的电路板。",
+		"",
+		"§3§l从集成级电路板开始，最低级的电路板可以堆叠4次，这意味着集成级处理器最高可以堆叠至IV电压——处理器主机。"
+	],
+	dependencies: [
+		"33ae3a63"
+	],
+	hide: true,
+	tasks: [{
+		uid: "254ec93b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 628"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "55983c56",
+		type: "item",
+		item: "gregtech:meta_item_1 1 567",
+		count: 2
+	},
+	{
+		uid: "eede9448",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "第二次塑料升级",
+	icon: {
+		id: "gregtech:meta_item_1",
+		tag: {
+			Fluid: {
+				FluidName: "ic2coolant",
+				Amount: 1000
+			}
+		},
+		Damage: 78s
+	},
+	x: 0.5d,
+	y: -12.0d,
+	text: [
+		"什么？聚氯乙烯也不能满足你的要求了？那么又需要更好的塑料了——聚四氟乙烯（PTFE）就不错。",
+		"",
+		"首先，你需要氢氟酸。"
+	],
+	dependencies: [
+		"da0a5990"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1da9285e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "hydrofluoric_acid",
+					Amount: 48000
+				}
+			},
+			Damage: 82s
+		}]
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "晶圆",
+	icon: "gregtech:meta_item_1 1 371",
+	x: -8.0d,
+	y: -5.5d,
+	text: [
+		"单晶硅经过MV板材切割机的切割可以得到晶圆。它是制作RAM、IC、NAND等芯片的基础。",
+		"",
+		"它也可以用来制作二极管，以节省你可怜的砷化镓。"
+	],
+	dependencies: [
+		"b556d36a"
+	],
+	tasks: [{
+		uid: "2714ba01",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 371"
+		}],
+		count: 16L
+	},
+	{
+		uid: "02338b5f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 246"
+		}]
+	}],
+	rewards: [{
+		uid: "93f6d341",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "3f245616",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

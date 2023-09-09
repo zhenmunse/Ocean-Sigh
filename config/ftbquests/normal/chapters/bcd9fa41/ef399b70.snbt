@@ -20,5 +20,15 @@
 			item: "gregtech:meta_item_1 1 521"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "d32ff602",
+		type: "item",
+		item: "gregtech:meta_dust 1 351"
+	},
+	{
+		uid: "603e6b89",
+		type: "ftbmoney:money",
+		ftb_money: 20L
 	}]
 }

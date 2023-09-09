@@ -1,0 +1,18 @@
+{
+	title: "MV流体固化器",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"你需要它来将熔融聚乙烯转化为固态。"
+	],
+	dependencies: [
+		"556d1df3"
+	],
+	tasks: [{
+		uid: "f98ee479",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 396"
+		}]
+	}]
+}

@@ -1,13 +1,21 @@
 {
 	title: "线材轧机工程测试样品SE青春版",
 	icon: {
-		id: "gregtech:meta_tool",
+		id: "gregtech:wire_cutter",
 		tag: {
-			GT.ToolStats: {
-				Material: "neutronium"
+			DisallowContainerItem: 0b,
+			GT.Behaviours: {},
+			HideFlags: 2,
+			GT.Tool: {
+				MaxDurability: 256,
+				ToolSpeed: 6.0f,
+				AttackDamage: 1.0f,
+				Durability: 0,
+				Material: "iron",
+				HarvestLevel: 2,
+				AttackSpeed: -2.4f
 			}
-		},
-		Damage: 13s
+		}
 	},
 	x: 6.0d,
 	y: 0.0d,

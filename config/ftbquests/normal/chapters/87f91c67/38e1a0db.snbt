@@ -33,5 +33,20 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "4b5393f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "1"
+			}
+		}
+	},
+	{
+		uid: "1db09164",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

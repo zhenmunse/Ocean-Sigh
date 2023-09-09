@@ -1,0 +1,31 @@
+{
+	title: "流明锭",
+	x: 7.0d,
+	y: 5.5d,
+	shape: "circle",
+	text: [
+		"在HV高炉中烧制并在真空冷冻机中冷却，你可以得到流明锭。但是，你暂时并不需要它。如果为了奖励箱，那就做吧！"
+	],
+	dependencies: [
+		"aab7c784"
+	],
+	tasks: [{
+		uid: "f808a50b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 32202"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "7f53141c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		},
+		count: 2
+	}]
+}

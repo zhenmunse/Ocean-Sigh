@@ -12,17 +12,26 @@
 		"354c82c4"
 	],
 	tasks: [{
-		uid: "ed2ef94f",
+		uid: "d32e4fa2",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:crowbar",
 			tag: {
-				GT.ToolStats: {
-					Material: "neutronium"
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 256,
+					ToolSpeed: 6.0f,
+					AttackDamage: 4.0f,
+					Durability: 0,
+					Material: "iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.4f
 				}
-			},
-			Damage: 10s
+			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

@@ -1,0 +1,41 @@
+{
+	title: "便携储罐",
+	x: 0.0d,
+	y: -7.5d,
+	shape: "circle",
+	text: [
+		"想要一个可移动，且造价较低的储罐？那便携储罐应该适合你。",
+		"它可以在附魔台中得到“扩容”附魔，以增加容量。",
+		"等到HV，你还可以用升级套件给它升级。"
+	],
+	dependencies: [
+		"e67bdf6e"
+	],
+	tasks: [{
+		uid: "817b3cb7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "845b1940",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "3"
+			}
+		}
+	},
+	{
+		uid: "75d9b322",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

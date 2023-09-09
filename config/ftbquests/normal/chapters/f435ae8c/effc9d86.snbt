@@ -1,0 +1,33 @@
+{
+	title: "HV发射器",
+	x: 11.5d,
+	y: -4.5d,
+	text: [
+		"为了制作HV精密激光蚀刻机，你需要HV发射器。"
+	],
+	dependencies: [
+		"f8cc34f4"
+	],
+	tasks: [{
+		uid: "8f73a9ff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 219"
+		}]
+	}],
+	rewards: [{
+		uid: "341e1bbc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "ab38ad2f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

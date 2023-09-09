@@ -1,0 +1,41 @@
+{
+	title: "钚-239",
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"钚-239可以在末地的铀矿脉中找到。它可以用于制作氡——这是无损的，消耗的仅仅是铀-238. ",
+		"——在这个阶段，别告诉我你还没找到铀矿脉。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "207aeb52",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 81"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f07440c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "cc4b11c8",
+		type: "item",
+		item: "gregtech:meta_ingot 1 113",
+		count: 16
+	},
+	{
+		uid: "d24ecad3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

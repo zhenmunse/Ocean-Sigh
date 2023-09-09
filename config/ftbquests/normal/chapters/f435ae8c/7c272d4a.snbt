@@ -1,0 +1,29 @@
+{
+	title: "HV电路组装机",
+	x: 16.0d,
+	y: 2.5d,
+	text: [
+		"红石通量通用处理器，以及你在EV阶段要制作的纳米处理器都需要HV电路组装机，因此制作一个吧。"
+	],
+	dependencies: [
+		"514b12c2"
+	],
+	tasks: [{
+		uid: "d7a02e31",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 637"
+		}]
+	}],
+	rewards: [{
+		uid: "739053ff",
+		type: "item",
+		item: "gregtech:meta_item_1 1 403",
+		count: 16
+	},
+	{
+		uid: "8b7b688a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

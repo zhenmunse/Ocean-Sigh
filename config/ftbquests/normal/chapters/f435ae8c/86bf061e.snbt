@@ -1,0 +1,59 @@
+{
+	title: "与或非？",
+	icon: "gregtech:meta_item_1 1 575",
+	x: 17.5d,
+	y: 2.5d,
+	text: [
+		"NAND和NOR是另外两种极为重要的芯片。它们只能使用荧石掺杂级别，或更好的晶圆来制作。",
+		"",
+		"§3§l别忘了无尘环境。"
+	],
+	dependencies: [
+		"12cfdce6"
+	],
+	tasks: [{
+		uid: "d1938fb9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 575"
+		}]
+	},
+	{
+		uid: "0955cc6b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 600"
+		}],
+		count: 32L
+	},
+	{
+		uid: "12387b1d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 576"
+		}]
+	},
+	{
+		uid: "acbd0390",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 601"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "957e12da",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "3d3ef450",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

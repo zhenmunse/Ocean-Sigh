@@ -69,5 +69,20 @@
 			}
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "dcc6240a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "1"
+			}
+		}
+	},
+	{
+		uid: "4b039083",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

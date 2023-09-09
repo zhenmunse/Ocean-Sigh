@@ -1,0 +1,34 @@
+{
+	title: "MV搅拌机",
+	x: -11.5d,
+	y: 2.5d,
+	text: [
+		"你需要MV搅拌机来制作不锈钢粉。"
+	],
+	dependencies: [
+		"95121e12"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26aa3411",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 471"
+		}]
+	}],
+	rewards: [{
+		uid: "d7407bcf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "178ac879",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

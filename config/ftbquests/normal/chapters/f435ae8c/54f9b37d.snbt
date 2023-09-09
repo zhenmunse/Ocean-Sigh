@@ -1,0 +1,39 @@
+{
+	title: "进阶电路组装机",
+	x: 7.0d,
+	y: -4.5d,
+	text: [
+		"制作EV电路板需要进阶电路组装机。它需要用HV电路板来制作。"
+	],
+	dependencies: [
+		"eb32bfac"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6eafde22",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 636"
+		}]
+	}],
+	rewards: [{
+		uid: "9f206e5f",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "sodium_persulfate",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 16
+	},
+	{
+		uid: "467d85b7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

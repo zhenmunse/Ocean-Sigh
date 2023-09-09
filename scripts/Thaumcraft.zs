@@ -1,6 +1,7 @@
 //Created by zhenmusne
 //神秘时代6 Thaumcraft 6
 import mods.gregtech.recipe.RecipeMap;
+
 val GTmachine_hammer = RecipeMap.getByName("forge_hammer");
 val GTmachine_compressor = RecipeMap.getByName("compressor");
 val GTmachine_macerator = RecipeMap.getByName("macerator");
@@ -42,9 +43,3 @@ recipes.remove(<thaumcraft:plate:1>);
 mods.jei.JEI.removeAndHide(<thaumcraft:plate:1>);
 recipes.remove(<thaumcraft:plate:2>);
 recipes.remove(<thaumcraft:plate:3>);
-GTmachine_metal_bender.recipeBuilder()
-.inputs([<ore:ingotVoid>*1])
-.outputs([<thaumcraft:plate:3>*1])
-.EUt(24)
-.duration(98)
-.buildAndRegister();

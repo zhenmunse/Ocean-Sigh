@@ -1,0 +1,38 @@
+{
+	title: "EV电动马达",
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"到了EV阶段，相信你大概已经对每个“应该”做的那些东西足够熟悉了——相信你。这里只要求电动马达，你可以自己制作剩下的。"
+	],
+	dependencies: [
+		"d16a1428",
+		"34bceb17"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "8e801f26",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 130"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "5ec41e21",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "7398764a",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

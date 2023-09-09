@@ -1,0 +1,31 @@
+{
+	title: "线圈升级——坎塔尔合金",
+	x: 17.5d,
+	y: -0.5d,
+	text: [
+		"现在，你可以升级高炉了——白铜线圈别急着扔，或许可以放到工业熔炉里。"
+	],
+	dependencies: [
+		"4aab96c6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c016475b",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a49c0883",
+		type: "item",
+		item: "gregtech:wire_coil 1 1",
+		count: 10
+	},
+	{
+		uid: "0287817a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

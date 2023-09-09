@@ -1,0 +1,44 @@
+{
+	title: "末影之眼",
+	x: 10.0d,
+	y: -4.5d,
+	text: [
+		"终于，你可以制作末影之眼了！",
+		"",
+		"§3§l接下来，你可以前往末地了。",
+		"",
+		"§3§l同时，你还需要它来制作HV发射器和HV传感器。"
+	],
+	dependencies: [
+		"39a7fd0a"
+	],
+	tasks: [{
+		uid: "6f410c4b",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "69f41a29",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 4
+	},
+	{
+		uid: "deec9b0b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "bc9d7b5f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

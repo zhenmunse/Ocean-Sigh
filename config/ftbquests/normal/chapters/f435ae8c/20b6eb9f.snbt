@@ -1,0 +1,61 @@
+{
+	title: "橡胶替代品-硅橡胶（二）",
+	x: -1.0d,
+	y: -13.5d,
+	text: [
+		"第二步，你需要制作出接近硅橡胶单体的物质——二甲基氯硅烷（DMCS）。"
+	],
+	dependencies: [
+		"a4ca36b4"
+	],
+	tasks: [{
+		uid: "b0aff552",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "dimethyldichlorosilane",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 21L
+	}],
+	rewards: [{
+		uid: "43fc987d",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "methanol",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 16
+	},
+	{
+		uid: "ff1d96ac",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "dimethylbenzene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		},
+		count: 16
+	},
+	{
+		uid: "e1081ef5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

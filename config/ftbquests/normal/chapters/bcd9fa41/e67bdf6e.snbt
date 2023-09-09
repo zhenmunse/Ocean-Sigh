@@ -2,15 +2,15 @@
 	title: "热力的开始",
 	icon: "thermalfoundation:material 1 513",
 	x: -1.5d,
-	y: -4.5d,
-	shape: "circle",
+	y: -6.0d,
+	shape: "hexagon",
 	text: [
 		"如果你之前主玩RF系mod，那总算碰到了你的强项——热力膨胀",
 		"但是现在它们也被格雷化了。",
 		"你首先需要制作一些元件。"
 	],
 	dependencies: [
-		"d397ad51"
+		"731a0650"
 	],
 	hide: true,
 	tasks: [{

@@ -1,0 +1,34 @@
+{
+	title: "流明（三）",
+	x: 8.5d,
+	y: 5.5d,
+	text: [
+		"最后，将流明精华与银粉和锡粉混合，并用荧石灌注，便可以得到流明粉了。"
+	],
+	dependencies: [
+		"963d0696"
+	],
+	tasks: [{
+		uid: "dbdb479f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32202"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "0a9aba70",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "4448d717",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

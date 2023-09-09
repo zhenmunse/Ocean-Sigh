@@ -1,0 +1,44 @@
+{
+	title: "兰波顿水晶",
+	x: 5.5d,
+	y: 1.5d,
+	shape: "circle",
+	text: [
+		"兰波顿水晶是一种优质的EV电池。它有高达25MEU的储电量。"
+	],
+	dependencies: [
+		"e0f9f213"
+	],
+	tasks: [{
+		uid: "2bc15bd0",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 0L
+			},
+			Damage: 742s
+		}]
+	}],
+	rewards: [{
+		uid: "f169714b",
+		type: "item",
+		item: "gregtech:meta_gem 1 1647",
+		count: 2
+	},
+	{
+		uid: "f1d884ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "9ed390c2",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

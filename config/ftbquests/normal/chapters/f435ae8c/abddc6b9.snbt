@@ -1,0 +1,49 @@
+{
+	title: "熔化一切",
+	x: 11.5d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"熔岩炉有些像流体提取器，但是它可以将石材和岩浆块转化为熔岩！配合离心机可以实现大量资源的无限生产！"
+	],
+	dependencies: [
+		"90d2057c"
+	],
+	tasks: [{
+		uid: "d38203e0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "c4bebeac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "4fecb86f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

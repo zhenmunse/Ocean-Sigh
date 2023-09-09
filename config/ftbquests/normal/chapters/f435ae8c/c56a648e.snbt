@@ -1,0 +1,41 @@
+{
+	title: "集成级芯片——工作站",
+	x: 16.0d,
+	y: -0.5d,
+	text: [
+		"工作站是最简单的EV级电路板，也是你能制作出的第一个EV电路板。你需要一些来制作真空冷冻机。",
+		"",
+		"§d其它电路板都叫处理器，就你名字特殊:)"
+	],
+	dependencies: [
+		"96308545",
+		"adb5a33a"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "e47910fd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 630"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ae7ed3e0",
+		type: "item",
+		item: "gregtech:meta_block_frame_0 1 2",
+		count: 8
+	},
+	{
+		uid: "dede85c9",
+		type: "item",
+		item: "gregtech:meta_ingot 1 252",
+		count: 16
+	},
+	{
+		uid: "199abc46",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

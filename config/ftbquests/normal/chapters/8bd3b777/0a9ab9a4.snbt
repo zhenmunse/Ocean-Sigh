@@ -1,0 +1,37 @@
+{
+	title: "钨处理（第一步）",
+	icon: "gregtech:meta_dust 1 330",
+	x: 2.5d,
+	y: 3.0d,
+	text: [
+		"为了制作你接下来大量需要的钨钢，首先要做的就是提取钨。",
+		"",
+		"钨有两种矿物来源：白钨矿和钨酸锂矿。",
+		"",
+		"不管是处理得来还是直接粉碎得到，你现在需要一些白钨矿粉和钨酸锂粉。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "6ee8859b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 315"
+		}],
+		count: 12L
+	},
+	{
+		uid: "3228e910",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 330"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "c6c6a4bc",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

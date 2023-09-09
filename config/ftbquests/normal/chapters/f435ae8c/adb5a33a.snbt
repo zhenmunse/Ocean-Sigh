@@ -1,0 +1,37 @@
+{
+	title: "集成级芯片——处理器集群",
+	x: 14.5d,
+	y: -0.5d,
+	text: [
+		"仅需堆叠一次便可制成的HV电路板，比“高级的集成电路”更加易于生产。"
+	],
+	dependencies: [
+		"4073e263"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ae5a23c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 629"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ba3e1c04",
+		type: "item",
+		item: "gregtech:meta_item_1 1 403",
+		count: 8
+	},
+	{
+		uid: "551c44a8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 567",
+		count: 2
+	},
+	{
+		uid: "a85378c1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

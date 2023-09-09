@@ -1,0 +1,31 @@
+{
+	title: "线圈升级——镍铬合金",
+	x: 19.5d,
+	y: -0.5d,
+	text: [
+		"镍铬合金可以将你的炉温进一步提升到3600K，使得许多配方可以更快的进行；更高级的配方也会用到这么高的温度。"
+	],
+	dependencies: [
+		"888a3c53"
+	],
+	hide: true,
+	tasks: [{
+		uid: "442dc2c8",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ed3d85ec",
+		type: "item",
+		item: "gregtech:wire_coil 1 2",
+		count: 10
+	},
+	{
+		uid: "956cb5d6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

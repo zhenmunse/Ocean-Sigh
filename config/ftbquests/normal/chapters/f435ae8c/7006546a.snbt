@@ -1,13 +1,17 @@
 {
 	title: "聚乙烯(PE), -[CH2=CH2]-n",
 	x: 0.5d,
-	y: -1.0d,
+	y: -0.5d,
 	text: [
-		"聚乙烯是一种重要的塑料。"
+		"聚乙烯是一种重要的塑料。",
+		"",
+		"为了将你的熔融聚乙烯制作为聚乙烯片，你需要MV流体固化器。"
 	],
 	dependencies: [
-		"b6b6d57a"
+		"b6b6d57a",
+		"dce8abb8"
 	],
+	hide: true,
 	tasks: [{
 		uid: "8635d3fb",
 		type: "item",

@@ -1,0 +1,37 @@
+{
+	title: "迈向高压",
+	x: -11.5d,
+	y: -7.5d,
+	shape: "gear",
+	text: [
+		"在高炉中冶炼不锈钢粉可以得到不锈钢。可以加入保护气以减少能耗并提高加工速度。"
+	],
+	dependencies: [
+		"3abc518e"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "3612dc12",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}],
+		count: 72L
+	}],
+	rewards: [{
+		uid: "ec0d7634",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "939e649b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "升级！硬化！",
+	x: 10.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"现在，你可以把TE机器升级至硬化等级了。"
+	],
+	dependencies: [
+		"3d9e15ec"
+	],
+	tasks: [{
+		uid: "2ded7a7d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "1b38412d",
+		type: "item",
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		uid: "fa46d8e5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

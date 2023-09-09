@@ -11,7 +11,7 @@
 	hide: true,
 	size: 1.5d,
 	tasks: [{
-		uid: "7d2f3e47",
+		uid: "b3b334d0",
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
@@ -21,8 +21,13 @@
 					Amount: 1000
 				}
 			},
-			Damage: 79s
+			Damage: 78s
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "c08cb908",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

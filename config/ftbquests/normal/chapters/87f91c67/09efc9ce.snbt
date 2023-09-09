@@ -1,17 +1,23 @@
 {
 	title: "基础工具",
 	icon: {
-		id: "gregtech:meta_tool",
+		id: "gregtech:pickaxe",
 		tag: {
-			GT.ToolStats: {
-				MaxDurability: 80,
-				DigSpeed: 6.0f,
+			DisallowContainerItem: 0b,
+			GT.Behaviours: {
+				TorchPlacing: 1b
+			},
+			HideFlags: 2,
+			GT.Tool: {
+				MaxDurability: 64,
+				ToolSpeed: 4.0f,
 				AttackDamage: 2.0f,
+				Durability: 0,
 				Material: "flint",
-				HarvestLevel: 1
+				HarvestLevel: 1,
+				AttackSpeed: -2.8f
 			}
-		},
-		Damage: 1s
+		}
 	},
 	x: -10.0d,
 	y: -1.0d,
@@ -29,80 +35,99 @@
 	hide: true,
 	size: 1.5d,
 	tasks: [{
-		uid: "97d8e641",
+		uid: "14a23e07",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:pickaxe",
 			tag: {
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {
+					TorchPlacing: 1b
+				},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					ToolSpeed: 4.0f,
 					AttackDamage: 2.0f,
+					Durability: 0,
 					Material: "flint",
-					HarvestLevel: 1
+					HarvestLevel: 1,
+					AttackSpeed: -2.8f
 				}
-			},
-			Damage: 3s
+			}
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
-		uid: "d91660b1",
+		uid: "2cd83402",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:shovel",
 			tag: {
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					ToolSpeed: 4.0f,
+					AttackDamage: 2.5f,
+					Durability: 0,
 					Material: "flint",
-					HarvestLevel: 1
+					HarvestLevel: 1,
+					AttackSpeed: -3.0f
 				}
-			},
-			Damage: 2s
+			}
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
-		uid: "ead0e50e",
+		uid: "a85106b6",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:axe",
 			tag: {
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
+				},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					ToolSpeed: 2.0f,
+					AttackDamage: 6.0f,
+					Durability: 0,
 					Material: "flint",
-					HarvestLevel: 1
+					HarvestLevel: 1,
+					AttackSpeed: -3.2f
 				}
-			},
-			Damage: 4s
+			}
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
-		uid: "1fa113a1",
+		uid: "c6e76293",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
+			id: "gregtech:hoe",
 			tag: {
-				GT.ToolStats: {
-					MaxDurability: 80,
-					DigSpeed: 6.0f,
-					AttackDamage: 2.0f,
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					AttackDamage: 0.0f,
+					Durability: 0,
 					Material: "flint",
-					HarvestLevel: 1
+					AttackSpeed: -1.0f
 				}
-			},
-			Damage: 1s
+			}
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: true
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "5a54e78e",

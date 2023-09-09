@@ -1,7 +1,7 @@
 {
 	title: "单晶硅",
-	x: -1.0d,
-	y: 0.5d,
+	x: -8.0d,
+	y: -3.5d,
 	text: [
 		"从现在开始，你需要硅半导体芯片。单晶硅是一切的基础，制作一个吧。"
 	],
@@ -14,5 +14,20 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 361"
 		}]
+	}],
+	rewards: [{
+		uid: "df068ece",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "4"
+			}
+		}
+	},
+	{
+		uid: "fb67289b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

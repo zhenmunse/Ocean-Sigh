@@ -1,0 +1,38 @@
+{
+	title: "氯乙烯",
+	x: -1.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"氯乙烯是乙烯的氯代产物。它可以用于制作一种更高级的塑料——聚氯乙烯（PVC）。"
+	],
+	dependencies: [
+		"d517c63a"
+	],
+	tasks: [{
+		uid: "78244316",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "vinyl_chloride",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "38f9a76a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 622",
+		count: 4
+	},
+	{
+		uid: "a8cb99c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

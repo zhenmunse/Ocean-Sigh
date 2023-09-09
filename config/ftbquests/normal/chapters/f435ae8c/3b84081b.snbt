@@ -1,0 +1,31 @@
+{
+	title: "升级你的塑料！",
+	x: 0.5d,
+	y: -2.5d,
+	shape: "circle",
+	text: [
+		"聚氯乙烯（PVC）的性能比聚乙烯更好，使用它来制作塑料电路基板可以得到双倍产物。"
+	],
+	dependencies: [
+		"6f474318"
+	],
+	tasks: [{
+		uid: "9a524d17",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1007"
+		}],
+		count: 60L
+	}],
+	rewards: [{
+		uid: "cfd35d42",
+		type: "item",
+		item: "gregtech:item_pipe_huge 1 1007",
+		count: 8
+	},
+	{
+		uid: "d537cf66",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

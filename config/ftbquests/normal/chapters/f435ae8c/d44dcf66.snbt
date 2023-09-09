@@ -1,0 +1,30 @@
+{
+	title: "橡胶替代品-硅橡胶（三）",
+	x: -2.5d,
+	y: -13.5d,
+	text: [
+		"将二甲基氯硅烷投入水中，可以得到聚二甲基硅氧烷（PDMSO）。"
+	],
+	dependencies: [
+		"20b6eb9f"
+	],
+	tasks: [{
+		uid: "ab4c4223",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1011"
+		}],
+		count: 63L
+	}],
+	rewards: [{
+		uid: "777f416f",
+		type: "item",
+		item: "gregtech:meta_dust 1 1011",
+		count: 32
+	},
+	{
+		uid: "6bdb3857",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

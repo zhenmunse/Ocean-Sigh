@@ -1,0 +1,42 @@
+{
+	title: "乙酸钙溶液",
+	x: 0.5d,
+	y: -10.5d,
+	text: [
+		"混合钙粉、氧气和乙酸可以得到乙酸钙溶液。"
+	],
+	dependencies: [
+		"da0a5990"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f22a5b91",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "dissolved_calcium_acetate",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "744ebf7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "5"
+			}
+		}
+	},
+	{
+		uid: "a884e61d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "聚四氟乙烯",
+	x: -5.0d,
+	y: -12.0d,
+	text: [
+		"聚四氟乙烯，又叫特氟龙，是一种高级塑料材料，效率是聚乙烯的4倍。",
+		"",
+		"它的另一个重要用处是制作大型化学反应釜的管道方块。"
+	],
+	dependencies: [
+		"0bf58b7f"
+	],
+	tasks: [{
+		uid: "9e33f20a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1016"
+		}],
+		count: 125L
+	}],
+	rewards: [{
+		uid: "f8ba1ea0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 82",
+		count: 16
+	},
+	{
+		uid: "ba2605f3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "坎塔尔合金锭",
+	x: 17.5d,
+	y: -4.5d,
+	text: [
+		"有了真空冷冻机，你就可以制作坎塔尔合金锭了。"
+	],
+	dependencies: [
+		"31b2d722"
+	],
+	tasks: [{
+		uid: "b493ecd8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 288"
+		}],
+		count: 129L
+	}],
+	rewards: [{
+		uid: "b6d1c983",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

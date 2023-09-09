@@ -1,9 +1,11 @@
 //Created by zhenmunse
-item.contenttweaker.CokeOvenBrick.name=Coke Oven Brick(RC)
-item.contenttweaker.UnfiredCokeOvenBrick.name=Unfired Coke Oven Brick(RC)
-item.contenttweaker.Woodenpart.name=Wooden Part
-item.contenttweaker.EnergeticBlend.name=Energetic Blend
+item.contenttweaker.cokeoven_brick.name=Cokeoven Brick(RC)
+item.contenttweaker.unfired_cokeoven_brick.name=Unfired Cokeoven Brick(RC)
+item.contenttweaker.wooden_part.name=Wooden Part
+item.contenttweaker.energetic_blend.name=Energetic Blend
 item.contenttweaker.luminessence.name=Luminessence
+item.contenttweaker.rf_universal_processor_base.name=Universal Processor Base(RF)
+item.contenttweaker.rf_universal_processor.name=Universal Processor(RF)
 item.meta_item.dustThaumium=Thaumium Dust
 item.meta_item.dustSmallThaumium=Small Thaumium Dust
 item.meta_item.dustTinyThaumium=Tiny Thaumium Dust
