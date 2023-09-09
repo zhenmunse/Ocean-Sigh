@@ -1,0 +1,100 @@
+{
+	title: "应用能源-初级",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:material 1 25",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 26",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 53",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 27",
+		count: 8
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		item: "appliedenergistics2:part 1 340"
+	},
+	{
+		item: "appliedenergistics2:part 1 480"
+	},
+	{
+		item: "appliedenergistics2:part 1 520"
+	},
+	{
+		item: "appliedenergistics2:controller"
+	},
+	{
+		item: "appliedenergistics2:material 1 7",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:part 1 500",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 35",
+		count: 32
+	},
+	{
+		item: "appliedenergistics2:material 1 36",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:part 1 56",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:part 1 35",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:drive"
+	}],
+	loot_crate: {
+		string_id: "60",
+		item_name: "奖励箱（应用能源-初级）",
+		color: 9221848,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

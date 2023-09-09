@@ -44,6 +44,8 @@ global stringg as IOreDictEntry = <ore:string>;  //线
 global woodfence as IOreDictEntry = <ore:fenceWood>;  //木栅栏
 global workbench as IOreDictEntry = <ore:workbench>;  //工作台
 global woodenchest as IOreDictEntry = <ore:chestWood>;  //木制箱子
+<ore:blockIron>.add(<gregtech:meta_block_compressed_20:15>);
+<ore:blockIron>.add(<tconstruct:metal:4>);
 
 //GT机器 machines of Gregtech
 // global GTmachine_hammer = RecipeMap.getByName("forge_hammer");

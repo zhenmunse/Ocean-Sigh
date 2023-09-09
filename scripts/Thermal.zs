@@ -61,7 +61,7 @@ GTmachine_mixer.recipeBuilder()
 .buildAndRegister();
 recipes.remove(<thermalfoundation:material:102>);  //流明粉
 GTmachine_mixer.recipeBuilder()
-.inputs([<contenttweaker:luminessence>*2,<ore:dustSterlingSilver>*2,<ore:dustTinAlloy>*4])
+.inputs([<contenttweaker:luminessence>*2,<ore:dustSilver>*2,<ore:dustTin>*4])
 .fluidInputs([<liquid:glowstone>*288])
 .outputs([<gregtech:meta_dust:32202>*9])
 .EUt(120)

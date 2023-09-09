@@ -1,0 +1,16 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	shape: "circle",
+	dependencies: [
+		"48fef3da",
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "9f3f8f95",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}]
+}

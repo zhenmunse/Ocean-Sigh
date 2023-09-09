@@ -1,0 +1,57 @@
+{
+	title: "应用能源",
+	icon: "appliedenergistics2:material 1 19",
+	x: -5.5d,
+	y: -2.5d,
+	text: [
+		"进入了EV，应用能源是一个重要的部分。它可以帮助你实现存储、物流、自动化。",
+		"",
+		"首先，你需要在世界生成的陨石中找到这4种压印模板（如果你找不到的话，现在它们可以合成了，你也可以自己做一个，需要EV精密激光蚀刻机）。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "405dc69a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "bccebb43",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "9b0fb608",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "cfa93dbb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "a4c88a05",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "60"
+			}
+		}
+	},
+	{
+		uid: "eb5e084d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}
