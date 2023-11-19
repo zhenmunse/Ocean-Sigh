@@ -1,0 +1,34 @@
+{
+	title: "压印器",
+	x: -1.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"压印器只能按照特定方式输入输出，且内部的物品不能堆叠，但好处是可以用加速卡等卡片进行升级。"
+	],
+	dependencies: [
+		"9a5a4700"
+	],
+	tasks: [{
+		uid: "5ea196d4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "86ec7851",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "60"
+			}
+		}
+	},
+	{
+		uid: "561612b1",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

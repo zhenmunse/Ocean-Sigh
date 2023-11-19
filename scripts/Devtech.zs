@@ -79,4 +79,3 @@ MaterialBuilder(32204, "enhanced_alloy")
     .flags(["generate_plate", "generate_gear", "generate_wire", "generate_wireFine", "generate_bolt_screw","generate_rod", "generate_ring","generate_frame"])
     .blastTemp(3300,"HIGH",480,1600)
     .build();
-    

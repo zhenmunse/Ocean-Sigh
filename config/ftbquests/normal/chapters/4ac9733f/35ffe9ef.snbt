@@ -5,31 +5,31 @@
 		tag: {
 			StatsOriginal: {
 				AttackSpeedMultiplier: 1.0f,
-				MiningSpeed: 5.0f,
+				MiningSpeed: 2.0f,
 				FreeModifiers: 3,
-				Durability: 190,
-				HarvestLevel: 1,
-				Attack: 2.9f
+				Durability: 75,
+				HarvestLevel: 0,
+				Attack: 2.0f
 			},
 			Stats: {
 				AttackSpeedMultiplier: 1.0f,
-				MiningSpeed: 5.0f,
+				MiningSpeed: 2.0f,
 				FreeModifiers: 3,
-				Durability: 190,
-				HarvestLevel: 1,
-				Attack: 2.9f
+				Durability: 75,
+				HarvestLevel: 0,
+				Attack: 2.0f
 			},
 			Special: {
 				Categories: [
-					"tool",
 					"harvest",
-					"aoe"
+					"aoe",
+					"tool"
 				]
 			},
 			TinkerData: {
 				Materials: [
 					"wood",
-					"flint",
+					"wood",
 					"wood"
 				],
 				Modifiers: []
@@ -38,16 +38,9 @@
 				identifier: "ecological",
 				color: -7444965,
 				level: 1
-			},
-			{
-				identifier: "crude",
-				color: -9868951,
-				level: 2,
-				crude2: 1b
 			}],
 			Traits: [
-				"ecological",
-				"crude2"
+				"ecological"
 			]
 		}
 	},
@@ -125,7 +118,7 @@
 		items: [{
 			id: "tconstruct:pick_head",
 			tag: {
-				Material: "flint"
+				Material: "wood"
 			}
 		}]
 	},
@@ -135,7 +128,7 @@
 		items: [{
 			id: "tconstruct:axe_head",
 			tag: {
-				Material: "flint"
+				Material: "wood"
 			}
 		}]
 	},
@@ -145,7 +138,7 @@
 		items: [{
 			id: "tconstruct:shovel_head",
 			tag: {
-				Material: "flint"
+				Material: "wood"
 			}
 		}]
 	},
@@ -179,31 +172,31 @@
 			tag: {
 				StatsOriginal: {
 					AttackSpeedMultiplier: 1.0f,
-					MiningSpeed: 5.0f,
+					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					Durability: 190,
-					HarvestLevel: 1,
-					Attack: 2.9f
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
 				},
 				Stats: {
 					AttackSpeedMultiplier: 1.0f,
-					MiningSpeed: 5.0f,
+					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					Durability: 190,
-					HarvestLevel: 1,
-					Attack: 2.9f
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
 				},
 				Special: {
 					Categories: [
-						"tool",
 						"harvest",
-						"aoe"
+						"aoe",
+						"tool"
 					]
 				},
 				TinkerData: {
 					Materials: [
 						"wood",
-						"flint",
+						"wood",
 						"wood"
 					],
 					Modifiers: []
@@ -212,16 +205,9 @@
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
-				},
-				{
-					identifier: "crude",
-					color: -9868951,
-					level: 2,
-					crude2: 1b
 				}],
 				Traits: [
-					"ecological",
-					"crude2"
+					"ecological"
 				]
 			}
 		}],
@@ -236,32 +222,32 @@
 			tag: {
 				StatsOriginal: {
 					AttackSpeedMultiplier: 1.0f,
-					MiningSpeed: 5.0f,
+					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					Durability: 190,
-					HarvestLevel: 1,
-					Attack: 3.4f
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.5f
 				},
 				Stats: {
 					AttackSpeedMultiplier: 1.0f,
-					MiningSpeed: 5.0f,
+					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					Durability: 190,
-					HarvestLevel: 1,
-					Attack: 3.4f
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.5f
 				},
 				Special: {
 					Categories: [
-						"tool",
 						"harvest",
 						"weapon",
-						"aoe"
+						"aoe",
+						"tool"
 					]
 				},
 				TinkerData: {
 					Materials: [
 						"wood",
-						"flint",
+						"wood",
 						"wood"
 					],
 					Modifiers: []
@@ -270,16 +256,9 @@
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
-				},
-				{
-					identifier: "crude",
-					color: -9868951,
-					level: 2,
-					crude2: 1b
 				}],
 				Traits: [
-					"ecological",
-					"crude2"
+					"ecological"
 				]
 			}
 		}],
@@ -294,31 +273,31 @@
 			tag: {
 				StatsOriginal: {
 					AttackSpeedMultiplier: 1.0f,
-					MiningSpeed: 5.0f,
+					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					Durability: 190,
-					HarvestLevel: 1,
-					Attack: 2.9f
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
 				},
 				Stats: {
 					AttackSpeedMultiplier: 1.0f,
-					MiningSpeed: 5.0f,
+					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					Durability: 190,
-					HarvestLevel: 1,
-					Attack: 2.9f
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
 				},
 				Special: {
 					Categories: [
-						"tool",
 						"harvest",
-						"aoe"
+						"aoe",
+						"tool"
 					]
 				},
 				TinkerData: {
 					Materials: [
 						"wood",
-						"flint",
+						"wood",
 						"wood"
 					],
 					Modifiers: []
@@ -327,16 +306,9 @@
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
-				},
-				{
-					identifier: "crude",
-					color: -9868951,
-					level: 2,
-					crude2: 1b
 				}],
 				Traits: [
-					"ecological",
-					"crude2"
+					"ecological"
 				]
 			}
 		}],

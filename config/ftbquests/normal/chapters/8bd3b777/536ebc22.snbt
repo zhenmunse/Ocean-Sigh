@@ -1,0 +1,34 @@
+{
+	title: "硫化钠",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"钠和硫粉共热可以得到硫化钠，你需要它作为有机合成中的硫化剂——用于制作聚苯硫醚。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "6776cb44",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 358"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "b6bbc482",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "d66e794f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

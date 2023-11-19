@@ -15,5 +15,15 @@
 		items: [{
 			item: "thermalfoundation:upgrade 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "07efe297",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		uid: "cf39302c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

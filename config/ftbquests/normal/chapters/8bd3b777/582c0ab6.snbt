@@ -1,0 +1,22 @@
+{
+	title: "制作AE2电路板",
+	x: -1.0d,
+	y: 4.0d,
+	text: [
+		"你需要制作AE2电路板了。有两种方式：EV组装机，或AE2自带的压印器。它们各有利弊，需要你自己来抉择。"
+	],
+	dependencies: [
+		"cec5402b",
+		"e0f9f213"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "0d21d686",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e4f99e11",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

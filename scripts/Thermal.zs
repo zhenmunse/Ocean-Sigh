@@ -133,40 +133,44 @@ recipes.addShaped(<thermalfoundation:material:292> * 1,
    [<ore:stickCupronickel>,<ore:plateCupronickel>,<ore:stickCupronickel>]]);
 recipes.remove(<thermalfoundation:material:293>); //信素齿轮
 GTmachine_fluid_solidifier.recipeBuilder()
-.inputs([<gregtech:meta_item_1:13>.reuse()])
+.notConsumable([<gregtech:meta_item_1:13>])
 .fluidInputs([<liquid:signalum>*576])
 .outputs([<thermalfoundation:material:293>*1])
 .EUt(7)
 .duration(100)
 .buildAndRegister();
 GTmachine_alloy.recipeBuilder()
-.inputs(<thermalfoundation:material:165>*8,<gregtech:meta_item_1:13>.reuse())
+.inputs(<thermalfoundation:material:165>*8)
+.notConsumable(<gregtech:meta_item_1:13>)
 .outputs(<thermalfoundation:material:293>*1)
 .EUt(14)
 .duration(760)
 .buildAndRegister();
 GTmachine_extruder.recipeBuilder()
-.inputs(<thermalfoundation:material:165>*4,<gregtech:meta_item_1:52>.reuse())
+.inputs(<thermalfoundation:material:165>*4)
+.notConsumable(<gregtech:meta_item_1:52>)
 .outputs(<thermalfoundation:material:293>*1)
 .EUt(56)
 .duration(380)
 .buildAndRegister();
 recipes.remove(<thermalfoundation:material:294>); //流明齿轮
 GTmachine_fluid_solidifier.recipeBuilder()
-.inputs([<gregtech:meta_item_1:13>.reuse()])
+.notConsumable(<gregtech:meta_item_1:13>)
 .fluidInputs([<liquid:lumium>*576])
 .outputs([<thermalfoundation:material:294>*1])
 .EUt(7)
 .duration(100)
 .buildAndRegister();
 GTmachine_alloy.recipeBuilder()
-.inputs(<thermalfoundation:material:166>*8,<gregtech:meta_item_1:13>.reuse())
+.inputs(<thermalfoundation:material:166>*8)
+.notConsumable(<gregtech:meta_item_1:13>)
 .outputs(<thermalfoundation:material:294>*1)
 .EUt(28)
 .duration(760)
 .buildAndRegister();
 GTmachine_extruder.recipeBuilder()
-.inputs(<thermalfoundation:material:166>*4,<gregtech:meta_item_1:52>.reuse())
+.inputs(<thermalfoundation:material:166>*4)
+.notConsumable(<gregtech:meta_item_1:52>)
 .outputs(<thermalfoundation:material:294>*1)
 .EUt(112)
 .duration(380)
@@ -265,6 +269,14 @@ recipes.addShaped(<thermaldynamics:duct_0> * 16,
   [[<ore:ingotRubber>,<ore:ingotRubber>,<ore:ingotRubber>],
    [<ore:wireGtQuadrupleLead>,<ore:wireGtQuadrupleRedAlloy>,<ore:wireGtQuadrupleLead>],
    [<ore:ingotRubber>,<ore:ingotRubber>,<ore:ingotRubber>]]);
+
+GTmachine_assembler.recipeBuilder()  //硬化能量管道
+.inputs([<thermaldynamics:duct_0> * 8,<ore:plateHardenedAlloy> * 2])
+.fluidInputs([<liquid:redstone> * 720])
+.outputs([<thermaldynamics:duct_0:1> * 8])
+.EUt(30)
+.duration(100)
+.buildAndRegister();
 
 recipes.addShaped(<thermalexpansion:machine:6> * 1,  //熔岩炉
   [[null,<contenttweaker:insulated_boron_glass_cover>,null],

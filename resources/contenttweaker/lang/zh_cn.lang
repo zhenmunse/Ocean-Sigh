@@ -8,3 +8,7 @@ item.contenttweaker.rf_universal_processor_base.name=红石通量通用处理器
 item.contenttweaker.rf_universal_processor.name=红石通量通用处理器
 item.contenttweaker.insulated_boron_glass_cover.name=绝缘硼玻璃罩
 item.contenttweaker.power_coil_bluestone.name=蓝石接收线圈
+item.contenttweaker.crafting_processor.name=合成处理器
+item.contenttweaker.crafting_assembly.name=合成处理器集群
+item.contenttweaker.crafting_computer.name=合成处理器超级电脑
+item.contenttweaker.crafting_mainframe.name=合成处理器主机

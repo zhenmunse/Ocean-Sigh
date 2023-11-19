@@ -1,0 +1,36 @@
+{
+	title: "更好的线缆",
+	x: 5.5d,
+	y: 4.5d,
+	text: [
+		"到了IV，你的线缆就需要聚苯硫醚来辅助绝缘了。钨线缆、钨钢线缆、铂线缆等都是你所大量需要的。先制作一些钨线缆吧。"
+	],
+	dependencies: [
+		"f949ab10",
+		"1d5c039d",
+		"d01b19f4"
+	],
+	tasks: [{
+		uid: "79bed942",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 115"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "cef1f8d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "35cfa7c3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

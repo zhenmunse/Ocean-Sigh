@@ -1,0 +1,53 @@
+{
+	title: "获得AE2处理器",
+	icon: "appliedenergistics2:material 1 23",
+	x: -2.5d,
+	y: 4.0d,
+	text: [
+		"不管你用什么办法，现在总该制作处理器了吧。每种先制作8个怎么样？"
+	],
+	dependencies: [
+		"c9777f39",
+		"582c0ab6"
+	],
+	tasks: [{
+		uid: "c1dc2ba8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 23"
+		}],
+		count: 8L
+	},
+	{
+		uid: "03487261",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 24"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c22f65d2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 22"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "24a52fbf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "60"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "988a3490",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

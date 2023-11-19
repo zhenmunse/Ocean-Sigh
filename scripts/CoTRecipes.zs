@@ -35,6 +35,7 @@ val GTmachine_mill = RecipeMap.getByName("wiremill");
 val GTmachine_centrifuge = RecipeMap.getByName("centrifuge");
 val GTmachine_extruder = RecipeMap.getByName("extruder");
 val GTmachine_metal_bender = RecipeMap.getByName("metal_bender");
+val GTmachine_assembly_line = RecipeMap.getByName("assembly_line");
 //焦炉砖
 furnace.addRecipe(<contenttweaker:cokeoven_brick>,<contenttweaker:unfired_cokeoven_brick>);
 //未烧制的焦炉砖
@@ -95,3 +96,42 @@ recipes.addShaped(<contenttweaker:power_coil_bluestone> * 1,
   [[null,<thermalfoundation:material:513>,<ore:wireGtOctalBlueAlloy>],
    [<thermalfoundation:material:513>,<contenttweaker:rf_universal_processor>,<thermalfoundation:material:513>],
    [<ore:wireGtOctalBlueAlloy>,<thermalfoundation:material:513>,null]]);
+
+//物品处理器
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:403>, <gregtech:meta_item_1:596>, <appliedenergistics2:material:27>*2, <appliedenergistics2:material:29>*2, <ore:wireFinePlatinum>*8])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<contenttweaker:crafting_processor>])
+.EUt(120)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+//物品处理器集群
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<contenttweaker:crafting_processor>*2, <gregtech:meta_item_1:598>, <gregtech:meta_item_1:405>, <ore:wireFinePlatinum>*16])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<contenttweaker:crafting_assembly>])
+.EUt(600)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+//物品处理器超级电脑
+GTmachine_circuit_assembler.recipeBuilder()
+.inputs([<contenttweaker:crafting_assembly>*2,<gregtech:meta_item_1:531>*2,<gregtech:meta_item_1:601>*4,<gregtech:meta_item_1:601>*32,<gregtech:meta_wire_fine:80>*64])
+.fluidInputs([<liquid:soldering_alloy> * 288])
+.outputs([<contenttweaker:crafting_computer>])
+.EUt(2400)
+.duration(400)
+.property("cleanroom", "cleanroom")
+.buildAndRegister();
+
+//物品处理器主机
+GTmachine_assembly_line.recipeBuilder()
+.inputs([<contenttweaker:crafting_computer>*2,<gregtech:meta_item_1:605>*1,<gregtech:meta_item_1:592>*32,<ore:frameGtHsse>*2,<ore:wireGtSingleNiobiumTitanium>*4,<gregtech:meta_item_1:531>*4,<gregtech:meta_item_1:530>*8,<gregtech:meta_item_1:532>*4])
+.fluidInputs([<liquid:soldering_alloy> * 1440])
+.outputs([<contenttweaker:crafting_mainframe>])
+.EUt(9600)
+.duration(400)
+.buildAndRegister();

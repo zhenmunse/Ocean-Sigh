@@ -52,6 +52,12 @@ recipes.addShaped(<gregtech:meta_item_1:350> * 3,
 <ore:craftingsaw>.add(<gregtech:buzzsaw>);  //GT圆锯(LV)
 <ore:craftingsaw>.add(<gregtech:chainsaw_lv>);  //GT链锯(LV)
 
+//木浆
+recipes.addShapeless(<gregtech:meta_dust:1617> * 6,
+  [<ore:logWood>,<ore:toolMortar>]);
+//红色合金
+recipes.addShapeless(<gregtech:meta_nugget:2517> * 9,
+  [<ore:ingotRedAlloy>]);
 //货币
 recipes.remove(<gregtech:meta_item_1>);
 recipes.remove(<gregtech:meta_item_1:1>);
@@ -87,7 +93,8 @@ recipes.addShaped(<gregtech:machine:6> * 1,
    [<ore:plateSteel>,<ic2:te:46>,<ore:plateSteel>]]);
 //橡胶片
 GTmachine_alloy.recipeBuilder()
-.inputs([<gregtech:meta_ingot:1068>*2,<gregtech:meta_item_1:12>.reuse()])
+.inputs([<gregtech:meta_ingot:1068>*2])
+.notConsumable([<gregtech:meta_item_1:12>])
 .outputs([<gregtech:meta_plate:1068>*1])
 .EUt(6)
 .duration(10)
@@ -261,7 +268,6 @@ GTmachine_electric_blast_furnace.recipeBuilder()
 .property("temperature",3300)
 .buildAndRegister();
 
-//纳米处理器主机
 // 纳米处理器主机 * 1
 <recipemap:circuit_assembler>.findRecipe(1920, [<metaitem:frameAluminium> * 2, <metaitem:circuit.nano_computer> * 2, 
 <metaitem:component.advanced_smd.inductor> * 4, <metaitem:component.advanced_smd.capacitor> * 8, <metaitem:plate.random_access_memory> * 16, <metaitem:wireGtSingleAnnealedCopper> * 32], [<liquid:soldering_alloy> * 288]).remove();

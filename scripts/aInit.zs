@@ -46,38 +46,81 @@ global workbench as IOreDictEntry = <ore:workbench>;  //工作台
 global woodenchest as IOreDictEntry = <ore:chestWood>;  //木制箱子
 <ore:blockIron>.add(<gregtech:meta_block_compressed_20:15>);
 <ore:blockIron>.add(<tconstruct:metal:4>);
+<ore:blockGlassEnhanced>.add(<thermalfoundation:glass:3>);
+<ore:blockGlassEnhanced>.add(<appliedenergistics2:quartz_glass>);
+<ore:blockGlassEnhanced>.add(<ic2:glass>);
+<ore:blockGlassEnhanced>.add(<gregtech:transparent_casing:2>);
+<ore:blockGlassEnhanced>.add(<railcraft:glass>);
 
-//GT机器 machines of Gregtech
-// global GTmachine_hammer = RecipeMap.getByName("forge_hammer");
-// global GTmachine_compressor = RecipeMap.getByName("compressor");
-// global GTmachine_macerator = RecipeMap.getByName("macerator");
-// global GTmachine_assembler = RecipeMap.getByName("assembler");
-// global GTmachine_alloy = RecipeMap.getByName("alloy_smelter");
-// global GTmachine_extractor = RecipeMap.getByName("extractor");
-// global GTmachine_lathe = RecipeMap.getByName("lathe");
-// global GTmachine_canner = RecipeMap.getByName("canner");
-// global GTmachine_fluid_canner = RecipeMap.getByName("fluid_canner");
-// global GTmachine_fluid_extractor = RecipeMap.getByName("fluid_extractor");
-// global GTmachine_freezer = RecipeMap.getByName("vacuum_freezer");
-// global GTmachine_mixer = RecipeMap.getByName("mixer");
-// global GTmachine_thermal_sep = RecipeMap.getByName("thermal_centrifuge");
-// global GTmachine_sifter = RecipeMap.getByName("sifter");
-// global GTmachine_autoclave = RecipeMap.getByName("autoclave");
-// global GTmachine_reactor = RecipeMap.getByName("chemical_reactor");
-// global GTmachine_fluid_solidifier = RecipeMap.getByName("fluid_solidifier");
-// global GTmachine_saw = RecipeMap.getByName("cutting_saw");
-// global GTmachine_forming = RecipeMap.getByName("forming_press");
-// global GTmachine_electrolyzer = RecipeMap.getByName("electrolyzer");
-// global GTmachine_circuit_assembler = RecipeMap.getByName("circuit_assembler");
-// global GTmachine_implosion = RecipeMap.getByName("implosion_compressor");
-// global GTmachine_engraver = RecipeMap.getByName("laser_engraver");
-// global GTmachine_attractor = RecipeMap.getByName("attractor");
-// global GTmachine_packer = RecipeMap.getByName("packer");
-// global GTmachine_unpacker = RecipeMap.getByName("unpacker");
-// global GTmachine_arc = RecipeMap.getByName("arc_furnace");
-// global GTmachine_plasma_arc = RecipeMap.getByName("plasma_arc_furnace");
-// global GTmachine_bath = RecipeMap.getByName("chemical_bath");
-// global GTmachine_mill = RecipeMap.getByName("wiremill");
-// global GTmachine_centrifuge = RecipeMap.getByName("centrifuge");
-// global GTmachine_extruder = RecipeMap.getByName("extruder");
-// global GTmachine_metal_bender = RecipeMap.getByName("metal_bender");
+val bolt = [  //螺栓
+  <gregtech:meta_bolt:2>,
+  <gregtech:meta_bolt:22>,
+  <gregtech:meta_bolt:27>,
+  <gregtech:meta_bolt:41>,
+  <gregtech:meta_bolt:50>,
+  <gregtech:meta_bolt:51>,
+  <gregtech:meta_bolt:55>,
+  <gregtech:meta_bolt:61>,
+  <gregtech:meta_bolt:64>,
+  <gregtech:meta_bolt:66>,
+  <gregtech:meta_bolt:75>,
+  <gregtech:meta_bolt:75>,
+  <gregtech:meta_bolt:80>,
+  <gregtech:meta_bolt:90>,
+  <gregtech:meta_bolt:100>,
+  <gregtech:meta_bolt:112>,
+  <gregtech:meta_bolt:113>,
+  <gregtech:meta_bolt:115>,
+  <gregtech:meta_bolt:124>,
+  <gregtech:meta_bolt:126>,
+  <gregtech:meta_bolt:127>,
+  <gregtech:meta_bolt:128>,
+  <gregtech:meta_bolt:130>,
+  <gregtech:meta_bolt:252>,
+  <gregtech:meta_bolt:112>,
+  <gregtech:meta_bolt:259>,
+  <gregtech:meta_bolt:260>,
+  <gregtech:meta_bolt:276>,
+  <gregtech:meta_bolt:277>,
+  <gregtech:meta_bolt:277>,
+  <gregtech:meta_bolt:287>,
+  <gregtech:meta_bolt:290>,
+  <gregtech:meta_bolt:296>,
+  <gregtech:meta_bolt:300>,
+  <gregtech:meta_bolt:301>,
+  <gregtech:meta_bolt:302>,
+  <gregtech:meta_bolt:303>,
+  <gregtech:meta_bolt:323>,
+  <gregtech:meta_bolt:324>,
+  <gregtech:meta_bolt:328>,
+  <gregtech:meta_bolt:331>,
+  <gregtech:meta_bolt:335>,
+  <gregtech:meta_bolt:338>,
+  <gregtech:meta_bolt:344>,
+  <gregtech:meta_bolt:395>,
+  <gregtech:meta_bolt:396>,
+  <gregtech:meta_bolt:1068>,
+  <gregtech:meta_bolt:1617>,
+  <gregtech:meta_bolt:2007>,
+  <gregtech:meta_bolt:2010>,
+  <gregtech:meta_bolt:2013>,
+  <gregtech:meta_bolt:2014>,
+  <gregtech:meta_bolt:2036>,
+  <gregtech:meta_bolt:2037>,
+  <gregtech:meta_bolt:2042>,
+  <gregtech:meta_bolt:2062>,
+  <gregtech:meta_bolt:2516>,
+  <gregtech:meta_bolt:2517>,
+  <gregtech:meta_bolt:2519>,
+  <gregtech:meta_bolt:2013>,
+  <gregtech:meta_bolt:2014>,
+  <gregtech:meta_bolt:2520>,
+  <gregtech:meta_bolt:2527>,
+  <gregtech:meta_bolt:32201>,
+  <gregtech:meta_bolt:32202>,
+  <gregtech:meta_bolt:32203>,
+  <gregtech:meta_bolt:32204>
+  ] as IItemStack[];
+for item in bolt{
+  <ore:boltAny>.add(item);
+}

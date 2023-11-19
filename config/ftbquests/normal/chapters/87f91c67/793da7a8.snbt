@@ -1,14 +1,13 @@
 {
 	title: "土豆炒马铃薯",
-	x: -7.0d,
-	y: 2.0d,
+	x: -12.0d,
+	y: 6.0d,
 	text: [
 		"种下去吧！"
 	],
 	dependencies: [
 		"14f5df32"
 	],
-	hide: true,
 	tasks: [{
 		uid: "1cb4b9de",
 		type: "item",

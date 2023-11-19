@@ -67,3 +67,30 @@ power_coil_bluestone.maxStackSize = 64;
 power_coil_bluestone.creativeTab = <creativetab:misc>;
 power_coil_bluestone.maxDamage = -1;
 power_coil_bluestone.register();
+
+//合成处理器
+var crafting_processor = VanillaFactory.createItem("crafting_processor");
+crafting_processor.maxStackSize = 64;
+crafting_processor.creativeTab = <creativetab:misc>;
+crafting_processor.maxDamage = -1;
+crafting_processor.register();
+
+//合成处理器集群
+var crafting_assembly = VanillaFactory.createItem("crafting_assembly");
+crafting_assembly.maxStackSize = 64;
+crafting_assembly.creativeTab = <creativetab:misc>;
+crafting_assembly.maxDamage = -1;
+crafting_assembly.register();
+
+//合成处理器超级电脑
+var crafting_computer = VanillaFactory.createItem("crafting_computer");
+crafting_computer.maxStackSize = 64;
+crafting_computer.creativeTab = <creativetab:misc>;
+crafting_computer.maxDamage = -1;
+crafting_computer.register();
+
+//合成处理器主机
+var crafting_mainframe = VanillaFactory.createItem("crafting_mainframe");
+crafting_mainframe.creativeTab = <creativetab:misc>;
+crafting_mainframe.maxDamage = -1;
+crafting_mainframe.register();

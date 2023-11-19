@@ -1,0 +1,18 @@
+{
+	title: "EV冲压机床",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"EV冲压机床是制造AE2压印器所必备的。但如果你打算使用EV组装机来制作AE2电路板，也可以不制作它。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "abfb4902",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 428"
+		}]
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "对二氯苯",
+	x: 1.5d,
+	y: 4.5d,
+	text: [
+		"苯和氯反应的产物除了氯苯之外，还有对二氯苯——二氯取代产物。"
+	],
+	dependencies: [
+		"d16a1428"
+	],
+	tasks: [{
+		uid: "8b6ed50c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "dichlorobenzene",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "217b5187",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		}
+	},
+	{
+		uid: "60333db7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

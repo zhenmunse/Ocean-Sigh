@@ -1,6 +1,6 @@
 {
 	title: "二合一",
-	x: 8.5d,
+	x: 16.0d,
 	y: 4.5d,
 	shape: "circle",
 	text: [

@@ -1,8 +1,8 @@
 {
 	title: "应用能源",
 	icon: "appliedenergistics2:material 1 19",
-	x: -5.5d,
-	y: -2.5d,
+	x: -2.5d,
+	y: 2.5d,
 	text: [
 		"进入了EV，应用能源是一个重要的部分。它可以帮助你实现存储、物流、自动化。",
 		"",

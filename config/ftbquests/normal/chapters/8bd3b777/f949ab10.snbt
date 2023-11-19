@@ -1,0 +1,20 @@
+{
+	title: "聚苯硫醚",
+	x: 4.0d,
+	y: 4.5d,
+	text: [
+		"将刚才的试剂和氧气反应，就可以得到聚苯硫醚了。它也有很广泛的用途：绝缘高阶线缆。"
+	],
+	dependencies: [
+		"536ebc22",
+		"bd5befd0"
+	],
+	tasks: [{
+		uid: "aecc4ed8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1008"
+		}],
+		count: 125L
+	}]
+}

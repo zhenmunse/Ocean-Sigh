@@ -122,7 +122,12 @@ val removeListIC2 = [
   <ic2:bronze_sword>,
   <ic2:wrench>,
   <ic2:wrench_new>,
+  <ic2:upgrade:3>
 ] as IItemStack[];
 for i in removeListIC2{
   recipes.remove(i);
 }
+recipes.addShaped(<ic2:upgrade:3>,
+  [[<ore:plateCopper>,<ore:plateCopper>,<ore:plateCopper>],
+   [<ore:plateCopper>,<ore:circuitLv>,<ore:plateCopper>],
+   [null,<projectred-integration:gate:2>,null]]);
