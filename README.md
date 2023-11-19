@@ -1,2 +1,2 @@
 # Ocean Sigh
- A minecraft modpack based on Gregtech:Community Edition Unofficial
+ A minecraft modpack based on Gregtech: Community Edition Unofficial
